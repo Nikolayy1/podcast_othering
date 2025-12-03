@@ -1,0 +1,1162 @@
+{
+  "metadata": {
+    "original_file": "outputs/downloads/lex_fridman_podcast/tmpjtxybv5c.wav",
+    "filename": "tmpjtxybv5c.wav",
+    "model_used": "small",
+    "processing_time_seconds": 2582.12,
+    "timestamp": "2025-10-31T10:43:54.329757",
+    "file_size_mb": 130.41,
+    "duration_seconds": 4273.240875,
+    "diarization_timestamp": "2025-10-31T14:43:34.491482-06:00",
+    "diarization_device": "cuda:0"
+  },
+  "transcription": {
+    "full_text": "The following is a conversation with Rajat Manga. He's an engineering director at Google, leading the TensorFlow team. TensorFlow is an open source library at the center of much of the work going on in the world in deep learning, both the cutting edge research and the large scale application of learning based approaches. But it's quickly becoming much more than a software library. It's now an ecosystem of tools for the deployment of machine learning in the cloud, on the phone, in the browser, on both generic and specialized hardware. GPU and so on. Plus, there's a big emphasis on growing a passionate community of developers. Roger, Jeff Dean, and a large team of engineers at Google Brain are working to define the future of machine learning with TensorFlow 2.0, which is now in alpha. I think the decision to open source TensorFlow was a definitive moment in the tech industry. It showed that open innovation can be successful and inspire many companies to open source their code to ideas. This conversation is part of the Artificial Intelligence Podcast. If you enjoy it, subscribe on YouTube, iTunes, or simply connect with me on Twitter at Lex Freedman, spelled F-R-I-D. And now, here's my conversation with Roger Manga. You were involved with Google Brain since its start in 2011 with Jeff Dean. It started with disbelief, the proprietary machine learning library and turned into TensorFlow in 2014, the open source library. So what were the early days of Google Brain like? What were the goals, the missions? Seed forward once there's so much possibilities before you. It was interesting back then when I started or when you were even just talking about it. The idea of deep learning was interesting and intriguing in some ways. It hadn't yet taken off, but it held some promise. It had shown some very promising and early results. this what people are doing in research and scale it to what Google has in terms of the computer power and also put that kind of data together. What does it mean? And so far the results have been if you scale the computer, scale the data, it does better and would that work? And so that was the first year or two can we prove that out, right? And with disbelief when we started the first year, we got some early wins, which is always great. What were the wins like? There's some problems to this. This is gonna be good. I think that two early wins where one was speech that we collaborated very closely with the speech research team who was also getting interested in this and The other one was on images where we you know the cat papers we call it that was covered by a lot of folks And the birth of Google brain was around neural networks. That was so it was deep learning from the very beginning That that was the whole mission. Yeah, so what would What was the sort of dream of what this could become? What were their echoes of this open source TensorFlow community that might be brought in? Was there a sense of TPUs? Was there a sense of like machine learning is not going to be at the core of the entire company is going to grow into that direction? Yeah, I think so that was interesting. In the year or so we had started scaling it to hundreds and thousands of machines In fact, we had some runs even going to 10,000 machines and all of those shows great promise in terms of Machine learning at Google the good thing was Google's been doing machine learning for a long time Deep learning was new But as we scale this up we showed that yes that was possible and it was gonna impact lots of things like we started seeing real that photos came out of and then many other products as well. So that was exciting. As we went into with that a couple of years externally also academia started to you know there was lots of push on okay deep learning is interesting we should be doing more and so on. And so by 2014 we were looking at okay this is a big thing it's going to grow and not just internally externally as well. Yes maybe Google's ahead of where everybody is but there's a lot to So a lot of this start to make sense and come together. So the decision to open source, I was just chatting with Chris Glatner about this. The decision to go open source with TensorFlow, I would say for me personally, seems to be one of the big seminal moments in all of software engineering ever. I think that's when a large company like Google decides to take a large project that many lawyers might argue has a lot of IP, just decide to go open source with it and lead the entire world and saying, you know what, open innovation is a pretty powerful thing and it's okay to do. That was, I mean, that's an incredible moment in time. So do you remember those discussions happening? Are there open source should be happening? What was that like? I would say, I think, so the initial idea came from Jeff who was a big proponent of this. I think it came off of two big things. research wise, we were a research group. We were putting all our research out there if you wanted to. We were building on others research and we wanted to push the state of the art forward and part of that was to share the research. That's how I think deep learning and machine learning has really grown so fast. So the next step was okay, now word software help for that and it seemed like they were existing a few libraries out there, Tianno But they were all done by academia, and so the level was significantly different. The other one was from a software perspective, Google had done lots of software or that we used internally, you know, and we published papers. Often there was an open source project that came out of that that somebody else picked up that paper and implemented, and they were very successful. We know that tech we've built is way better for a number of different reasons. We've invested a lot of effort in that. And turns out we have Google Cloud and we are now not really providing our tech, but we are saying, okay, we have Bigtable, which is the original thing. We're going to now provide HBase APIs on top of that, which isn't as good, but that's what everybody's used to. So there's like, can we make something that is better and really just provide, helps the is, but it also helps push the right, a good standard forward. So how does cloud fit into that? There's a TensorFlow open source library. And how does the fact that you can use so many of the resources that Google provides and the cloud fit into that strategy? So TensorFlow itself is open, and you can use it anywhere, right? And we want to make sure that continues to be the case. On Google Cloud, we do make sure that there's and we want to make sure that it works really, really well there. You're leading the TensorFlow effort. Can you tell me the history and the timeline of TensorFlow project in terms of major design decisions, like the open source decision, but really, what to include and not? There's this incredible ecosystem that I'd like to talk about. There's all these parts. eventually became through its, I don't know if you were allowed to say history when it's, but in deep learning everything moves so fast and just a few years is already history. Yes, yes. So looking back, we were building TensorFlow, I guess we open sourced it in 2015, November 2015. We started on it in summer of 2014, I guess. And somewhere like three to six, decided that, OK, there's a high likelihood we'll open source it. So we started thinking about that and making sure that we're heading down that path. By that point, we had seen a few lots of different use cases at Google. So there were things like, OK, yes, we want to run in at large scale in the data center. Yes, we need to support different kind of hardware. We had GPUs at that point. We had our first GPU at that point around that time. So the design sort of included those. We had started to push on mobile. So we were running models on mobile. At that point, people were customizing code. So we wanted to make sure TensorFlow could support that as well so that that sort of became part of that overall design. When you say mobile, you mean like pretty complicated algorithms running on the phone? the phone and run it the right way. So really at that time there was ideas of running machine learning on the phone. That's correct. We already had a couple of products that were doing that by then. In those cases we had basically customized handcrafted code or some internal libraries that we're using. So I was actually at Google during this time in a parallel, I guess universe, but we were using Theano and Cafe. cafe was offering people trying to see what the annual was offering that you want to make sure you're delivering on whatever that is, perhaps the Python part of thing. Maybe did that influence any design decisions? Totally. So when we built this belief and some of that was in parallel with some of these libraries coming up, I mean, the other itself is older. But we were building this Part of this we looked at a number of libraries that were out there. Tianou, there were folks in the group who had experience with Torch with Lua. There were folks here who had seen Kaffee. I mean, actually Yang Cheng was here as well. There's what other libraries? I think we looked at a number of things. Might even have looked at Jainar back then. I'm trying to remember if it was there. In fact, yeah, we did discuss ideas around location. art. And they were supporting all these together was definitely, you know, there were key decisions that we wanted. We had seen limitations in our priors disbelief things. A few of them were just in terms of research was moving so fast, we wanted the flexibility. We want the hardware was changing fast, we expected to change that so that those probably were two things. And yeah, able to express all kinds of crazy things was definitely a big one then. So what the graph decisions, moving towards TensorFlow 2.0, there's more, by default, there'll be eager execution. So sort of hiding the graph a little bit, because it's less intuitive in terms of the way people develop and so on. What was that discussion like with in terms of using graphs? It seemed, it's kind of the theano way, did it seem the obvious choice? was our disbelief had a graph like thing as well. It wasn't a general graph. It was more like a straight line thing, more like what you might think of cafe, I guess in that sense. But the graph was, and we always cared about the production stuff. Even with disbelief, we were deploying a whole bunch of stuff in production. So, graph did come from that when we thought of, okay, should we do that in Python and we experiment with some ideas where But not having a graph went, okay, how do you deploy now? So that was probably what tilted the balance for us and eventually we ended up with the graph. And I guess the question there is, did you, I mean, as a production seems to be the really good thing to focus on, but did you even anticipate the other side of it where there could be, what is it, what are the numbers, something crazy, a 41 million downloads? Yep. like a possibility in your mind that it would be as popular as it became? So I think we did see a need for this a lot from the research perspective and like early days of deep learning in some ways. 41 million? No, I don't think I imagine this number then. and how do we enable that? I would say this kind of growth, I probably started seeing somewhat after the open sourcing where it was like, okay, deep learning is actually growing way faster for a lot of different reasons. And we are in just the right place to push on that and leverage that and deliver on lots of things that people want. So what changed once the open source? global population of developers, what, how do the projects start changing? I don't even actually remember it during those times. I know looking now there's really good documentation. There's an ecosystem of tools. There's a community blog, there's a YouTube channel now. Right. It's very, very community driven. Uh, back then I guess 0.1 version. Is that the version? I think we called 0.6 or five something that I'd have to get. What changed leading into 1.0? It's interesting. You know, I think we've gone through a few things there. When we started out, when we first came out, people loved the documentation we have, because it was just a huge step up from everything else, because all of those were academic projects, people doing, you know, don't think about documentation. Um, I think what that changed was instead of deep learning being a research thing, some people who were just developers could now take this out and do some interesting things with it, right? Who had no clue what machine learning was before then. And that, I think, really changed how things started to scale up in some ways and pushed on it. Over the next few months, as we looked at, you know, how do we stabilize things, as we look at not just researchers, now we want stability, people want to deploy things, that's how we've started planning for 1.0. And there are certain needs for that perspective. And so, up designs more kinds of things to put that together. And so that was exciting to get that to a stage where more and more enterprises wanted to buy in and really get behind that. And I think post one dot oh and you know with the next few releases that enterprise adoption also started to take off. I would say between the initial release and one not oh, it was okay, people excited about this who started to get on board and then over the one dot x thing, lots of enterprises. I imagine anything that's, you know, below 1.0 gets pressure to be, uh, enterprise problem or something that's stable. Exactly. And, uh, do you have a sense now that TensorFlow is state, like it feels like the deep learning in general is extremely dynamic field. That is so much is changing. Do you have a, and TensorFlow has been growing incredibly. sense of stability at the helm of it. I mean, I know you're in the midst of it. Yeah. I think in the midst of it, it's often easy to forget what an enterprise warns and what some of the people on that side warn. There's still people running models that are three years old, four years old. So inception is still used by tons of people. Even less than at 50 is what? A couple of years old now or more, but there are tons of people who bits of performance or quality, they want some stability in things that just work. And so there is value in providing that with that kind of stability and in making it really simpler because that allows a lot more people to access it. And then there's the the research crowd, which wants, okay, they want to do these crazy things exactly like you're saying, right? Not just deep learning in the straight up models that used to be there. and now it needs to come mine with RL and GANS and so on. So there's definitely that area that like the boundary that's shifting and pushing the state of the art. But I think there's more and more of the past that's much more stable and even stuff that was two, three years old is very, very usable by lots of people. So that makes it, that part makes it a little easier. So I imagine maybe you can correct me if I'm wrong. One of the biggest use cases is essentially taking and F50 and doing some kind of transfer learning on a very particular problem that you have. It's basically probably what majority of the world does. And you want to make that as easy as possible. Yes. So I would say for the hobbyist perspective, that's the most common case, right? In fact, the apps on phones and stuff that you'll see, the early ones, that's the most common case. I would say there are a couple of reasons for that. It looks great on slides. Yeah, that's a visual presentation. Yeah, exactly What enterprises want is that is part of it, but that's not the big thing Enterprises really have data that they want to make predictions on this is often What they used to do with the people who are doing ML was just regression models linear regression logistic regression linear models Or maybe gradient booster trees and so on That's the bread and butter, like the structure data and so on. So depending on the audience you look at, they're a little bit different. And they just have, I mean, the best of enterprise probably just has a very large data set or deep learning can probably shine. That's correct. That's right. And then they, I think the other pieces that they want, again, to point over that the developer summit we put together is the whole TensorFlow Extended piece, which is the entire pipeline. I want simplicity across the entire thing. I don't need to just train a model. I need to do that every day again, over and over again. I wonder to which degree you have a role in, I don't know, so I teach a course on deep learning. I have people like lawyers come up to me and say, when is machine learning gonna enter legal, the legal realm? The same thing in all kinds of disciplines, Often when I see what it boils down to is these companies are often a little bit old school in the way they organize the day So the data is just not ready yet. It's not digitized. Do you also find yourself being in the role of? an evangelist for like Let's get organize your data folks and then you'll get the big benefit of TensorFlow Do you get those have those conversations? So yeah, yeah, I you know, I get all kinds of questions there from Okay, what do I need to make this work, right? Do we really need deep learning? I mean, there are all these things. I already used this linear model. Why would this help? I don't have enough data, let's say, you know, or I want to use machine learning, but I have no clue where to start. So, so it varies. Back to all the way to the experts who wise were very specific things. So, it's interesting. Is there a good answer? It boils down to oftentimes digitizing data. whatever data you want to make prediction based on, you have to make sure that it's in an organized form. Like within the TensorFlow ecosystem, there's now you're providing more and more datasets and more and more pretrained models. Are you finding yourself also the organizer of datasets? Yes, I think with TensorFlow datasets that we just released, that's definitely come up where people want these datasets, can we organize them and can we make that easier? important thing. The other related thing I would say is I often tell people, you know what, don't think of the most fanciest thing that the newest model that you see. Make something very basic work and then you can improve it. There's just lots of things you can do with it. Yeah, start with the basics. One of the big things that makes it make TensorFlow even more accessible was the appearance whenever that happened of Keras, the Keras standard sort of Keras on top of Tiano at first only and then Keras became on top of TensorFlow. Do you know when? Keras chose to also Add TensorFlow as a back-end who was the was it just the community that drove that initially? Do you know if there was discussions conversations? Yeah, so I don't remember if that was after TensorFlow was created or way before. And then at some point when TensorFlow started becoming popular, there were enough similarities that he decided to create this interface and put TensorFlow as a back end. I believe that might still have been before he joined Google. So we weren't really talking about that. He decided on his own and thought that was interesting and relevant to the community. I didn't find out about him being at Google until a few months after he was here. He was working on some research ideas and doing Kerasanist nights and weekends project. Oh, it's just saying. So he wasn't like part of the TensorFlow. He didn't join initially. He joined research and he was doing some amazing research. He has some papers on that and research. He's done. He's a great researcher as well. And at some point we realized, oh, he's doing this good stuff. API and he's right here. So we talked to him and he said, okay, why don't I come over to your team and work with you for a quarter and let's make that integration happen. And we talked to his manager and he said, sure, my quarter's fine. And that quarter's been something like two years now. And so he's fully on this. So Kara's got integrated into TensorFlow, like in a deep way. TensorFlow 2.0, sort of Keras is kind of the recommended way for beginner to interact with TensorFlow, which makes that initial sort of transfer learning or the basic use cases even for enterprise super simple, right? That's right. So what was that decision like? That seems like that's kind of a bold decision as well. We did spend a lot of time thinking about that one. We some bit by us. There was a parallel layers API that we were building. And when we decided to do keras in parallel, so they were like, okay, two things that we are looking at. And the first thing we was trying to do is just have them look similar, like be as integrated as possible, share all of that stuff. There were also like three other APIs that others had built over time because we didn't have a standard one. But one of the messages that seeing like, okay, here's a model in this one, and here's a model in this one, which should I pick. So that's sort of like, okay, we had to address that straight on with 2.0. The whole idea was, we need to simplify, we had to pick one. Based on where we were, we were like, okay, let's see what are the people like. And Keras was clearly one that lots of people loved. Organically, that's kind of the best way to do it. It was great. It was surprising, nevertheless, to sort of bring in and outside. I mean, there was a feeling like Keras might be almost like a competitor in a certain kind of a two-tensor flow, and in a sense, it became an empowering element of tensor flow. That's right. Yeah, it's interesting how you can put two things together which can align. In this case, I think Francois, the team, and I, you know, jattered and I think we all want to see the same kind of things. We all care about making it easier for the huge set of developers out there and that makes a difference. So Python has Guido Van Rossum who until recently held the position of benevolent dictator for life. Right. So there's a huge successful open source project like TensorFlow TensorFlow Dev Summit just now, last couple of days, there's clearly a lot of different new features being incorporated in amazing ecosystem, so on. How are those design decisions made? Is there a BDFL in TensorFlow, or is it more distributed and organic? I think it's somewhat different. design directions. But there are lots of things that are distributed where their number of people, Martin Wick, being one who has really driven a lot of our open source stuff, a lot of the APIs. And there are a number of other people who have been pushed and been responsible for different parts of it. We do have regular design reviews. Over the last year, we've really spent a lot of time We're setting more process in place. So, RFCs, special interest groups really grow that community and scale that. I think the kind of scale that ecosystem is in, I don't think we could scale with having me as the lone point of decision maker. I got it. So yeah, the growth of that ecosystem, maybe you can talk about it a little bit. First of all, when I started with Andre Karpathi when he first did ComnetJS, the fact that that you can train in your own network and the browser was in JavaScript was incredible. So now TensorFlow.js is really making that a serious, like a legit thing, a way to operate whether it's in the back end or the front end. Then there's the TensorFlow extended like you've mentioned. There's TensorFlow Lite for mobile. And all of it, as far as I can tell, it's really converging towards being able to, save models in the same kind of way move around, you can train on the desktop and then move it to mobile and so on. That's right. This is that cohesiveness. So can you maybe give me whatever I missed, a bigger overview of the mission of the ecosystem that's trying to be built and where's it moving forward? Yeah. So in short, the way I like to think of this is our goals to enable machine learning and of exciting things going on in ML today. We started with deep learning, but we now support a bunch of other algorithms too. So one is to, on the research side, keep pushing on the state of the art. Can we, you know, how do we enable researchers to build the next amazing thing? So Bert came out recently, you know, it's great that people are able to do new kinds of research. There are lots of amazing research that happens across the world. So that's one direction. The other is, how do you take that across all the people outside who want to take that research and do some great things with it and integrate it to build real products, to have a real impact on people. And so if that's the other axes in some ways. You know, at a high level, one way I think about it is there are a crazy number of computer devices across the world. And we often used to think of ML and training and all of this as, okay, something you do But we see things running on the phones. We see things running on really tiny chips. And we had some demos at the developer summit. And so the way I think about this ecosystem is how do we help get machine learning on every device that has a compute capability? And that continues to grow. And so in some ways, this ecosystem has looked at various aspects of that and grown over time to cover more of those. In some areas we've built more tooling and things around that to help you. I mean the first tool we started was TensorBoard. You wanted to learn just the training piece, the effects or TensorFlow Extended to really do your entire ML pipelines if you're you know care about all that production stuff but then going to the edge going to different kinds of things and it's not just us now. We are a libraries being built on top. So there's some for research, maybe things like TensorFlow agents or TensorFlow probability that started as research things or for researchers for focusing on certain kinds of algorithms, but they're also being deployed or used by, you know, production folks. And some have come from within Google, just teams across Google who wanted to do the build these things. Others have come from just the community because out. And I see our goal as enabling even that, right? It's not weak. We cannot and won't build every single thing. That just doesn't make sense. But if we can enable others to build the things that they care about, and there's a broader community that cares about that, and we can help encourage that. And that's great. That really helps the entire ecosystem, not just those. One of the big things about 2.0 that we're pushing on is, okay, we have these so many pieces, right? How do we help make all of them work well together? So there are a few key pieces there that we're pushing on, one being the core format in there and how we share the models themselves through save model and want TensorFlow hub and so on. And, you know, a few of the pieces that we really put this together. I was very skeptical that that's, you know, when TensorFlow.js came out, it didn't seem or deep learning.js. Yeah, that was the first. project. As a standalone, it's not as difficult, but as a thing that integrates into the ecosystem seems very difficult. So, I mean, there's a lot of aspects of this you're making look easy, but on the technical side, how many challenges have to be overcome here? A lot. And still have to be overcome. That's the question here too. There are lots of steps to it. I think we've reiterated over the last few years that there's Well, things look easy. That's exactly the point. It should be easy for the end user. But there are lots of things that go behind that. If I think about still challenges ahead, there are, you know, we have a lot more devices coming on board, for example, from the hardware perspective. How do we make it really easy for these vendors to integrate with something like TensorFlow, right? that others are working on, there are things we can do in terms of our APIs and so on that we can do. As we, you know, TensorFlow started as a very monolithic system, and to some extent it still is. There are less lots of tools around it, but the core is still pretty large and monolithic. One of the key challenges for us to scale that out is how do we break one, but for a system that's now four years old, I guess, or more, and that's still rapidly evolving and that we're not slowing down with, it's hard to change and modify and really break apart. It's sort of like, as people say, right, it's like changing the engine with a car running or fixed benefits. That's exactly what we're trying to do. So there's a challenge here because the downside of so many people being excited about TensorFlow and becoming to rely on it in many other applications is that you're kind of responsible. It's the technical debt. You're responsible for previous versions to some degree still working. So when you're trying to innovate, I mean, it's probably easier to just start from scratch every few months. Absolutely. So do you feel the pain of that? but not too much. It seems like the conversion is pretty straightforward. Do you think that's still important given how quickly deep learning is changing? Can you just, the things that you've learned, can you just start over or is there pressure to not? It's a tricky balance. So if it was just a researcher writing a paper who a year later will not look at that code again, sure, it lie on TensorFlow, both at Google and across the world. And people worry about this. I mean, these systems run for a long time. So it is important to keep that compatibility and so on. And yes, it does come with a huge cost. We have to think about a lot of things as we do new things and make new changes. I think it's a trade-off, right? You might slow certain kinds of things down, value you're bringing because of that is much bigger because it's not just about breaking the person yesterday. It's also about telling the person tomorrow that you know what, this is how we do things. We're not going to break you when you come on board because there are lots of new people who are also going to come on board. One way I like to think about this and I always push the team to think about as well, when you want to do new things, you want to start with a clean slate. Design with a clean slate And then we'll figure out how to make sure all the other things work. And yes, we do make compromises occasionally But unless you're designed with the clean slate and not worry about that you'll never get to a good place I was brilliant. So even if you're do you are responsible When you in the idea stage when you're thinking of new it just put all that behind you. That's okay That's really really well put so I have to ask this because a lot of students developers asked me feel about PyTorch versus TensorFlow. So I've recently completely switched my research group to TensorFlow. I wish everybody would just use the same thing. And TensorFlow is as close to that, I believe, as we have. But do you enjoy competition? So TensorFlow is leading in many ways, many dimensions in terms of the ecosystem, in terms of the number of users, momentum, power, production levels, so on. And now also using PyTorch. Do you enjoy that kind of competition or do you just ignore and focus on making TensorFlow the best that it can be? So just like research or anything people are doing, it's great to get different kinds of ideas. And when we started with TensorFlow, like I was saying earlier, it was very important for us to also have production in mind. We didn't want just research, right? And that's why we chose certain things. Now PyTorch came along and said, you know what? care about research. This is what I'm trying to do. What's the best thing I can do for this? And it started iterating and said, okay, I don't need to worry about graphs. Let me just run things. I don't care if it's not as fast as it can be, but let me just make this part easy. And there are things you can learn from that, right? They again had the benefit of seeing what had come before, but also exploring certain different kinds of spaces. And they had some good on say things like Jainer and so on before that. So competition is definitely interesting. It made us, you know, this is an area that we had thought about, like I said, you know, very early on. Over time, we had revisited this a couple of times, should we add this again? At some point, we said, you know what, here's it seems like this can be done well. So let's try it again. And we, that's how, you know, we started pushing on eager execution. How do we combine those two together, while to get all the things together and so on. So let me, I mean, ask, put another way. I think eager execution is a really powerful thing that was added. You think he wouldn't have been, you know, Muhammad Ali versus Frazier, right? Do you think it wouldn't have been added as quickly if PyTorch wasn't there? It might have taken longer. The longer. Yeah. It was, I mean, we had tried some variants of that before, so I'm sure it would have happened, but it might have taken longer. more than the way they did. It's doing some incredible work last couple of years. What other things that we didn't talk about, are you looking forward in 2.0 that comes to mind? So we talked about some of the ecosystem stuff, making it easily accessible to Keras, ECR execution. Is there other things that we missed? Yeah. So I would say one is just where 2.0 is and with all the things that we've talked there are lots of other things that it enables us to do and that we're excited about. So what it's setting us up for, okay, here are these really clean APIs. We've cleaned up the surface for what the users want. What it also allows us to do a whole bunch of stuff behind the scenes once we've, we are ready with 2.0. So, for example, intensive flow with graphs and all the things you could do, you could always get a lot of good performance if you spent the time to tune it. We've clearly shown that, lots of people do that. With 2.0, with these APIs, where we can give you a lot of performance just with whatever you do. Because we see it's much cleaner, we know most people are going to do things this way, we can really optimize for that and get a lot of those things out of the box. It really allows us both for to really explore other spaces behind the scenes after 2.0 in the future versions as well. So right now the team is really excited about that, that over time I think we'll see that. The other piece that I was talking about in terms of just restructuring the monolithic thing into more pieces and making it more modular, I think that's going to be really important for a lot of to build things. Can you elaborate a little bit what you mean by making TensorFlow more ecosystem or modular? So the way it's organized today is there's one, there are lots of repositories in the TensorFlow organization at GitHub. The core one where we have TensorFlow, it has the execution engine, it has the key backends for CPUs and GPUs, it has the work to do distributed stuff. work together in a single library or binary, there's no way to split them apart easily. I mean, there are some interfaces, but they're not very clean. In a perfect world, you would have clean interfaces where, okay, I want to run it on my fancy cluster with some custom networking, just implement this and do that. I mean, we kind of support that, but it's hard for people today. I think as we are starting to see more interesting things in some of And again, going to the large size of the ecosystem and the different groups involved there, enabling people to evolve and push on things more independently just allows it to scale better. And by people, you mean individual developers and? And organizations. And organizations. That's right. So the hope is that everybody sort of major, I don't know, Pepsi or something uses major corporations go to TensorFlow to this kind of. Yeah. I mean, a lot of them are already using TensorFlow. They are not the ones that do the development or changes in the core. Some of them do, but a lot of them don't. I mean, they touch small pieces. There are lots of these, some of them being, let's say, hardware vendors who are building their custom hardware and they want their own pieces. Got it. Or some of them being bigger companies, say IBM. I mean, they are involved in some of our special interest groups. And they see a lot of users who want certain things and they want to optimize for that. Autonomous vehicle companies, perhaps. Exactly, yes. So, yeah, like I mentioned, TensorFlow has been downloaded 41 million times, 50,000 commits, almost 10,000 pull requests, and 1,800 contributors. So, I'm not sure if you can explain it, but what does it take to build a community like that? What, in retrospect, what do you think, what is the critical thing that allowed for this growth to happen, Yeah. Yeah, that's an interesting question. I wish I had all the answers there, I guess, so you could replicate it. I think there's a number of things that need to come together, right? One, just like any new thing, it is about there's a sweet spot of timing, what's needed, does it grow with what's needed. So in this case, for example, TensorFlow is not It's also grown with the growth of deep learning itself. So those factors come into play. Other than that though, I think just hearing, listening to the community, what they're doing, what they need, being open to like in terms of external contributions, we've spent a lot of time in making sure we can accept those contributions well, we can help the contributors in adding those, putting the right process in place, getting the right kind of community, them and so on. Like over the last year, we've really pushed on transparency. That's important for an open source project. People want to know where things are going and we're like, okay, here's a process where you can do that, hit RFCs and so on. So thinking through, there are lots of community aspects that come into that you can really work on. As a small project, it's maybe easy Putting more of these processes in place, thinking about the documentation, thinking about what do developers care about, what kind of tools would they want to use. All of these come into play, I think. So one of the big things, I think, that feeds the TensorFlow Fire is people building something on TensorFlow and implement a particular architecture that does something cool and useful. And they put that on GitHub. this growth. Do you have a sense that with 2.0 and 1.0 that there may be a little bit of a partitioning like there is with Python 2 and 3, that there will be a code base and in the older versions of TensorFlow, they will not be as compatible easily or are you pretty confident that this kind of conversion is pretty natural and easy to do? So we're definitely working hard to make that very easy to do. There's lots of tooling that developer summit this week and we'll continue to invest in that tooling. It's, you know, when you think of these significant version changes, that's always a risk and we are really pushing hard to make that transition very, very smooth. I think so, so at some level, people want to move when they see the value in the new thing. They don't want to move just because it's a new thing. And some people do, but most people want a really good thing. As people start to see the value, we'll definitely see that shift happening. So I'm pretty excited and confident that we will see people moving. As you said earlier, this field is also moving rapidly, so that'll help because we can do more things and all the new things will clearly happen in 2.X, so people will have lots of good reasons to move. So what do you think TensorFlow 3.0 looks like? Is there... Are things happening so crazily that even at the end of this year, it seems impossible plan for or is it possible to plan for the next five years? I think it's tricky. There are some things that we can expect in terms of, okay, change. Yes, change is going to happen. Are there some things going to stick around and some things not going to stick around? I would say the basics of deep learning, the convolution models or the basic kind of things, some form still in five years will RL and GAN stay very likely based on where they are. We have new things probably but those are hard to predict and some directionally some things that we can see is you know and things that we starting to do right with some of our projects right now is just two point of combining eager execution in graphs where we starting to make it more like program something else. Similarly with Swift for TensorFlow, we're taking that approach. Can you do something ground up? So some of those ideas seem like, OK, that's the right direction in five years we expect to see more in that area. Other things we don't know is will hardware accelerators be the same? Will we be able to train with four bits instead of 32 bits? And I think the TPU side of things is exploring that. it seems that the evolution of TPU and TensorFlow are sort of they're co-evolving almost in terms of both are learning from each other and from the community and from the applications where the biggest benefit is achieved. That's right. You've been trying to sort of with with EGAR with Keras to make TensorFlow as accessible and easy to use as possible. What do you think for beginners is the biggest thing they struggle with? Solving is that eager like we talked about. Yeah for some of them like you said right beginners want to just be able to take Some image model. They don't care if it's inception or rest net or something else and do some training or Transfer learning on their kind of model being able to make that easy is important. So I in some ways If you do that by providing them simple models with say in hub or so on and they don't care about what's inside that box but they want to be able to use it. So we're pushing on, I think, different levels. If you look at just a component that you get, which has the layers already smushed in, the beginners probably just want that. Then the next step is, OK, look at building layers with Keras. If you go out to research, then they are probably writing custom layers themselves or doing their own loops. So there's a whole spectrum there. And then providing the pre-trained models trying to start. So you could basically in a co-lab notebook achieve what you need. So I basically answering my own question because I think what TensorFlow delivered on recently is trivial for beginners. So I was just wondering if there was other pain points you tried to ease, but I'm not sure there would be. No, those are probably the big ones. I mean, I see high schoolers doing a whole bunch of things now, which is pretty amazing. when they grow up, some incredible ideas will be coming from them. So there's certainly a technical aspect to your work, but you also have a management aspect to your role with TensorFlow, leading the project, a large number of developers and people. So what do you look for in a good team? What do you think? You know, Google has been at the forefront of exploring what it takes to build a good team. one of the most cutting edge technologies in the world. So in this context, what do you think makes for a good team? It's definitely something I think a fair bit about. I think in terms of the team being able to deliver something well, one of the things that's important is a cohesion across the team. So being able to execute together and doing things that's not an engineer can only do so much. There's a lot more that they can do together, even though we have some amazing superstars across Google and in the team. But there's, you know, often the way I see it is the product of what the team generates is way larger than the whole or, you know, the individual put together. And so how do we have all of them work together, What is that is it's not just that okay, we hire a bunch of smart people and throw them together and let them do things. It's also people have to care about what they're building. People have to be motivated for the right kind of things. That's often an important factor. And finally, how do you put that together with somewhat unified vision of where we want to go? So are we all looking in the same direction or just going all over? And sometimes it's a mix. Google's a very bottom up organization in some sense. Also research even more so. And that's how we started. But as we've become this larger product and ecosystem, I think it's also important to combine that well with a mix of, OK, here's the direction we want to go in. There is exploration we'll do around that, but let's keep staying in that direction, not just place. And is there a way you monitor the health of the team? Sort of like, is there a way you know you did a good job? The team is good? Like, I mean, you're sort of, you're saying nice things, but it's sometimes difficult to determine how aligned. Yes. Because it's not binary. It's not like it's, it's, there's tensions and complexities and so on. And the other element of is the mesh of superstars, you know, there's so much, even a Google, individual superstars too. And sometimes those superstars could be against the dynamic of a team and those tensions. I mean, I'm sure intensive flow might be a little bit easier because the mission of the project is so sort of beautiful. You're at the cutting edge, so it's exciting. But have you had struggle with that? Has there been challenges? There are always people challenges in different kinds of ways. What's good about getting people who care and are, you know, have the same kind of culture and that's Google in general to a large extent. But also like you said, given that the project has had so many exciting things to do, there's been room for lots of people to do different kinds of things and grow, which does make the problem a bit easier, I guess. And it allows people, depending on what they're doing, if there's room around them, then that's fine. we do care about whether Superstar or not that they need to work well with the team across Google. That's interesting to hear. So it's like Superstar or not, the productivity broadly is about the team. Yeah. Yeah. I mean, they might add a lot of value, but if they're supporting the team, then that's a problem. So in hiring engineers, it's so interesting, right, the hiring process. What do you look for? developer or a good member of a team from just a few minutes or hours together. Again, no magic answers, I'm sure. Yeah. Google has a hiding process that we've refined over the last 20 years, I guess, and that you've probably heard and seen a lot about. So we do work with the same hiding process and that's really helped. What does matter is their motivation in what they want to do. Because if that doesn't align well with where we want to go, that's not going to lead to long-term success for either them or the team. And I think that becomes more important the more senior the person is, but it's important at every level. Like even the junior most engineer, if they're not motivated to do well at what they're trying to do, however smart they are, it's going to be hard for them to succeed. that passion, so like trying to determine, because I think as far as I understand, maybe you can speak to it, that the Google hiring process sort of helps, the initial like determines the skill set there, is your puzzle solving ability, problem solving ability good, but like, I'm not sure, but it seems that the determining whether the person's like fire inside them, that burns to do anything, really doesn't really matter, it's just some cool stuff, I'm gonna do it. that I don't know is that something that ultimately ends up when they have a conversation with you or once it gets closer to the team. So one of the things we do have as part of the process is just a culture fit like part of the interview process itself in addition to just the technical skills and each engineer or whoever the interviewer is is supposed to rate the person on the culture and the culture fit with Google and so on. So that is definitely part of the process. Now There are various kinds of projects and different kinds of things. So there might be variants and if the kind of culture you want there and so on. And yes, that does vary. So for example, TensorFlow has always been a fast moving project. And we want people who are comfortable with that. But at the same time now, for example, we are at a place where we are also very full-fledged product and we want to make sure things that work really, really work. Right. You can't cut corners all the time. finding the people who are the right fit for those is important. And I think those kind of things do vary a bit across projects and teams and product areas across Google. And so you'll see some differences there in the final checklist. But a lot of the core culture, it comes along with just the engineering excellence and so on. What is the hardest part of your job? I'll take your pick, I guess. say, right? Hard, yes. I mean, lots of things at different times. I think that that does vary. So let me clarify that difficult things are fun when you solve them, right? Yes. So it's fun in that sense. I think the key to a successful thing across the board, and in this case, it's a large ecosystem now, but even a small product, is striking that fine balance across different versus how perfect it is. Sometimes it's how do you involve this huge community? Who do you involve or do you decide, okay, now is not a good time to involve them because it's not the right fit. Sometimes it's saying no to certain kinds of things. Those are often the hard decisions. Some of them you make quickly because you don't have the time. Some of them you get time to think So when both, both choices are pretty good. It's that those decisions. What about deadlines? Is this defined TensorFlow to be driven by deadlines to a degree that a product might, or is there still a balance to where it's less deadline? to the occasion releasing that's the flow 2.0 alpha. I'm sure that was done last minute as well. I mean, like the, up to the, up to the, up to the last point. Again, you know, it's one of those things that's a, you need to strike the good balance. There's some value that deadlines bring that does bring a sense of urgency to get the right things together. Instead of, you know, getting the perfect thing out, you need something that's good and works well. And the team definitely did a great job together. So it was very amazed and excited by everything how that came together. That said, across the year, we try not to put artificial deadlines. We focus on key things that are important, figure out what that how much of it's important. And we are developing in the open with, you know, internally and externally, everything's available to everybody. So you can pick and look fine if something doesn't necessarily end up with this one, it'll end up in the next release in a month or two. And that's okay. But we want to get like keep moving as fast as we can in these different areas. Because we can iterate and improve on things. Sometimes it's okay to put things out that aren't fully ready. If you make sure it's clear that okay, this is experimental, but it's out there if you want to try and give feedback, that's that's what we often focus on rather than here's a deadline where you get everything else. Is 2.0 is their pressure to make that stable? Or like for example, WordPress 5.0 just came out and there was no pressure to it. It was a lot of build updates that delivered way too late. But and they said, okay, well, but we're going to release a lot of updates really quickly to improve it. Do you see TensorFlow 2.0 in that same kind of way? Or is there it's 2.0 once you get to the release candidate and then you get to the final that that's going to be the stable thing. So it's going to be stable in just like when NodeX was where every API that's there is going to remain in work. It doesn't mean we can't change things in another covers. It doesn't mean we can't add things. So there's still a lot more for us to do and we continue to have more releases. in like two months when we release this. I don't know if you can say but is there, you know, there's not external deadlines for TensorFlow 2.0 but is there internal deadlines, the artificial or otherwise that you're trying to set for yourself or is it whenever it's ready? So we want it to be a great product and that's a big important piece for us. So it's not like we have to have this. Yeah, exactly. So it's not like a lot of the features that we've really polishing and putting them together are there. We don't have to rush that just because. So in that sense, we want to get it right and really focus on that. That said, we have said that we are looking to get this out in the next few months, in the next quarter. And as far as possible, we'll definitely try to make that happen. Yeah, my favorite line was spring is a relative concept. I love it. Yes. Spoken like a true developer. So something I'm really interested in in your previous line of work is, before TensorFlow, you let a team and Google on search ads. I think this is a very interesting topic on every level, on a technical level, because if their best ads connect people to the things they want and need. So, and if they're worse, they're just these things you to the point of ruining the entire user experience of whatever you're actually doing. So they have a bad rep, I guess. And so on the other end, so that this connecting users to the thing they need to want is a beautiful opportunity for machine learning to shine. Like huge amounts of data that's personalized and you kind of map to the thing they actually won't get annoyed. leading the world in this aspect. What have you learned from that experience? And what do you think is the future of ads? Take you back to that point. Yes, it's been a while, but I totally agree with what you said. I think the search ads, the way it was always looked at, and I believe it still is, is it's an extension of what search is trying to do. And the goal is to make the information and make the world's With ads, it's not just information, but it may be products or other things that people care about. And so it's really important for them to align with what the users need. And in search ads, there's a minimum quality level before that ad would be shown. If we don't have an ad that hits that quality, but it will not be shown even if we have it. And, okay, maybe we lose some money there. That's fine. That is really, really important. being there. Advertising is a key part. I mean, as a model, it's been around for ages, right? It's not a new model. It's been adapted to the web and became a core part of search and many other search engines across the world. I do hope, like I said, there are aspects of ads that are annoying and I go to a website and if it just keeps popping in my face, not to let me read that's going to So I hope we can strike that balance between showing a good ad where it's valuable to the user and provides the monetization to the service. And this might be search, this might be a website, all of these, they do need the monetization for them to provide that service. But if it's done in showing just some random stuff that's distracting versus showing something that's actually valuable. So do you see it moving forward as to continue being a model that funds businesses like Google? That's a significant revenue stream. Because that's one of the most exciting things, but also limiting things on the Internet is nobody wants to pay for anything. Once again, coupled at their best, they're actually really useful and not annoying. Do you see that continuing and growing and improving or is there GC sort of more Netflix type models where you have to start to pay for content? I think it's a mix. I think it's going to take a long while for everything to be paid on the internet if at all, probably not. I mean, I think there's always going to be things that are sort of monetized with things like ads. that transition towards more paid services across the web, and people are willing to pay for them, because they do see the value. And Netflix is a great example. I mean, we have YouTube doing things. People pay for the apps they buy. More people I find are willing to pay for newspaper content, for the good news websites across the web. That wasn't the case even a few years ago, I would say. And I just see that change in myself as well, just lots of people around me. So definitely hopeful that we'll transition to that mixed model where maybe you get to try something out for free, maybe with ads, but then there's a more clear revenue model that sort of helps go beyond that. So speaking of revenue, how is it that a person can use the TPU in a Google call app for free? So what's the? What's the future of TensorFlow in terms of empowering, say, teach a class of 300 students? And I'm asked by MIT what is going to be the future of them being able to do their homework in TensorFlow? Like, where are they going to train these networks, right? What's that future look like with TPUs, with cloud services, and so on? I think a number of things there. you can run on your desktop and your desktops always keep getting more powerful. So maybe you can do more. My phone is like, I don't know how many times more powerful than my first desktop. You probably train on your phone though. Yeah, that's right. So, so in that sense, the power you have in your hands is, is a lot more. Clouds are actually very interesting from say students or, or courses perspective because they make it very easy to get started. And it just works. No installation needed, nothing to, you know, you're just there and things are working. That's really the power of cloud as well. And so I do expect that to grow. Again, you know, Colab is a free service. It's great to get started to play with things, to explore things. That said, you know, with free, you can only get so much. Yeah. So, just like we were talking about, you know, free versus paid. a lot more. Great. So if I'm a complete beginner interested in machine learning and TensorFlow, what should I do? Probably start with going to a website and playing there. Just go to TensorFlow.org and start clicking on things. Yep. Check out tutorials and guides. There's stuff you can just click there and go to a collab and do things. No installation needed. You can get started right there. Okay, awesome. Roger, thank you so much for talking today. you",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 30.0,
+        "text": "The following is a conversation with Rajat Manga. He's an engineering director at Google, leading the TensorFlow team. TensorFlow is an open source library at the center of much of the work going on in the world in deep learning, both the cutting edge research and the large scale application of learning based approaches. But it's quickly becoming much more than a software library. It's now an ecosystem of tools for the deployment of machine learning in the cloud, on the phone, in the browser, on both generic and specialized hardware.",
+        "words": [],
+        "speaker": "SPEAKER_01",
+        "speaker_confidence": 0.835
+      },
+      {
+        "start": 30.0,
+        "end": 60.0,
+        "text": "GPU and so on. Plus, there's a big emphasis on growing a passionate community of developers. Roger, Jeff Dean, and a large team of engineers at Google Brain are working to define the future of machine learning with TensorFlow 2.0, which is now in alpha. I think the decision to open source TensorFlow was a definitive moment in the tech industry. It showed that open innovation can be successful and inspire many companies to open source their code to",
+        "words": [],
+        "speaker": "SPEAKER_01",
+        "speaker_confidence": 0.848
+      },
+      {
+        "start": 60.0,
+        "end": 90.0,
+        "text": "ideas. This conversation is part of the Artificial Intelligence Podcast. If you enjoy it, subscribe on YouTube, iTunes, or simply connect with me on Twitter at Lex Freedman, spelled F-R-I-D. And now, here's my conversation with Roger Manga.",
+        "words": [],
+        "speaker": "SPEAKER_01",
+        "speaker_confidence": 0.408
+      },
+      {
+        "start": 90.0,
+        "end": 120.0,
+        "text": "You were involved with Google Brain since its start in 2011 with Jeff Dean. It started with disbelief, the proprietary machine learning library and turned into TensorFlow in 2014, the open source library. So what were the early days of Google Brain like? What were the goals, the missions?",
+        "words": [],
+        "speaker": "SPEAKER_01",
+        "speaker_confidence": 0.628
+      },
+      {
+        "start": 120.0,
+        "end": 150.0,
+        "text": "Seed forward once there's so much possibilities before you. It was interesting back then when I started or when you were even just talking about it. The idea of deep learning was interesting and intriguing in some ways. It hadn't yet taken off, but it held some promise. It had shown some very promising and early results.",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.659
+      },
+      {
+        "start": 150.0,
+        "end": 180.0,
+        "text": "this what people are doing in research and scale it to what Google has in terms of the computer power and also put that kind of data together. What does it mean? And so far the results have been if you scale the computer, scale the data, it does better and would that work? And so that was the first year or two can we prove that out, right? And with disbelief when we started the first year, we got some early wins, which is always great. What were the wins like?",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.763
+      },
+      {
+        "start": 180.0,
+        "end": 210.0,
+        "text": "There's some problems to this. This is gonna be good. I think that two early wins where one was speech that we collaborated very closely with the speech research team who was also getting interested in this and The other one was on images where we you know the cat papers we call it that was covered by a lot of folks And the birth of Google brain was around neural networks. That was so it was deep learning from the very beginning That that was the whole mission. Yeah, so what would",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.485
+      },
+      {
+        "start": 210.0,
+        "end": 240.0,
+        "text": "What was the sort of dream of what this could become? What were their echoes of this open source TensorFlow community that might be brought in? Was there a sense of TPUs? Was there a sense of like machine learning is not going to be at the core of the entire company is going to grow into that direction? Yeah, I think so that was interesting.",
+        "words": [],
+        "speaker": "SPEAKER_01",
+        "speaker_confidence": 0.59
+      },
+      {
+        "start": 240.0,
+        "end": 270.0,
+        "text": "In the year or so we had started scaling it to hundreds and thousands of machines In fact, we had some runs even going to 10,000 machines and all of those shows great promise in terms of Machine learning at Google the good thing was Google's been doing machine learning for a long time Deep learning was new But as we scale this up we showed that yes that was possible and it was gonna impact lots of things like we started seeing real",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.846
+      },
+      {
+        "start": 270.0,
+        "end": 300.0,
+        "text": "that photos came out of and then many other products as well. So that was exciting. As we went into with that a couple of years externally also academia started to you know there was lots of push on okay deep learning is interesting we should be doing more and so on. And so by 2014 we were looking at okay this is a big thing it's going to grow and not just internally externally as well. Yes maybe Google's ahead of where everybody is but there's a lot to",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.857
+      },
+      {
+        "start": 300.0,
+        "end": 330.0,
+        "text": "So a lot of this start to make sense and come together. So the decision to open source, I was just chatting with Chris Glatner about this. The decision to go open source with TensorFlow, I would say for me personally, seems to be one of the big seminal moments in all of software engineering ever. I think that's when a large company like Google decides to take a large project that many lawyers might argue has a lot of IP, just decide to go open source with it",
+        "words": [],
+        "speaker": "SPEAKER_01",
+        "speaker_confidence": 0.767
+      },
+      {
+        "start": 330.0,
+        "end": 360.0,
+        "text": "and lead the entire world and saying, you know what, open innovation is a pretty powerful thing and it's okay to do. That was, I mean, that's an incredible moment in time. So do you remember those discussions happening? Are there open source should be happening? What was that like? I would say, I think, so the initial idea came from Jeff who was a big proponent of this. I think it came off of two big things.",
+        "words": [],
+        "speaker": "SPEAKER_01",
+        "speaker_confidence": 0.505
+      },
+      {
+        "start": 360.0,
+        "end": 390.0,
+        "text": "research wise, we were a research group. We were putting all our research out there if you wanted to. We were building on others research and we wanted to push the state of the art forward and part of that was to share the research. That's how I think deep learning and machine learning has really grown so fast. So the next step was okay, now word software help for that and it seemed like they were existing a few libraries out there, Tianno",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.802
+      },
+      {
+        "start": 390.0,
+        "end": 420.0,
+        "text": "But they were all done by academia, and so the level was significantly different. The other one was from a software perspective, Google had done lots of software or that we used internally, you know, and we published papers. Often there was an open source project that came out of that that somebody else picked up that paper and implemented, and they were very successful.",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.797
+      },
+      {
+        "start": 420.0,
+        "end": 450.0,
+        "text": "We know that tech we've built is way better for a number of different reasons. We've invested a lot of effort in that. And turns out we have Google Cloud and we are now not really providing our tech, but we are saying, okay, we have Bigtable, which is the original thing. We're going to now provide HBase APIs on top of that, which isn't as good, but that's what everybody's used to. So there's like, can we make something that is better and really just provide, helps the",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.848
+      },
+      {
+        "start": 450.0,
+        "end": 480.0,
+        "text": "is, but it also helps push the right, a good standard forward. So how does cloud fit into that? There's a TensorFlow open source library. And how does the fact that you can use so many of the resources that Google provides and the cloud fit into that strategy? So TensorFlow itself is open, and you can use it anywhere, right? And we want to make sure that continues to be the case. On Google Cloud, we do make sure that there's",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.486
+      },
+      {
+        "start": 480.0,
+        "end": 510.0,
+        "text": "and we want to make sure that it works really, really well there. You're leading the TensorFlow effort. Can you tell me the history and the timeline of TensorFlow project in terms of major design decisions, like the open source decision, but really, what to include and not? There's this incredible ecosystem that I'd like to talk about. There's all these parts.",
+        "words": [],
+        "speaker": "SPEAKER_01",
+        "speaker_confidence": 0.722
+      },
+      {
+        "start": 510.0,
+        "end": 540.0,
+        "text": "eventually became through its, I don't know if you were allowed to say history when it's, but in deep learning everything moves so fast and just a few years is already history. Yes, yes. So looking back, we were building TensorFlow, I guess we open sourced it in 2015, November 2015. We started on it in summer of 2014, I guess. And somewhere like three to six,",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.533
+      },
+      {
+        "start": 540.0,
+        "end": 570.0,
+        "text": "decided that, OK, there's a high likelihood we'll open source it. So we started thinking about that and making sure that we're heading down that path. By that point, we had seen a few lots of different use cases at Google. So there were things like, OK, yes, we want to run in at large scale in the data center. Yes, we need to support different kind of hardware. We had GPUs at that point. We had our first GPU at that point",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.798
+      },
+      {
+        "start": 570.0,
+        "end": 600.0,
+        "text": "around that time. So the design sort of included those. We had started to push on mobile. So we were running models on mobile. At that point, people were customizing code. So we wanted to make sure TensorFlow could support that as well so that that sort of became part of that overall design. When you say mobile, you mean like pretty complicated algorithms running on the phone?",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.719
+      },
+      {
+        "start": 600.0,
+        "end": 630.0,
+        "text": "the phone and run it the right way. So really at that time there was ideas of running machine learning on the phone. That's correct. We already had a couple of products that were doing that by then. In those cases we had basically customized handcrafted code or some internal libraries that we're using. So I was actually at Google during this time in a parallel, I guess universe, but we were using Theano and Cafe.",
+        "words": [],
+        "speaker": "SPEAKER_01",
+        "speaker_confidence": 0.516
+      },
+      {
+        "start": 630.0,
+        "end": 660.0,
+        "text": "cafe was offering people trying to see what the annual was offering that you want to make sure you're delivering on whatever that is, perhaps the Python part of thing. Maybe did that influence any design decisions? Totally. So when we built this belief and some of that was in parallel with some of these libraries coming up, I mean, the other itself is older. But we were building this",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.461
+      },
+      {
+        "start": 660.0,
+        "end": 690.0,
+        "text": "Part of this we looked at a number of libraries that were out there. Tianou, there were folks in the group who had experience with Torch with Lua. There were folks here who had seen Kaffee. I mean, actually Yang Cheng was here as well. There's what other libraries? I think we looked at a number of things. Might even have looked at Jainar back then. I'm trying to remember if it was there. In fact, yeah, we did discuss ideas around location.",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.842
+      },
+      {
+        "start": 690.0,
+        "end": 720.0,
+        "text": "art. And they were supporting all these together was definitely, you know, there were key decisions that we wanted. We had seen limitations in our priors disbelief things. A few of them were just in terms of research was moving so fast, we wanted the flexibility. We want the hardware was changing fast, we expected to change that so that those probably were two things. And yeah,",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.75
+      },
+      {
+        "start": 720.0,
+        "end": 750.0,
+        "text": "able to express all kinds of crazy things was definitely a big one then. So what the graph decisions, moving towards TensorFlow 2.0, there's more, by default, there'll be eager execution. So sort of hiding the graph a little bit, because it's less intuitive in terms of the way people develop and so on. What was that discussion like with in terms of using graphs? It seemed, it's kind of the theano way, did it seem the obvious choice?",
+        "words": [],
+        "speaker": "SPEAKER_01",
+        "speaker_confidence": 0.71
+      },
+      {
+        "start": 750.0,
+        "end": 780.0,
+        "text": "was our disbelief had a graph like thing as well. It wasn't a general graph. It was more like a straight line thing, more like what you might think of cafe, I guess in that sense. But the graph was, and we always cared about the production stuff. Even with disbelief, we were deploying a whole bunch of stuff in production. So, graph did come from that when we thought of, okay, should we do that in Python and we experiment with some ideas where",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.861
+      },
+      {
+        "start": 780.0,
+        "end": 810.0,
+        "text": "But not having a graph went, okay, how do you deploy now? So that was probably what tilted the balance for us and eventually we ended up with the graph. And I guess the question there is, did you, I mean, as a production seems to be the really good thing to focus on, but did you even anticipate the other side of it where there could be, what is it, what are the numbers, something crazy, a 41 million downloads? Yep.",
+        "words": [],
+        "speaker": "SPEAKER_01",
+        "speaker_confidence": 0.572
+      },
+      {
+        "start": 810.0,
+        "end": 840.0,
+        "text": "like a possibility in your mind that it would be as popular as it became? So I think we did see a need for this a lot from the research perspective and like early days of deep learning in some ways. 41 million? No, I don't think I imagine this number then.",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.591
+      },
+      {
+        "start": 840.0,
+        "end": 870.0,
+        "text": "and how do we enable that? I would say this kind of growth, I probably started seeing somewhat after the open sourcing where it was like, okay, deep learning is actually growing way faster for a lot of different reasons. And we are in just the right place to push on that and leverage that and deliver on lots of things that people want. So what changed once the open source?",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.593
+      },
+      {
+        "start": 870.0,
+        "end": 900.0,
+        "text": "global population of developers, what, how do the projects start changing? I don't even actually remember it during those times. I know looking now there's really good documentation. There's an ecosystem of tools. There's a community blog, there's a YouTube channel now. Right. It's very, very community driven. Uh, back then I guess 0.1 version. Is that the version? I think we called 0.6 or five something that I'd have to get.",
+        "words": [],
+        "speaker": "SPEAKER_01",
+        "speaker_confidence": 0.691
+      },
+      {
+        "start": 900.0,
+        "end": 930.0,
+        "text": "What changed leading into 1.0? It's interesting. You know, I think we've gone through a few things there. When we started out, when we first came out, people loved the documentation we have, because it was just a huge step up from everything else, because all of those were academic projects, people doing, you know, don't think about documentation. Um, I think what that changed was instead of deep learning being a research thing, some people who were just developers could now",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.745
+      },
+      {
+        "start": 930.0,
+        "end": 960.0,
+        "text": "take this out and do some interesting things with it, right? Who had no clue what machine learning was before then. And that, I think, really changed how things started to scale up in some ways and pushed on it. Over the next few months, as we looked at, you know, how do we stabilize things, as we look at not just researchers, now we want stability, people want to deploy things, that's how we've started planning for 1.0. And there are certain needs for that perspective. And so,",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.842
+      },
+      {
+        "start": 960.0,
+        "end": 990.0,
+        "text": "up designs more kinds of things to put that together. And so that was exciting to get that to a stage where more and more enterprises wanted to buy in and really get behind that. And I think post one dot oh and you know with the next few releases that enterprise adoption also started to take off. I would say between the initial release and one not oh, it was okay,",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.783
+      },
+      {
+        "start": 990.0,
+        "end": 1020.0,
+        "text": "people excited about this who started to get on board and then over the one dot x thing, lots of enterprises. I imagine anything that's, you know, below 1.0 gets pressure to be, uh, enterprise problem or something that's stable. Exactly. And, uh, do you have a sense now that TensorFlow is state, like it feels like the deep learning in general is extremely dynamic field. That is so much is changing. Do you have a, and TensorFlow has been growing incredibly.",
+        "words": [],
+        "speaker": "SPEAKER_01",
+        "speaker_confidence": 0.658
+      },
+      {
+        "start": 1020.0,
+        "end": 1050.0,
+        "text": "sense of stability at the helm of it. I mean, I know you're in the midst of it. Yeah. I think in the midst of it, it's often easy to forget what an enterprise warns and what some of the people on that side warn. There's still people running models that are three years old, four years old. So inception is still used by tons of people. Even less than at 50 is what? A couple of years old now or more, but there are tons of people who",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.789
+      },
+      {
+        "start": 1050.0,
+        "end": 1080.0,
+        "text": "bits of performance or quality, they want some stability in things that just work. And so there is value in providing that with that kind of stability and in making it really simpler because that allows a lot more people to access it. And then there's the the research crowd, which wants, okay, they want to do these crazy things exactly like you're saying, right? Not just deep learning in the straight up models that used to be there.",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.889
+      },
+      {
+        "start": 1080.0,
+        "end": 1110.0,
+        "text": "and now it needs to come mine with RL and GANS and so on. So there's definitely that area that like the boundary that's shifting and pushing the state of the art. But I think there's more and more of the past that's much more stable and even stuff that was two, three years old is very, very usable by lots of people. So that makes it, that part makes it a little easier. So I imagine maybe you can correct me if I'm wrong. One of the biggest use cases is essentially taking",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.69
+      },
+      {
+        "start": 1110.0,
+        "end": 1140.0,
+        "text": "and F50 and doing some kind of transfer learning on a very particular problem that you have. It's basically probably what majority of the world does. And you want to make that as easy as possible. Yes. So I would say for the hobbyist perspective, that's the most common case, right? In fact, the apps on phones and stuff that you'll see, the early ones, that's the most common case. I would say there are a couple of reasons for that.",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.467
+      },
+      {
+        "start": 1140.0,
+        "end": 1170.0,
+        "text": "It looks great on slides. Yeah, that's a visual presentation. Yeah, exactly What enterprises want is that is part of it, but that's not the big thing Enterprises really have data that they want to make predictions on this is often What they used to do with the people who are doing ML was just regression models linear regression logistic regression linear models Or maybe gradient booster trees and so on",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.861
+      },
+      {
+        "start": 1170.0,
+        "end": 1200.0,
+        "text": "That's the bread and butter, like the structure data and so on. So depending on the audience you look at, they're a little bit different. And they just have, I mean, the best of enterprise probably just has a very large data set or deep learning can probably shine. That's correct. That's right. And then they, I think the other pieces that they want, again, to point over that the developer summit we put together is the whole TensorFlow Extended piece, which is the entire pipeline.",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.596
+      },
+      {
+        "start": 1200.0,
+        "end": 1230.0,
+        "text": "I want simplicity across the entire thing. I don't need to just train a model. I need to do that every day again, over and over again. I wonder to which degree you have a role in, I don't know, so I teach a course on deep learning. I have people like lawyers come up to me and say, when is machine learning gonna enter legal, the legal realm? The same thing in all kinds of disciplines,",
+        "words": [],
+        "speaker": "SPEAKER_01",
+        "speaker_confidence": 0.603
+      },
+      {
+        "start": 1230.0,
+        "end": 1260.0,
+        "text": "Often when I see what it boils down to is these companies are often a little bit old school in the way they organize the day So the data is just not ready yet. It's not digitized. Do you also find yourself being in the role of? an evangelist for like Let's get organize your data folks and then you'll get the big benefit of TensorFlow Do you get those have those conversations? So yeah, yeah, I you know, I get all kinds of questions there from",
+        "words": [],
+        "speaker": "SPEAKER_01",
+        "speaker_confidence": 0.665
+      },
+      {
+        "start": 1260.0,
+        "end": 1290.0,
+        "text": "Okay, what do I need to make this work, right? Do we really need deep learning? I mean, there are all these things. I already used this linear model. Why would this help? I don't have enough data, let's say, you know, or I want to use machine learning, but I have no clue where to start. So, so it varies. Back to all the way to the experts who wise were very specific things. So, it's interesting. Is there a good answer? It boils down to oftentimes digitizing data.",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.717
+      },
+      {
+        "start": 1290.0,
+        "end": 1320.0,
+        "text": "whatever data you want to make prediction based on, you have to make sure that it's in an organized form. Like within the TensorFlow ecosystem, there's now you're providing more and more datasets and more and more pretrained models. Are you finding yourself also the organizer of datasets? Yes, I think with TensorFlow datasets that we just released, that's definitely come up where people want these datasets, can we organize them and can we make that easier?",
+        "words": [],
+        "speaker": "SPEAKER_01",
+        "speaker_confidence": 0.495
+      },
+      {
+        "start": 1320.0,
+        "end": 1350.0,
+        "text": "important thing. The other related thing I would say is I often tell people, you know what, don't think of the most fanciest thing that the newest model that you see. Make something very basic work and then you can improve it. There's just lots of things you can do with it. Yeah, start with the basics. One of the big things that makes it make TensorFlow even more accessible was the appearance whenever that happened of Keras, the Keras standard sort of",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.451
+      },
+      {
+        "start": 1350.0,
+        "end": 1380.0,
+        "text": "Keras on top of Tiano at first only and then Keras became on top of TensorFlow. Do you know when? Keras chose to also Add TensorFlow as a back-end who was the was it just the community that drove that initially? Do you know if there was discussions conversations? Yeah, so",
+        "words": [],
+        "speaker": "SPEAKER_01",
+        "speaker_confidence": 0.567
+      },
+      {
+        "start": 1380.0,
+        "end": 1410.0,
+        "text": "I don't remember if that was after TensorFlow was created or way before. And then at some point when TensorFlow started becoming popular, there were enough similarities that he decided to create this interface and put TensorFlow as a back end. I believe that might still have been before he joined Google. So we weren't really talking about that. He decided on his own and thought that was interesting and relevant to the community.",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.772
+      },
+      {
+        "start": 1410.0,
+        "end": 1440.0,
+        "text": "I didn't find out about him being at Google until a few months after he was here. He was working on some research ideas and doing Kerasanist nights and weekends project. Oh, it's just saying. So he wasn't like part of the TensorFlow. He didn't join initially. He joined research and he was doing some amazing research. He has some papers on that and research. He's done. He's a great researcher as well. And at some point we realized, oh, he's doing this good stuff.",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.7
+      },
+      {
+        "start": 1440.0,
+        "end": 1470.0,
+        "text": "API and he's right here. So we talked to him and he said, okay, why don't I come over to your team and work with you for a quarter and let's make that integration happen. And we talked to his manager and he said, sure, my quarter's fine. And that quarter's been something like two years now. And so he's fully on this. So Kara's got integrated into TensorFlow, like in a deep way.",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.599
+      },
+      {
+        "start": 1470.0,
+        "end": 1500.0,
+        "text": "TensorFlow 2.0, sort of Keras is kind of the recommended way for beginner to interact with TensorFlow, which makes that initial sort of transfer learning or the basic use cases even for enterprise super simple, right? That's right. So what was that decision like? That seems like that's kind of a bold decision as well. We did spend a lot of time thinking about that one. We",
+        "words": [],
+        "speaker": "SPEAKER_01",
+        "speaker_confidence": 0.642
+      },
+      {
+        "start": 1500.0,
+        "end": 1530.0,
+        "text": "some bit by us. There was a parallel layers API that we were building. And when we decided to do keras in parallel, so they were like, okay, two things that we are looking at. And the first thing we was trying to do is just have them look similar, like be as integrated as possible, share all of that stuff. There were also like three other APIs that others had built over time because we didn't have a standard one. But one of the messages that",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.883
+      },
+      {
+        "start": 1530.0,
+        "end": 1560.0,
+        "text": "seeing like, okay, here's a model in this one, and here's a model in this one, which should I pick. So that's sort of like, okay, we had to address that straight on with 2.0. The whole idea was, we need to simplify, we had to pick one. Based on where we were, we were like, okay, let's see what are the people like. And Keras was clearly one that lots of people loved.",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.804
+      },
+      {
+        "start": 1560.0,
+        "end": 1590.0,
+        "text": "Organically, that's kind of the best way to do it. It was great. It was surprising, nevertheless, to sort of bring in and outside. I mean, there was a feeling like Keras might be almost like a competitor in a certain kind of a two-tensor flow, and in a sense, it became an empowering element of tensor flow. That's right. Yeah, it's interesting how you can put two things together which can align. In this case, I think Francois, the team, and I, you know,",
+        "words": [],
+        "speaker": "SPEAKER_01",
+        "speaker_confidence": 0.543
+      },
+      {
+        "start": 1590.0,
+        "end": 1620.0,
+        "text": "jattered and I think we all want to see the same kind of things. We all care about making it easier for the huge set of developers out there and that makes a difference. So Python has Guido Van Rossum who until recently held the position of benevolent dictator for life. Right. So there's a huge successful open source project like TensorFlow",
+        "words": [],
+        "speaker": "SPEAKER_01",
+        "speaker_confidence": 0.511
+      },
+      {
+        "start": 1620.0,
+        "end": 1650.0,
+        "text": "TensorFlow Dev Summit just now, last couple of days, there's clearly a lot of different new features being incorporated in amazing ecosystem, so on. How are those design decisions made? Is there a BDFL in TensorFlow, or is it more distributed and organic? I think it's somewhat different.",
+        "words": [],
+        "speaker": "SPEAKER_01",
+        "speaker_confidence": 0.605
+      },
+      {
+        "start": 1650.0,
+        "end": 1680.0,
+        "text": "design directions. But there are lots of things that are distributed where their number of people, Martin Wick, being one who has really driven a lot of our open source stuff, a lot of the APIs. And there are a number of other people who have been pushed and been responsible for different parts of it. We do have regular design reviews. Over the last year, we've really spent a lot of time",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.797
+      },
+      {
+        "start": 1680.0,
+        "end": 1710.0,
+        "text": "We're setting more process in place. So, RFCs, special interest groups really grow that community and scale that. I think the kind of scale that ecosystem is in, I don't think we could scale with having me as the lone point of decision maker. I got it. So yeah, the growth of that ecosystem, maybe you can talk about it a little bit. First of all, when I started with Andre Karpathi when he first did ComnetJS, the fact that",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.49
+      },
+      {
+        "start": 1710.0,
+        "end": 1740.0,
+        "text": "that you can train in your own network and the browser was in JavaScript was incredible. So now TensorFlow.js is really making that a serious, like a legit thing, a way to operate whether it's in the back end or the front end. Then there's the TensorFlow extended like you've mentioned. There's TensorFlow Lite for mobile. And all of it, as far as I can tell, it's really converging towards being able to, save models in the same kind of way",
+        "words": [],
+        "speaker": "SPEAKER_01",
+        "speaker_confidence": 0.846
+      },
+      {
+        "start": 1740.0,
+        "end": 1770.0,
+        "text": "move around, you can train on the desktop and then move it to mobile and so on. That's right. This is that cohesiveness. So can you maybe give me whatever I missed, a bigger overview of the mission of the ecosystem that's trying to be built and where's it moving forward? Yeah. So in short, the way I like to think of this is our goals to enable machine learning and",
+        "words": [],
+        "speaker": "SPEAKER_01",
+        "speaker_confidence": 0.494
+      },
+      {
+        "start": 1770.0,
+        "end": 1800.0,
+        "text": "of exciting things going on in ML today. We started with deep learning, but we now support a bunch of other algorithms too. So one is to, on the research side, keep pushing on the state of the art. Can we, you know, how do we enable researchers to build the next amazing thing? So Bert came out recently, you know, it's great that people are able to do new kinds of research. There are lots of amazing research that happens across the world. So that's one direction. The other is, how do you take that across all the people",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.841
+      },
+      {
+        "start": 1800.0,
+        "end": 1830.0,
+        "text": "outside who want to take that research and do some great things with it and integrate it to build real products, to have a real impact on people. And so if that's the other axes in some ways. You know, at a high level, one way I think about it is there are a crazy number of computer devices across the world. And we often used to think of ML and training and all of this as, okay, something you do",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.818
+      },
+      {
+        "start": 1830.0,
+        "end": 1860.0,
+        "text": "But we see things running on the phones. We see things running on really tiny chips. And we had some demos at the developer summit. And so the way I think about this ecosystem is how do we help get machine learning on every device that has a compute capability? And that continues to grow. And so in some ways, this ecosystem has looked at various aspects of that and grown over time to cover more of those.",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.84
+      },
+      {
+        "start": 1860.0,
+        "end": 1890.0,
+        "text": "In some areas we've built more tooling and things around that to help you. I mean the first tool we started was TensorBoard. You wanted to learn just the training piece, the effects or TensorFlow Extended to really do your entire ML pipelines if you're you know care about all that production stuff but then going to the edge going to different kinds of things and it's not just us now. We are a",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.832
+      },
+      {
+        "start": 1890.0,
+        "end": 1920.0,
+        "text": "libraries being built on top. So there's some for research, maybe things like TensorFlow agents or TensorFlow probability that started as research things or for researchers for focusing on certain kinds of algorithms, but they're also being deployed or used by, you know, production folks. And some have come from within Google, just teams across Google who wanted to do the build these things. Others have come from just the community because",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.885
+      },
+      {
+        "start": 1920.0,
+        "end": 1950.0,
+        "text": "out. And I see our goal as enabling even that, right? It's not weak. We cannot and won't build every single thing. That just doesn't make sense. But if we can enable others to build the things that they care about, and there's a broader community that cares about that, and we can help encourage that. And that's great. That really helps the entire ecosystem, not just those. One of the big things about 2.0 that we're pushing on is, okay, we have these so many",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.877
+      },
+      {
+        "start": 1950.0,
+        "end": 1980.0,
+        "text": "pieces, right? How do we help make all of them work well together? So there are a few key pieces there that we're pushing on, one being the core format in there and how we share the models themselves through save model and want TensorFlow hub and so on. And, you know, a few of the pieces that we really put this together. I was very skeptical that that's, you know, when TensorFlow.js came out, it didn't seem or deep learning.js. Yeah, that was the first.",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.599
+      },
+      {
+        "start": 1980.0,
+        "end": 2010.0,
+        "text": "project. As a standalone, it's not as difficult, but as a thing that integrates into the ecosystem seems very difficult. So, I mean, there's a lot of aspects of this you're making look easy, but on the technical side, how many challenges have to be overcome here? A lot. And still have to be overcome. That's the question here too. There are lots of steps to it. I think we've reiterated over the last few years that there's",
+        "words": [],
+        "speaker": "SPEAKER_01",
+        "speaker_confidence": 0.577
+      },
+      {
+        "start": 2010.0,
+        "end": 2040.0,
+        "text": "Well, things look easy. That's exactly the point. It should be easy for the end user. But there are lots of things that go behind that. If I think about still challenges ahead, there are, you know, we have a lot more devices coming on board, for example, from the hardware perspective. How do we make it really easy for these vendors to integrate with something like TensorFlow, right?",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.766
+      },
+      {
+        "start": 2040.0,
+        "end": 2070.0,
+        "text": "that others are working on, there are things we can do in terms of our APIs and so on that we can do. As we, you know, TensorFlow started as a very monolithic system, and to some extent it still is. There are less lots of tools around it, but the core is still pretty large and monolithic. One of the key challenges for us to scale that out is how do we break",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.776
+      },
+      {
+        "start": 2070.0,
+        "end": 2100.0,
+        "text": "one, but for a system that's now four years old, I guess, or more, and that's still rapidly evolving and that we're not slowing down with, it's hard to change and modify and really break apart. It's sort of like, as people say, right, it's like changing the engine with a car running or fixed benefits. That's exactly what we're trying to do. So there's a challenge here because the downside of so many people being excited about TensorFlow",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.619
+      },
+      {
+        "start": 2100.0,
+        "end": 2130.0,
+        "text": "and becoming to rely on it in many other applications is that you're kind of responsible. It's the technical debt. You're responsible for previous versions to some degree still working. So when you're trying to innovate, I mean, it's probably easier to just start from scratch every few months. Absolutely. So do you feel the pain of that?",
+        "words": [],
+        "speaker": "SPEAKER_01",
+        "speaker_confidence": 0.763
+      },
+      {
+        "start": 2130.0,
+        "end": 2160.0,
+        "text": "but not too much. It seems like the conversion is pretty straightforward. Do you think that's still important given how quickly deep learning is changing? Can you just, the things that you've learned, can you just start over or is there pressure to not? It's a tricky balance. So if it was just a researcher writing a paper who a year later will not look at that code again, sure, it",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.43
+      },
+      {
+        "start": 2160.0,
+        "end": 2190.0,
+        "text": "lie on TensorFlow, both at Google and across the world. And people worry about this. I mean, these systems run for a long time. So it is important to keep that compatibility and so on. And yes, it does come with a huge cost. We have to think about a lot of things as we do new things and make new changes. I think it's a trade-off, right? You might slow certain kinds of things down,",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.855
+      },
+      {
+        "start": 2190.0,
+        "end": 2220.0,
+        "text": "value you're bringing because of that is much bigger because it's not just about breaking the person yesterday. It's also about telling the person tomorrow that you know what, this is how we do things. We're not going to break you when you come on board because there are lots of new people who are also going to come on board. One way I like to think about this and I always push the team to think about as well, when you want to do new things, you want to start with a clean slate. Design with a clean slate",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.84
+      },
+      {
+        "start": 2220.0,
+        "end": 2250.0,
+        "text": "And then we'll figure out how to make sure all the other things work. And yes, we do make compromises occasionally But unless you're designed with the clean slate and not worry about that you'll never get to a good place I was brilliant. So even if you're do you are responsible When you in the idea stage when you're thinking of new it just put all that behind you. That's okay That's really really well put so I have to ask this because a lot of students developers asked me",
+        "words": [],
+        "speaker": "SPEAKER_01",
+        "speaker_confidence": 0.459
+      },
+      {
+        "start": 2250.0,
+        "end": 2280.0,
+        "text": "feel about PyTorch versus TensorFlow. So I've recently completely switched my research group to TensorFlow. I wish everybody would just use the same thing. And TensorFlow is as close to that, I believe, as we have. But do you enjoy competition? So TensorFlow is leading in many ways, many dimensions in terms of the ecosystem, in terms of the number of users, momentum, power, production levels, so on.",
+        "words": [],
+        "speaker": "SPEAKER_01",
+        "speaker_confidence": 0.847
+      },
+      {
+        "start": 2280.0,
+        "end": 2310.0,
+        "text": "And now also using PyTorch. Do you enjoy that kind of competition or do you just ignore and focus on making TensorFlow the best that it can be? So just like research or anything people are doing, it's great to get different kinds of ideas. And when we started with TensorFlow, like I was saying earlier, it was very important for us to also have production in mind. We didn't want just research, right? And that's why we chose certain things. Now PyTorch came along and said, you know what?",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.567
+      },
+      {
+        "start": 2310.0,
+        "end": 2340.0,
+        "text": "care about research. This is what I'm trying to do. What's the best thing I can do for this? And it started iterating and said, okay, I don't need to worry about graphs. Let me just run things. I don't care if it's not as fast as it can be, but let me just make this part easy. And there are things you can learn from that, right? They again had the benefit of seeing what had come before, but also exploring certain different kinds of spaces. And they had some good",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.863
+      },
+      {
+        "start": 2340.0,
+        "end": 2370.0,
+        "text": "on say things like Jainer and so on before that. So competition is definitely interesting. It made us, you know, this is an area that we had thought about, like I said, you know, very early on. Over time, we had revisited this a couple of times, should we add this again? At some point, we said, you know what, here's it seems like this can be done well. So let's try it again. And we, that's how, you know, we started pushing on eager execution. How do we combine those two together,",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.863
+      },
+      {
+        "start": 2370.0,
+        "end": 2400.0,
+        "text": "while to get all the things together and so on. So let me, I mean, ask, put another way. I think eager execution is a really powerful thing that was added. You think he wouldn't have been, you know, Muhammad Ali versus Frazier, right? Do you think it wouldn't have been added as quickly if PyTorch wasn't there? It might have taken longer. The longer. Yeah. It was, I mean, we had tried some variants of that before, so I'm sure it would have happened, but it might have taken longer.",
+        "words": [],
+        "speaker": "SPEAKER_01",
+        "speaker_confidence": 0.509
+      },
+      {
+        "start": 2400.0,
+        "end": 2430.0,
+        "text": "more than the way they did. It's doing some incredible work last couple of years. What other things that we didn't talk about, are you looking forward in 2.0 that comes to mind? So we talked about some of the ecosystem stuff, making it easily accessible to Keras, ECR execution. Is there other things that we missed? Yeah. So I would say one is just where 2.0 is and with all the things that we've talked",
+        "words": [],
+        "speaker": "SPEAKER_01",
+        "speaker_confidence": 0.531
+      },
+      {
+        "start": 2430.0,
+        "end": 2460.0,
+        "text": "there are lots of other things that it enables us to do and that we're excited about. So what it's setting us up for, okay, here are these really clean APIs. We've cleaned up the surface for what the users want. What it also allows us to do a whole bunch of stuff behind the scenes once we've, we are ready with 2.0. So, for example, intensive flow with graphs and all the things you could do, you could always get a lot of good performance if you spent the time to tune it.",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.818
+      },
+      {
+        "start": 2460.0,
+        "end": 2490.0,
+        "text": "We've clearly shown that, lots of people do that. With 2.0, with these APIs, where we can give you a lot of performance just with whatever you do. Because we see it's much cleaner, we know most people are going to do things this way, we can really optimize for that and get a lot of those things out of the box. It really allows us both for",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.822
+      },
+      {
+        "start": 2490.0,
+        "end": 2520.0,
+        "text": "to really explore other spaces behind the scenes after 2.0 in the future versions as well. So right now the team is really excited about that, that over time I think we'll see that. The other piece that I was talking about in terms of just restructuring the monolithic thing into more pieces and making it more modular, I think that's going to be really important for a lot of",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.818
+      },
+      {
+        "start": 2520.0,
+        "end": 2550.0,
+        "text": "to build things. Can you elaborate a little bit what you mean by making TensorFlow more ecosystem or modular? So the way it's organized today is there's one, there are lots of repositories in the TensorFlow organization at GitHub. The core one where we have TensorFlow, it has the execution engine, it has the key backends for CPUs and GPUs, it has the work to do distributed stuff.",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.7
+      },
+      {
+        "start": 2550.0,
+        "end": 2580.0,
+        "text": "work together in a single library or binary, there's no way to split them apart easily. I mean, there are some interfaces, but they're not very clean. In a perfect world, you would have clean interfaces where, okay, I want to run it on my fancy cluster with some custom networking, just implement this and do that. I mean, we kind of support that, but it's hard for people today. I think as we are starting to see more interesting things in some of",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.852
+      },
+      {
+        "start": 2580.0,
+        "end": 2610.0,
+        "text": "And again, going to the large size of the ecosystem and the different groups involved there, enabling people to evolve and push on things more independently just allows it to scale better. And by people, you mean individual developers and? And organizations. And organizations. That's right. So the hope is that everybody sort of major, I don't know, Pepsi or something uses major corporations go to TensorFlow to this kind of. Yeah.",
+        "words": [],
+        "speaker": "SPEAKER_01",
+        "speaker_confidence": 0.425
+      },
+      {
+        "start": 2610.0,
+        "end": 2640.0,
+        "text": "I mean, a lot of them are already using TensorFlow. They are not the ones that do the development or changes in the core. Some of them do, but a lot of them don't. I mean, they touch small pieces. There are lots of these, some of them being, let's say, hardware vendors who are building their custom hardware and they want their own pieces. Got it. Or some of them being bigger companies, say IBM. I mean, they are involved in some of our special interest groups. And they see a lot of users who want certain things and they want to optimize for that.",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.883
+      },
+      {
+        "start": 2640.0,
+        "end": 2670.0,
+        "text": "Autonomous vehicle companies, perhaps. Exactly, yes. So, yeah, like I mentioned, TensorFlow has been downloaded 41 million times, 50,000 commits, almost 10,000 pull requests, and 1,800 contributors. So, I'm not sure if you can explain it, but what does it take to build a community like that? What, in retrospect, what do you think, what is the critical thing that allowed for this growth to happen,",
+        "words": [],
+        "speaker": "SPEAKER_01",
+        "speaker_confidence": 0.742
+      },
+      {
+        "start": 2670.0,
+        "end": 2700.0,
+        "text": "Yeah. Yeah, that's an interesting question. I wish I had all the answers there, I guess, so you could replicate it. I think there's a number of things that need to come together, right? One, just like any new thing, it is about there's a sweet spot of timing, what's needed, does it grow with what's needed. So in this case, for example, TensorFlow is not",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.754
+      },
+      {
+        "start": 2700.0,
+        "end": 2730.0,
+        "text": "It's also grown with the growth of deep learning itself. So those factors come into play. Other than that though, I think just hearing, listening to the community, what they're doing, what they need, being open to like in terms of external contributions, we've spent a lot of time in making sure we can accept those contributions well, we can help the contributors in adding those, putting the right process in place, getting the right kind of community,",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.821
+      },
+      {
+        "start": 2730.0,
+        "end": 2760.0,
+        "text": "them and so on. Like over the last year, we've really pushed on transparency. That's important for an open source project. People want to know where things are going and we're like, okay, here's a process where you can do that, hit RFCs and so on. So thinking through, there are lots of community aspects that come into that you can really work on. As a small project, it's maybe easy",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.83
+      },
+      {
+        "start": 2760.0,
+        "end": 2790.0,
+        "text": "Putting more of these processes in place, thinking about the documentation, thinking about what do developers care about, what kind of tools would they want to use. All of these come into play, I think. So one of the big things, I think, that feeds the TensorFlow Fire is people building something on TensorFlow and implement a particular architecture that does something cool and useful. And they put that on GitHub.",
+        "words": [],
+        "speaker": "SPEAKER_01",
+        "speaker_confidence": 0.465
+      },
+      {
+        "start": 2790.0,
+        "end": 2820.0,
+        "text": "this growth. Do you have a sense that with 2.0 and 1.0 that there may be a little bit of a partitioning like there is with Python 2 and 3, that there will be a code base and in the older versions of TensorFlow, they will not be as compatible easily or are you pretty confident that this kind of conversion is pretty natural and easy to do? So we're definitely working hard to make that very easy to do. There's lots of tooling that",
+        "words": [],
+        "speaker": "SPEAKER_01",
+        "speaker_confidence": 0.629
+      },
+      {
+        "start": 2820.0,
+        "end": 2850.0,
+        "text": "developer summit this week and we'll continue to invest in that tooling. It's, you know, when you think of these significant version changes, that's always a risk and we are really pushing hard to make that transition very, very smooth. I think so, so at some level, people want to move when they see the value in the new thing. They don't want to move just because it's a new thing. And some people do, but most people want a really good thing.",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.804
+      },
+      {
+        "start": 2850.0,
+        "end": 2880.0,
+        "text": "As people start to see the value, we'll definitely see that shift happening. So I'm pretty excited and confident that we will see people moving. As you said earlier, this field is also moving rapidly, so that'll help because we can do more things and all the new things will clearly happen in 2.X, so people will have lots of good reasons to move. So what do you think TensorFlow 3.0 looks like? Is there... Are things happening so crazily that even at the end of this year, it seems impossible",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.559
+      },
+      {
+        "start": 2880.0,
+        "end": 2910.0,
+        "text": "plan for or is it possible to plan for the next five years? I think it's tricky. There are some things that we can expect in terms of, okay, change. Yes, change is going to happen. Are there some things going to stick around and some things not going to stick around? I would say the basics of deep learning, the convolution models or the basic kind of things,",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.665
+      },
+      {
+        "start": 2910.0,
+        "end": 2940.0,
+        "text": "some form still in five years will RL and GAN stay very likely based on where they are. We have new things probably but those are hard to predict and some directionally some things that we can see is you know and things that we starting to do right with some of our projects right now is just two point of combining eager execution in graphs where we starting to make it more like",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.793
+      },
+      {
+        "start": 2940.0,
+        "end": 2970.0,
+        "text": "program something else. Similarly with Swift for TensorFlow, we're taking that approach. Can you do something ground up? So some of those ideas seem like, OK, that's the right direction in five years we expect to see more in that area. Other things we don't know is will hardware accelerators be the same? Will we be able to train with four bits instead of 32 bits? And I think the TPU side of things is exploring that.",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.688
+      },
+      {
+        "start": 2970.0,
+        "end": 3000.0,
+        "text": "it seems that the evolution of TPU and TensorFlow are sort of they're co-evolving almost in terms of both are learning from each other and from the community and from the applications where the biggest benefit is achieved. That's right. You've been trying to sort of with with EGAR with Keras to make TensorFlow as accessible and easy to use as possible. What do you think for beginners is the biggest thing they struggle with?",
+        "words": [],
+        "speaker": "SPEAKER_01",
+        "speaker_confidence": 0.847
+      },
+      {
+        "start": 3000.0,
+        "end": 3030.0,
+        "text": "Solving is that eager like we talked about. Yeah for some of them like you said right beginners want to just be able to take Some image model. They don't care if it's inception or rest net or something else and do some training or Transfer learning on their kind of model being able to make that easy is important. So I in some ways If you do that by providing them simple models with say in hub or so on and they don't care about what's inside that box",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.784
+      },
+      {
+        "start": 3030.0,
+        "end": 3060.0,
+        "text": "but they want to be able to use it. So we're pushing on, I think, different levels. If you look at just a component that you get, which has the layers already smushed in, the beginners probably just want that. Then the next step is, OK, look at building layers with Keras. If you go out to research, then they are probably writing custom layers themselves or doing their own loops. So there's a whole spectrum there. And then providing the pre-trained models",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.652
+      },
+      {
+        "start": 3060.0,
+        "end": 3090.0,
+        "text": "trying to start. So you could basically in a co-lab notebook achieve what you need. So I basically answering my own question because I think what TensorFlow delivered on recently is trivial for beginners. So I was just wondering if there was other pain points you tried to ease, but I'm not sure there would be. No, those are probably the big ones. I mean, I see high schoolers doing a whole bunch of things now, which is pretty amazing.",
+        "words": [],
+        "speaker": "SPEAKER_01",
+        "speaker_confidence": 0.69
+      },
+      {
+        "start": 3090.0,
+        "end": 3120.0,
+        "text": "when they grow up, some incredible ideas will be coming from them. So there's certainly a technical aspect to your work, but you also have a management aspect to your role with TensorFlow, leading the project, a large number of developers and people. So what do you look for in a good team? What do you think? You know, Google has been at the forefront of exploring what it takes to build a good team.",
+        "words": [],
+        "speaker": "SPEAKER_01",
+        "speaker_confidence": 0.789
+      },
+      {
+        "start": 3120.0,
+        "end": 3150.0,
+        "text": "one of the most cutting edge technologies in the world. So in this context, what do you think makes for a good team? It's definitely something I think a fair bit about. I think in terms of the team being able to deliver something well, one of the things that's important is a cohesion across the team. So being able to execute together and doing things that's not an",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.54
+      },
+      {
+        "start": 3150.0,
+        "end": 3180.0,
+        "text": "engineer can only do so much. There's a lot more that they can do together, even though we have some amazing superstars across Google and in the team. But there's, you know, often the way I see it is the product of what the team generates is way larger than the whole or, you know, the individual put together. And so how do we have all of them work together,",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.849
+      },
+      {
+        "start": 3180.0,
+        "end": 3210.0,
+        "text": "What is that is it's not just that okay, we hire a bunch of smart people and throw them together and let them do things. It's also people have to care about what they're building. People have to be motivated for the right kind of things. That's often an important factor. And finally, how do you put that together with somewhat unified vision of where we want to go? So are we all looking in the same direction or just going all over?",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.819
+      },
+      {
+        "start": 3210.0,
+        "end": 3240.0,
+        "text": "And sometimes it's a mix. Google's a very bottom up organization in some sense. Also research even more so. And that's how we started. But as we've become this larger product and ecosystem, I think it's also important to combine that well with a mix of, OK, here's the direction we want to go in. There is exploration we'll do around that, but let's keep staying in that direction, not just",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.804
+      },
+      {
+        "start": 3240.0,
+        "end": 3270.0,
+        "text": "place. And is there a way you monitor the health of the team? Sort of like, is there a way you know you did a good job? The team is good? Like, I mean, you're sort of, you're saying nice things, but it's sometimes difficult to determine how aligned. Yes. Because it's not binary. It's not like it's, it's, there's tensions and complexities and so on. And the other element of is the mesh of superstars, you know, there's so much, even a Google,",
+        "words": [],
+        "speaker": "SPEAKER_01",
+        "speaker_confidence": 0.803
+      },
+      {
+        "start": 3270.0,
+        "end": 3300.0,
+        "text": "individual superstars too. And sometimes those superstars could be against the dynamic of a team and those tensions. I mean, I'm sure intensive flow might be a little bit easier because the mission of the project is so sort of beautiful. You're at the cutting edge, so it's exciting. But have you had struggle with that? Has there been challenges? There are always people challenges in different kinds of ways.",
+        "words": [],
+        "speaker": "SPEAKER_01",
+        "speaker_confidence": 0.63
+      },
+      {
+        "start": 3300.0,
+        "end": 3330.0,
+        "text": "What's good about getting people who care and are, you know, have the same kind of culture and that's Google in general to a large extent. But also like you said, given that the project has had so many exciting things to do, there's been room for lots of people to do different kinds of things and grow, which does make the problem a bit easier, I guess. And it allows people, depending on what they're doing, if there's room around them, then that's fine.",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.81
+      },
+      {
+        "start": 3330.0,
+        "end": 3360.0,
+        "text": "we do care about whether Superstar or not that they need to work well with the team across Google. That's interesting to hear. So it's like Superstar or not, the productivity broadly is about the team. Yeah. Yeah. I mean, they might add a lot of value, but if they're supporting the team, then that's a problem. So in hiring engineers, it's so interesting, right, the hiring process. What do you look for?",
+        "words": [],
+        "speaker": "SPEAKER_01",
+        "speaker_confidence": 0.47
+      },
+      {
+        "start": 3360.0,
+        "end": 3390.0,
+        "text": "developer or a good member of a team from just a few minutes or hours together. Again, no magic answers, I'm sure. Yeah. Google has a hiding process that we've refined over the last 20 years, I guess, and that you've probably heard and seen a lot about. So we do work with the same hiding process and that's really helped.",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.614
+      },
+      {
+        "start": 3390.0,
+        "end": 3420.0,
+        "text": "What does matter is their motivation in what they want to do. Because if that doesn't align well with where we want to go, that's not going to lead to long-term success for either them or the team. And I think that becomes more important the more senior the person is, but it's important at every level. Like even the junior most engineer, if they're not motivated to do well at what they're trying to do, however smart they are, it's going to be hard for them to succeed.",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.748
+      },
+      {
+        "start": 3420.0,
+        "end": 3450.0,
+        "text": "that passion, so like trying to determine, because I think as far as I understand, maybe you can speak to it, that the Google hiring process sort of helps, the initial like determines the skill set there, is your puzzle solving ability, problem solving ability good, but like, I'm not sure, but it seems that the determining whether the person's like fire inside them, that burns to do anything, really doesn't really matter, it's just some cool stuff, I'm gonna do it.",
+        "words": [],
+        "speaker": "SPEAKER_01",
+        "speaker_confidence": 0.808
+      },
+      {
+        "start": 3450.0,
+        "end": 3480.0,
+        "text": "that I don't know is that something that ultimately ends up when they have a conversation with you or once it gets closer to the team. So one of the things we do have as part of the process is just a culture fit like part of the interview process itself in addition to just the technical skills and each engineer or whoever the interviewer is is supposed to rate the person on the culture and the culture fit with Google and so on. So that is definitely part of the process. Now",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.64
+      },
+      {
+        "start": 3480.0,
+        "end": 3510.0,
+        "text": "There are various kinds of projects and different kinds of things. So there might be variants and if the kind of culture you want there and so on. And yes, that does vary. So for example, TensorFlow has always been a fast moving project. And we want people who are comfortable with that. But at the same time now, for example, we are at a place where we are also very full-fledged product and we want to make sure things that work really, really work. Right. You can't cut corners all the time.",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.848
+      },
+      {
+        "start": 3510.0,
+        "end": 3540.0,
+        "text": "finding the people who are the right fit for those is important. And I think those kind of things do vary a bit across projects and teams and product areas across Google. And so you'll see some differences there in the final checklist. But a lot of the core culture, it comes along with just the engineering excellence and so on. What is the hardest part of your job? I'll take your pick, I guess.",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.669
+      },
+      {
+        "start": 3540.0,
+        "end": 3570.0,
+        "text": "say, right? Hard, yes. I mean, lots of things at different times. I think that that does vary. So let me clarify that difficult things are fun when you solve them, right? Yes. So it's fun in that sense. I think the key to a successful thing across the board, and in this case, it's a large ecosystem now, but even a small product, is striking that fine balance across different",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.699
+      },
+      {
+        "start": 3570.0,
+        "end": 3600.0,
+        "text": "versus how perfect it is. Sometimes it's how do you involve this huge community? Who do you involve or do you decide, okay, now is not a good time to involve them because it's not the right fit. Sometimes it's saying no to certain kinds of things. Those are often the hard decisions. Some of them you make quickly because you don't have the time. Some of them you get time to think",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.788
+      },
+      {
+        "start": 3600.0,
+        "end": 3630.0,
+        "text": "So when both, both choices are pretty good. It's that those decisions. What about deadlines? Is this defined TensorFlow to be driven by deadlines to a degree that a product might, or is there still a balance to where it's less deadline?",
+        "words": [],
+        "speaker": "SPEAKER_01",
+        "speaker_confidence": 0.755
+      },
+      {
+        "start": 3630.0,
+        "end": 3660.0,
+        "text": "to the occasion releasing that's the flow 2.0 alpha. I'm sure that was done last minute as well. I mean, like the, up to the, up to the, up to the last point. Again, you know, it's one of those things that's a, you need to strike the good balance. There's some value that deadlines bring that does bring a sense of urgency to get the right things together. Instead of, you know, getting the perfect thing out, you need something that's good and works well. And the team definitely did a great job",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.555
+      },
+      {
+        "start": 3660.0,
+        "end": 3690.0,
+        "text": "together. So it was very amazed and excited by everything how that came together. That said, across the year, we try not to put artificial deadlines. We focus on key things that are important, figure out what that how much of it's important. And we are developing in the open with, you know, internally and externally, everything's available to everybody. So you can pick and look",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.841
+      },
+      {
+        "start": 3690.0,
+        "end": 3720.0,
+        "text": "fine if something doesn't necessarily end up with this one, it'll end up in the next release in a month or two. And that's okay. But we want to get like keep moving as fast as we can in these different areas. Because we can iterate and improve on things. Sometimes it's okay to put things out that aren't fully ready. If you make sure it's clear that okay, this is experimental, but it's out there if you want to try and give feedback, that's",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.85
+      },
+      {
+        "start": 3720.0,
+        "end": 3750.0,
+        "text": "that's what we often focus on rather than here's a deadline where you get everything else. Is 2.0 is their pressure to make that stable? Or like for example, WordPress 5.0 just came out and there was no pressure to it. It was a lot of build updates that delivered way too late. But and they said, okay, well, but we're going to release a lot of updates really quickly to improve it. Do you see TensorFlow 2.0 in that same kind of way? Or is there",
+        "words": [],
+        "speaker": "SPEAKER_01",
+        "speaker_confidence": 0.674
+      },
+      {
+        "start": 3750.0,
+        "end": 3780.0,
+        "text": "it's 2.0 once you get to the release candidate and then you get to the final that that's going to be the stable thing. So it's going to be stable in just like when NodeX was where every API that's there is going to remain in work. It doesn't mean we can't change things in another covers. It doesn't mean we can't add things. So there's still a lot more for us to do and we continue to have more releases.",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.612
+      },
+      {
+        "start": 3780.0,
+        "end": 3810.0,
+        "text": "in like two months when we release this. I don't know if you can say but is there, you know, there's not external deadlines for TensorFlow 2.0 but is there internal deadlines, the artificial or otherwise that you're trying to set for yourself or is it whenever it's ready? So we want it to be a great product and that's a big important piece for us.",
+        "words": [],
+        "speaker": "SPEAKER_01",
+        "speaker_confidence": 0.439
+      },
+      {
+        "start": 3810.0,
+        "end": 3840.0,
+        "text": "So it's not like we have to have this. Yeah, exactly. So it's not like a lot of the features that we've really polishing and putting them together are there. We don't have to rush that just because. So in that sense, we want to get it right and really focus on that. That said, we have said that we are looking to get this out in the next few months, in the next quarter. And as far as possible, we'll definitely try to make that happen. Yeah, my favorite line was spring is a relative concept.",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.764
+      },
+      {
+        "start": 3840.0,
+        "end": 3870.0,
+        "text": "I love it. Yes. Spoken like a true developer. So something I'm really interested in in your previous line of work is, before TensorFlow, you let a team and Google on search ads. I think this is a very interesting topic on every level, on a technical level, because if their best ads connect people to the things they want and need. So, and if they're worse, they're just these things",
+        "words": [],
+        "speaker": "SPEAKER_01",
+        "speaker_confidence": 0.812
+      },
+      {
+        "start": 3870.0,
+        "end": 3900.0,
+        "text": "you to the point of ruining the entire user experience of whatever you're actually doing. So they have a bad rep, I guess. And so on the other end, so that this connecting users to the thing they need to want is a beautiful opportunity for machine learning to shine. Like huge amounts of data that's personalized and you kind of map to the thing they actually won't get annoyed.",
+        "words": [],
+        "speaker": "SPEAKER_01",
+        "speaker_confidence": 0.774
+      },
+      {
+        "start": 3900.0,
+        "end": 3930.0,
+        "text": "leading the world in this aspect. What have you learned from that experience? And what do you think is the future of ads? Take you back to that point. Yes, it's been a while, but I totally agree with what you said. I think the search ads, the way it was always looked at, and I believe it still is, is it's an extension of what search is trying to do. And the goal is to make the information and make the world's",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.569
+      },
+      {
+        "start": 3930.0,
+        "end": 3960.0,
+        "text": "With ads, it's not just information, but it may be products or other things that people care about. And so it's really important for them to align with what the users need. And in search ads, there's a minimum quality level before that ad would be shown. If we don't have an ad that hits that quality, but it will not be shown even if we have it. And, okay, maybe we lose some money there. That's fine. That is really, really important.",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.855
+      },
+      {
+        "start": 3960.0,
+        "end": 3990.0,
+        "text": "being there. Advertising is a key part. I mean, as a model, it's been around for ages, right? It's not a new model. It's been adapted to the web and became a core part of search and many other search engines across the world. I do hope, like I said, there are aspects of ads that are annoying and I go to a website and if it just keeps popping in my face, not to let me read that's going to",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.853
+      },
+      {
+        "start": 3990.0,
+        "end": 4020.0,
+        "text": "So I hope we can strike that balance between showing a good ad where it's valuable to the user and provides the monetization to the service. And this might be search, this might be a website, all of these, they do need the monetization for them to provide that service. But if it's done in",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.793
+      },
+      {
+        "start": 4020.0,
+        "end": 4050.0,
+        "text": "showing just some random stuff that's distracting versus showing something that's actually valuable. So do you see it moving forward as to continue being a model that funds businesses like Google? That's a significant revenue stream. Because that's one of the most exciting things, but also limiting things on the Internet is nobody wants to pay for anything.",
+        "words": [],
+        "speaker": "SPEAKER_01",
+        "speaker_confidence": 0.624
+      },
+      {
+        "start": 4050.0,
+        "end": 4080.0,
+        "text": "Once again, coupled at their best, they're actually really useful and not annoying. Do you see that continuing and growing and improving or is there GC sort of more Netflix type models where you have to start to pay for content? I think it's a mix. I think it's going to take a long while for everything to be paid on the internet if at all, probably not. I mean, I think there's always going to be things that are sort of monetized with things like ads.",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.446
+      },
+      {
+        "start": 4080.0,
+        "end": 4110.0,
+        "text": "that transition towards more paid services across the web, and people are willing to pay for them, because they do see the value. And Netflix is a great example. I mean, we have YouTube doing things. People pay for the apps they buy. More people I find are willing to pay for newspaper content, for the good news websites across the web. That wasn't the case even a few years ago, I would say. And I just see that change in myself as well,",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.82
+      },
+      {
+        "start": 4110.0,
+        "end": 4140.0,
+        "text": "just lots of people around me. So definitely hopeful that we'll transition to that mixed model where maybe you get to try something out for free, maybe with ads, but then there's a more clear revenue model that sort of helps go beyond that. So speaking of revenue, how is it that a person can use the TPU in a Google call app for free? So what's the?",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.454
+      },
+      {
+        "start": 4140.0,
+        "end": 4170.0,
+        "text": "What's the future of TensorFlow in terms of empowering, say, teach a class of 300 students? And I'm asked by MIT what is going to be the future of them being able to do their homework in TensorFlow? Like, where are they going to train these networks, right? What's that future look like with TPUs, with cloud services, and so on? I think a number of things there.",
+        "words": [],
+        "speaker": "SPEAKER_01",
+        "speaker_confidence": 0.704
+      },
+      {
+        "start": 4170.0,
+        "end": 4200.0,
+        "text": "you can run on your desktop and your desktops always keep getting more powerful. So maybe you can do more. My phone is like, I don't know how many times more powerful than my first desktop. You probably train on your phone though. Yeah, that's right. So, so in that sense, the power you have in your hands is, is a lot more. Clouds are actually very interesting from say students or, or courses perspective because they make it very easy to get started.",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.875
+      },
+      {
+        "start": 4200.0,
+        "end": 4230.0,
+        "text": "And it just works. No installation needed, nothing to, you know, you're just there and things are working. That's really the power of cloud as well. And so I do expect that to grow. Again, you know, Colab is a free service. It's great to get started to play with things, to explore things. That said, you know, with free, you can only get so much. Yeah. So, just like we were talking about, you know, free versus paid.",
+        "words": [],
+        "speaker": "SPEAKER_00",
+        "speaker_confidence": 0.851
+      },
+      {
+        "start": 4230.0,
+        "end": 4260.0,
+        "text": "a lot more. Great. So if I'm a complete beginner interested in machine learning and TensorFlow, what should I do? Probably start with going to a website and playing there. Just go to TensorFlow.org and start clicking on things. Yep. Check out tutorials and guides. There's stuff you can just click there and go to a collab and do things. No installation needed. You can get started right there. Okay, awesome. Roger, thank you so much for talking today.",
+        "words": [],
+        "speaker": "SPEAKER_01",
+        "speaker_confidence": 0.372
+      },
+      {
+        "start": 4260.0,
+        "end": 4273.24,
+        "text": "you",
+        "words": [],
+        "speaker": "SPEAKER_UNKNOWN",
+        "speaker_confidence": 0.0
+      }
+    ]
+  }
+}
