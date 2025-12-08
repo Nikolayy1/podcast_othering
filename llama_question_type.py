@@ -19,6 +19,7 @@ def ask_llama(prompt: str) -> str:
 
 
 if __name__ == "__main__":
+    print("Starting LLaMA question session...")
     answer = ask_llama("Explain quantum mechanics in simple terms.")
     print("\n🧠 LLaMA Response:\n")
     print(answer)
