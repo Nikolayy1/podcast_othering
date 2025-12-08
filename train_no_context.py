@@ -146,7 +146,7 @@ def main():
         eval_dataset=tokenized_dataset["validation"],
         tokenizer=tokenizer,
         compute_metrics=compute_metrics,
-        compute_loss=custom_loss,
+        compute_loss_func=custom_loss,
     )
 
     trainer.train()
