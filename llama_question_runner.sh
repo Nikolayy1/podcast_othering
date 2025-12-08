@@ -15,13 +15,15 @@
 #SBATCH --mail-user=niklas.hofstetter@colorado.edu
 #SBATCH --mail-type=ALL
 #SBATCH --job-name=llama_questions
+
 echo "SLURM job started"
 pwd
 
-source ~/.bashrc
-
 echo "Loading anaconda..."
 module load anaconda
+
+echo "Initializing conda..."
+source $CONDA_PREFIX/etc/profile.d/conda.sh
 
 echo "Activating environment..."
 conda activate podcast
