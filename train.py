@@ -87,7 +87,7 @@ def main():
 
     def tokenize(batch):
         return tokenizer(
-            batch["text"], padding="max_length", truncation=True, max_length=128
+            batch["text"], padding="max_length", truncation=True, max_length=256
         )
 
     # 1. Tokenize
@@ -120,6 +120,8 @@ def main():
         num_train_epochs=10,
         load_best_model_at_end=True,
         logging_steps=20,
+        warmup_ratio=0.1,
+        weight_decay = 0.01, 
     )
 
     def compute_metrics(eval_pred):
