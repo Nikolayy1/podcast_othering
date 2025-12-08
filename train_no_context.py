@@ -4,6 +4,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import accuracy_score, f1_score
 from transformers import set_seed
+from sklearn.utils.class_weight import compute_class_weight
+from torch.nn import CrossEntropyLoss
 
 from datasets import Dataset, DatasetDict
 from transformers import (
@@ -84,6 +86,21 @@ def main():
 
     tokenized_dataset.set_format("torch")
 
+    class_weights = compute_class_weight(
+        class_weight="balanced",
+        classes=np.unique(df_nisq["label_id"]),
+        y=df_nisq["label_id"],
+    )
+    class_weights = torch.tensor(class_weights, dtype=torch.float).to("cuda")
+
+    def custom_loss(model, inputs, return_outputs=False):
+        labels = inputs.pop("labels")
+        outputs = model(**inputs)
+        logits = outputs.logits
+        loss_fct = CrossEntropyLoss(weight=class_weights)
+        loss = loss_fct(logits, labels)
+        return (loss, outputs) if return_outputs else loss
+
     # -----------------------------
     # Model
     # -----------------------------
@@ -98,9 +115,10 @@ def main():
         output_dir="./roberta_question_only",
         eval_strategy="epoch",
         save_strategy="epoch",
-        learning_rate=2e-5,                
-        per_device_train_batch_size=16,     
-        num_train_epochs=10,                 
+        learning_rate=1e-4,
+        per_device_train_batch_size=16,
+        gradient_accumulation_steps = 8,
+        num_train_epochs=10,
         load_best_model_at_end=True,
         warmup_ratio=0.1,
         weight_decay=0.01,
@@ -128,6 +146,7 @@ def main():
         eval_dataset=tokenized_dataset["validation"],
         tokenizer=tokenizer,
         compute_metrics=compute_metrics,
+        compute_loss=custom_loss,
     )
 
     trainer.train()

@@ -106,6 +106,8 @@ def main():
 
     # Adjust embedding size for added tokens
     model.resize_token_embeddings(len(tokenizer))
+    
+    
 
     # -----------------------------
     # Training Arguments
