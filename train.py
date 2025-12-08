@@ -49,9 +49,11 @@ def main():
     # -----------------------------
     # Split into train / val / test (80/10/10)
     # -----------------------------
+    # Train / Val / Test split
     train_df, temp_df = train_test_split(
         df_nisq, test_size=0.20, random_state=42, stratify=df_nisq["label_id"]
     )
+
     val_df, test_df = train_test_split(
         temp_df, test_size=0.50, random_state=42, stratify=temp_df["label_id"]
     )
@@ -119,6 +121,7 @@ def main():
         logging_steps=20,
         warmup_ratio=0.1,
         weight_decay=0.01,
+        fp_16=True,
     )
 
     # -----------------------------

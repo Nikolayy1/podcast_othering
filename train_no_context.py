@@ -59,7 +59,7 @@ def main():
     # -----------------------------
     # Tokenizer
     # -----------------------------
-    model_name = "roberta-base"
+    model_name = "roberta-large"
     tokenizer = RobertaTokenizerFast.from_pretrained(model_name)
 
     # Tokenization
@@ -98,9 +98,9 @@ def main():
         output_dir="./roberta_question_only",
         eval_strategy="epoch",
         save_strategy="epoch",
-        learning_rate=1e-4,                 # ← better for RoBERTa
-        per_device_train_batch_size=128,     # ← better stability
-        num_train_epochs=10,                 # ← typical for RoBERTa
+        learning_rate=2e-5,                
+        per_device_train_batch_size=16,     
+        num_train_epochs=10,                 
         load_best_model_at_end=True,
         warmup_ratio=0.1,
         weight_decay=0.01,
