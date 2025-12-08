@@ -2,3 +2,5 @@
 /results_eval
 /roberta_minimal_final
 /roberta_minimal_2
+/roberta_*
+label_encoder_no_context.pkl
