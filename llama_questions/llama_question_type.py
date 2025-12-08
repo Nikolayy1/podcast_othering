@@ -14,7 +14,7 @@ def ask_llama(prompt: str) -> str:
     response.raise_for_status()
     return response.json().get("response", "")
 
-def load_prompt_template(path="./prompts/prompt.txt"):
+def load_prompt_template(path="prompts/prompt.txt"):
     with open(path, "r") as f:
         return f.read()
 
