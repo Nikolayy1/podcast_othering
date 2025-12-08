@@ -1,0 +1,1059 @@
+[
+  {
+    "question": "Who would you be referring to here?",
+    "label": "Deliberative",
+    "text": "Who would you be referring to here?",
+    "label_id": 0,
+    "__index_level_0__": 1286
+  },
+  {
+    "question": "How have you managed to keep it fresh and relevant and keep yourself interested in writing a comic strip? ",
+    "label": "Deliberative",
+    "text": "How have you managed to keep it fresh and relevant and keep yourself interested in writing a comic strip? ",
+    "label_id": 0,
+    "__index_level_0__": 718
+  },
+  {
+    "question": "And what does he want to do?",
+    "label": "Rhetorical",
+    "text": "And what does he want to do?",
+    "label_id": 3,
+    "__index_level_0__": 1074
+  },
+  {
+    "question": "On the other hand, did a report make note of the fact that Goldman Sachs, Morgan Stanley, some of these other major firms are completely exempt from the rules that the pay czar is going to make?",
+    "label": "Rhetorical",
+    "text": "On the other hand, did a report make note of the fact that Goldman Sachs, Morgan Stanley, some of these other major firms are completely exempt from the rules that the pay czar is going to make?",
+    "label_id": 3,
+    "__index_level_0__": 366
+  },
+  {
+    "question": "Isnt that what a commentator is supposed to do?",
+    "label": "Rhetorical",
+    "text": "Isnt that what a commentator is supposed to do?",
+    "label_id": 3,
+    "__index_level_0__": 1328
+  },
+  {
+    "question": "How does your wife feel about you going back out?",
+    "label": "Deliberative",
+    "text": "How does your wife feel about you going back out?",
+    "label_id": 0,
+    "__index_level_0__": 115
+  },
+  {
+    "question": "Were they just kind of treading lightly because they didnt know what they could out of a guy who obviously wasnt used to sitting in front of cameras with the lights on and all of that?",
+    "label": "Deliberative",
+    "text": "Were they just kind of treading lightly because they didnt know what they could out of a guy who obviously wasnt used to sitting in front of cameras with the lights on and all of that?",
+    "label_id": 0,
+    "__index_level_0__": 1267
+  },
+  {
+    "question": "But why is it were a year and a half before the election -- are we so tired of the existing candidates that journalists are already panting against those who might get into the race?",
+    "label": "Deliberative",
+    "text": "But why is it were a year and a half before the election -- are we so tired of the existing candidates that journalists are already panting against those who might get into the race?",
+    "label_id": 0,
+    "__index_level_0__": 634
+  },
+  {
+    "question": "And again, I think whats really fascinating is that youre seeing it -- it sort of reminds me of some of the stuff you saw during the Sarah Palin vice presidential nomination, when the blogs started kind of this whisper campaign about, was that really her baby?",
+    "label": "OTHERS",
+    "text": "And again, I think whats really fascinating is that youre seeing it -- it sort of reminds me of some of the stuff you saw during the Sarah Palin vice presidential nomination, when the blogs started kind of this whisper campaign about, was that really her baby?",
+    "label_id": 2,
+    "__index_level_0__": 1179
+  },
+  {
+    "question": "Its not April Fools Day or something, you know?",
+    "label": "Rhetorical",
+    "text": "Its not April Fools Day or something, you know?",
+    "label_id": 3,
+    "__index_level_0__": 1428
+  },
+  {
+    "question": "Would it have been any more acceptable for somebody to solicit an undercover police officer in the bathroom?",
+    "label": "Rhetorical",
+    "text": "Would it have been any more acceptable for somebody to solicit an undercover police officer in the bathroom?",
+    "label_id": 3,
+    "__index_level_0__": 1415
+  },
+  {
+    "question": "If they had gotten in and out and then did their story, would they be celebrated and not criticized?",
+    "label": "OTHERS",
+    "text": "If they had gotten in and out and then did their story, would they be celebrated and not criticized?",
+    "label_id": 2,
+    "__index_level_0__": 451
+  },
+  {
+    "question": "But cant you do that?",
+    "label": "OTHERS",
+    "text": "But cant you do that?",
+    "label_id": 2,
+    "__index_level_0__": 585
+  },
+  {
+    "question": "And with the Pace story, how big of a -- how long of a story is that going to be?",
+    "label": "Rhetorical",
+    "text": "And with the Pace story, how big of a -- how long of a story is that going to be?",
+    "label_id": 3,
+    "__index_level_0__": 595
+  },
+  {
+    "question": "What is the president so mad about?",
+    "label": "ISQ",
+    "text": "What is the president so mad about?",
+    "label_id": 1,
+    "__index_level_0__": 1176
+  },
+  {
+    "question": "So just to be clear, if -The Washington Times- was offered the exclusive on the dog and the first pictures of Bo, it would have put the story on page A-9?",
+    "label": "ISQ",
+    "text": "So just to be clear, if -The Washington Times- was offered the exclusive on the dog and the first pictures of Bo, it would have put the story on page A-9?",
+    "label_id": 1,
+    "__index_level_0__": 1068
+  },
+  {
+    "question": "Why wouldnt we want a camera to show us that?",
+    "label": "Rhetorical",
+    "text": "Why wouldnt we want a camera to show us that?",
+    "label_id": 3,
+    "__index_level_0__": 1400
+  },
+  {
+    "question": "How does it feel to be rehashing this again a decade later because of this FOX special?",
+    "label": "Deliberative",
+    "text": "How does it feel to be rehashing this again a decade later because of this FOX special?",
+    "label_id": 0,
+    "__index_level_0__": 202
+  },
+  {
+    "question": "Did you stay there for weeks at a time?",
+    "label": "Deliberative",
+    "text": "Did you stay there for weeks at a time?",
+    "label_id": 0,
+    "__index_level_0__": 423
+  },
+  {
+    "question": "And you personally have doubts about it?",
+    "label": "Deliberative",
+    "text": "And you personally have doubts about it?",
+    "label_id": 0,
+    "__index_level_0__": 1335
+  },
+  {
+    "question": "What are you waiting for?",
+    "label": "OTHERS",
+    "text": "What are you waiting for?",
+    "label_id": 2,
+    "__index_level_0__": 1030
+  },
+  {
+    "question": "What about the Lindbergh baby, Howie?",
+    "label": "OTHERS",
+    "text": "What about the Lindbergh baby, Howie?",
+    "label_id": 2,
+    "__index_level_0__": 30
+  },
+  {
+    "question": "Isnt that the medias favorite analogy, Iraq as Vietnam quagmire?",
+    "label": "Rhetorical",
+    "text": "Isnt that the medias favorite analogy, Iraq as Vietnam quagmire?",
+    "label_id": 3,
+    "__index_level_0__": 499
+  },
+  {
+    "question": "People signing up -- how many questions -- how many questions to the president, hey, how many people have signed up?",
+    "label": "Rhetorical",
+    "text": "People signing up -- how many questions -- how many questions to the president, hey, how many people have signed up?",
+    "label_id": 3,
+    "__index_level_0__": 770
+  },
+  {
+    "question": "Ed Henry, should networks such as CNN be reporting what politico.com says or any Web site or news organization says when theres an unnamed source and you dont have any independent confirmation?",
+    "label": "Deliberative",
+    "text": "Ed Henry, should networks such as CNN be reporting what politico.com says or any Web site or news organization says when theres an unnamed source and you dont have any independent confirmation?",
+    "label_id": 0,
+    "__index_level_0__": 963
+  },
+  {
+    "question": "So in a way, it is a natural question to ask how would she govern?",
+    "label": "Deliberative",
+    "text": "So in a way, it is a natural question to ask how would she govern?",
+    "label_id": 0,
+    "__index_level_0__": 1194
+  },
+  {
+    "question": "So, this raises a big RELIABLE SOURCES question -- should we as journalists decide you dont have the right to hear or see this guy?",
+    "label": "Deliberative",
+    "text": "So, this raises a big RELIABLE SOURCES question -- should we as journalists decide you dont have the right to hear or see this guy?",
+    "label_id": 0,
+    "__index_level_0__": 132
+  },
+  {
+    "question": "Why do we need -US- magazine to point it out?",
+    "label": "Deliberative",
+    "text": "Why do we need -US- magazine to point it out?",
+    "label_id": 0,
+    "__index_level_0__": 740
+  },
+  {
+    "question": "Mark Fisher, is the appeal in satellite radio kind of the free- wheeling nature where youre dont just have these niche music channels, but you have a gay channel, you have an Elvis channel -- theres a -Playboy- channel, Martha Stewart channel, and Howard Stern can say whatever the blank he wants?",
+    "label": "Deliberative",
+    "text": "Mark Fisher, is the appeal in satellite radio kind of the free- wheeling nature where youre dont just have these niche music channels, but you have a gay channel, you have an Elvis channel -- theres a -Playboy- channel, Martha Stewart channel, and Howard Stern can say whatever the blank he wants?",
+    "label_id": 0,
+    "__index_level_0__": 72
+  },
+  {
+    "question": "Can I just say one thing about Twitter?",
+    "label": "Rhetorical",
+    "text": "Can I just say one thing about Twitter?",
+    "label_id": 3,
+    "__index_level_0__": 207
+  },
+  {
+    "question": "Do you consider yourself a liberal?",
+    "label": "Deliberative",
+    "text": "Do you consider yourself a liberal?",
+    "label_id": 0,
+    "__index_level_0__": 466
+  },
+  {
+    "question": "Ana Marie Cox, did Fox go a little bit over the line?",
+    "label": "Deliberative",
+    "text": "Ana Marie Cox, did Fox go a little bit over the line?",
+    "label_id": 0,
+    "__index_level_0__": 949
+  },
+  {
+    "question": "Absolutely -- pushing an administration line?",
+    "label": "OTHERS",
+    "text": "Absolutely -- pushing an administration line?",
+    "label_id": 2,
+    "__index_level_0__": 256
+  },
+  {
+    "question": "You know?",
+    "label": "OTHERS",
+    "text": "You know?",
+    "label_id": 2,
+    "__index_level_0__": 84
+  },
+  {
+    "question": "Are you one of the adoring throng?- ",
+    "label": "Rhetorical",
+    "text": "Are you one of the adoring throng?- ",
+    "label_id": 3,
+    "__index_level_0__": 622
+  },
+  {
+    "question": "Whats that mean?",
+    "label": "OTHERS",
+    "text": "Whats that mean?",
+    "label_id": 2,
+    "__index_level_0__": 70
+  },
+  {
+    "question": "And guess what?",
+    "label": "OTHERS",
+    "text": "And guess what?",
+    "label_id": 2,
+    "__index_level_0__": 693
+  },
+  {
+    "question": "As Rosie ODonnell makes a noisy exit, is her high- decibel style all the rage for cable hosts and commentators trying to plump up their ratings?",
+    "label": "Rhetorical",
+    "text": "As Rosie ODonnell makes a noisy exit, is her high- decibel style all the rage for cable hosts and commentators trying to plump up their ratings?",
+    "label_id": 3,
+    "__index_level_0__": 464
+  },
+  {
+    "question": "How did you do that in an age when, particularly in Washington, there seems to be almost a genetic predisposition to speaking on background?",
+    "label": "ISQ",
+    "text": "How did you do that in an age when, particularly in Washington, there seems to be almost a genetic predisposition to speaking on background?",
+    "label_id": 1,
+    "__index_level_0__": 187
+  },
+  {
+    "question": "David Corn, is this unusual?",
+    "label": "Deliberative",
+    "text": "David Corn, is this unusual?",
+    "label_id": 0,
+    "__index_level_0__": 364
+  },
+  {
+    "question": "Doesnt walk on water the way the press made him look during the campaign?",
+    "label": "OTHERS",
+    "text": "Doesnt walk on water the way the press made him look during the campaign?",
+    "label_id": 2,
+    "__index_level_0__": 518
+  },
+  {
+    "question": "Do you have somebody editing every tweet, every story, every word that you write?",
+    "label": "ISQ",
+    "text": "Do you have somebody editing every tweet, every story, every word that you write?",
+    "label_id": 1,
+    "__index_level_0__": 506
+  },
+  {
+    "question": "Why do you -- why do you use the word -gossip-?",
+    "label": "Deliberative",
+    "text": "Why do you -- why do you use the word -gossip-?",
+    "label_id": 0,
+    "__index_level_0__": 1321
+  },
+  {
+    "question": "I mean, what have we become?",
+    "label": "Rhetorical",
+    "text": "I mean, what have we become?",
+    "label_id": 3,
+    "__index_level_0__": 408
+  },
+  {
+    "question": "And so Dan Abram, whos NBCs legal correspondent, and the founder of Mediaite.com, writes that Kagan is -way too boring for scandal-starved media,- and that -We, in the press, have a bias toward controversy, and its not being fulfilled here.-      Does he have a point?",
+    "label": "Deliberative",
+    "text": "And so Dan Abram, whos NBCs legal correspondent, and the founder of Mediaite.com, writes that Kagan is -way too boring for scandal-starved media,- and that -We, in the press, have a bias toward controversy, and its not being fulfilled here.-      Does he have a point?",
+    "label_id": 0,
+    "__index_level_0__": 314
+  },
+  {
+    "question": "But were -- at the same time, let me ask you, did the rest of the mainstream media, were they too dismissive of this of some kind of Fox production with a little grassroots element?",
+    "label": "Deliberative",
+    "text": "But were -- at the same time, let me ask you, did the rest of the mainstream media, were they too dismissive of this of some kind of Fox production with a little grassroots element?",
+    "label_id": 0,
+    "__index_level_0__": 1279
+  },
+  {
+    "question": "So some people are saying, is this part of a pattern with you?",
+    "label": "Deliberative",
+    "text": "So some people are saying, is this part of a pattern with you?",
+    "label_id": 0,
+    "__index_level_0__": 310
+  },
+  {
+    "question": "The White House can tell them, but do you always trust the White House or do you want a somewhat disinterested outside view? ",
+    "label": "Deliberative",
+    "text": "The White House can tell them, but do you always trust the White House or do you want a somewhat disinterested outside view? ",
+    "label_id": 0,
+    "__index_level_0__": 442
+  },
+  {
+    "question": "Whose idea was this campaign in the first place?",
+    "label": "ISQ",
+    "text": "Whose idea was this campaign in the first place?",
+    "label_id": 1,
+    "__index_level_0__": 406
+  },
+  {
+    "question": "But why shouldnt journalists hold these high officials accountable when things are not going well, as they have not been for the administration?",
+    "label": "Deliberative",
+    "text": "But why shouldnt journalists hold these high officials accountable when things are not going well, as they have not been for the administration?",
+    "label_id": 0,
+    "__index_level_0__": 370
+  },
+  {
+    "question": "And Rachel, is this, at least on some level, a serious issue about celebrity justice, or is that an excuse for stuffy news organizations to wallow in the great Paris cesspool?",
+    "label": "Deliberative",
+    "text": "And Rachel, is this, at least on some level, a serious issue about celebrity justice, or is that an excuse for stuffy news organizations to wallow in the great Paris cesspool?",
+    "label_id": 0,
+    "__index_level_0__": 647
+  },
+  {
+    "question": "Why did you decide to go there?",
+    "label": "Deliberative",
+    "text": "Why did you decide to go there?",
+    "label_id": 0,
+    "__index_level_0__": 1096
+  },
+  {
+    "question": "Are you surprised at all that liberal columnists like Paul Krugman, who was on the cover of -Newsweek- the other week, are criticizing Obama from the left?",
+    "label": "Deliberative",
+    "text": "Are you surprised at all that liberal columnists like Paul Krugman, who was on the cover of -Newsweek- the other week, are criticizing Obama from the left?",
+    "label_id": 0,
+    "__index_level_0__": 938
+  },
+  {
+    "question": "Amy Argetsinger, is there some sort of journalistic code that says we cant just say, OK, this is a private mess between two 18-year-olds, and were going to leave them alone?",
+    "label": "Deliberative",
+    "text": "Amy Argetsinger, is there some sort of journalistic code that says we cant just say, OK, this is a private mess between two 18-year-olds, and were going to leave them alone?",
+    "label_id": 0,
+    "__index_level_0__": 1076
+  },
+  {
+    "question": "And still to come, are we seeing just a bit too much of the 2008 candidates wives?",
+    "label": "Rhetorical",
+    "text": "And still to come, are we seeing just a bit too much of the 2008 candidates wives?",
+    "label_id": 3,
+    "__index_level_0__": 203
+  },
+  {
+    "question": "But you dont think that speed fuels superficiality and sometimes mistakes?",
+    "label": "Deliberative",
+    "text": "But you dont think that speed fuels superficiality and sometimes mistakes?",
+    "label_id": 0,
+    "__index_level_0__": 1388
+  },
+  {
+    "question": "What do you make of that attack?",
+    "label": "Deliberative",
+    "text": "What do you make of that attack?",
+    "label_id": 0,
+    "__index_level_0__": 1071
+  },
+  {
+    "question": "Youre going to put him in a basement?",
+    "label": "Rhetorical",
+    "text": "Youre going to put him in a basement?",
+    "label_id": 3,
+    "__index_level_0__": 343
+  },
+  {
+    "question": "Gail Shister, do you see a significant backlash brewing?",
+    "label": "Deliberative",
+    "text": "Gail Shister, do you see a significant backlash brewing?",
+    "label_id": 0,
+    "__index_level_0__": 280
+  },
+  {
+    "question": "Should he have done that?",
+    "label": "Deliberative",
+    "text": "Should he have done that?",
+    "label_id": 0,
+    "__index_level_0__": 650
+  },
+  {
+    "question": "Ramesh, first to you, how have we done?",
+    "label": "Deliberative",
+    "text": "Ramesh, first to you, how have we done?",
+    "label_id": 0,
+    "__index_level_0__": 525
+  },
+  {
+    "question": "Explain why this is a scam in terms of the amount of amount of money you can spend to, what I would call, buy votes?",
+    "label": "Deliberative",
+    "text": "Explain why this is a scam in terms of the amount of amount of money you can spend to, what I would call, buy votes?",
+    "label_id": 0,
+    "__index_level_0__": 1153
+  },
+  {
+    "question": "Were we all crazy?",
+    "label": "Deliberative",
+    "text": "Were we all crazy?",
+    "label_id": 0,
+    "__index_level_0__": 1091
+  },
+  {
+    "question": "How do you explain those numbers?",
+    "label": "Deliberative",
+    "text": "How do you explain those numbers?",
+    "label_id": 0,
+    "__index_level_0__": 1504
+  },
+  {
+    "question": "Do you agree with that? ",
+    "label": "Deliberative",
+    "text": "Do you agree with that? ",
+    "label_id": 0,
+    "__index_level_0__": 1355
+  },
+  {
+    "question": "Where would you draw the line -- pro-America areas, acceptable rhetoric or not?",
+    "label": "Deliberative",
+    "text": "Where would you draw the line -- pro-America areas, acceptable rhetoric or not?",
+    "label_id": 0,
+    "__index_level_0__": 1056
+  },
+  {
+    "question": "Could you talk a little bit about the growing media empire that Al Jazeera has and how Al Jazeera America fits into it?",
+    "label": "Deliberative",
+    "text": "Could you talk a little bit about the growing media empire that Al Jazeera has and how Al Jazeera America fits into it?",
+    "label_id": 0,
+    "__index_level_0__": 56
+  },
+  {
+    "question": "I called Massa, I called his office, I said, is this true?",
+    "label": "OTHERS",
+    "text": "I called Massa, I called his office, I said, is this true?",
+    "label_id": 2,
+    "__index_level_0__": 694
+  },
+  {
+    "question": "So why shouldnt we assume his fingerprints are on some of these stories?",
+    "label": "Deliberative",
+    "text": "So why shouldnt we assume his fingerprints are on some of these stories?",
+    "label_id": 0,
+    "__index_level_0__": 1291
+  },
+  {
+    "question": "Do we really know?",
+    "label": "OTHERS",
+    "text": "Do we really know?",
+    "label_id": 2,
+    "__index_level_0__": 248
+  },
+  {
+    "question": "So what if 99 percent of the people we accost have nothing coherent to say?",
+    "label": "Deliberative",
+    "text": "So what if 99 percent of the people we accost have nothing coherent to say?",
+    "label_id": 0,
+    "__index_level_0__": 313
+  },
+  {
+    "question": "Why wasnt it a bigger story?",
+    "label": "Deliberative",
+    "text": "Why wasnt it a bigger story?",
+    "label_id": 0,
+    "__index_level_0__": 1040
+  },
+  {
+    "question": "Oh, come on, competitive?",
+    "label": "Rhetorical",
+    "text": "Oh, come on, competitive?",
+    "label_id": 3,
+    "__index_level_0__": 973
+  },
+  {
+    "question": "But how did this become such a spectacular, such a big cultural event in America?",
+    "label": "Deliberative",
+    "text": "But how did this become such a spectacular, such a big cultural event in America?",
+    "label_id": 0,
+    "__index_level_0__": 189
+  },
+  {
+    "question": "But then you think about, you know, I was looking at the Abraham Zapruder film in 1963 of John F. Kennedys assassination, right?",
+    "label": "Rhetorical",
+    "text": "But then you think about, you know, I was looking at the Abraham Zapruder film in 1963 of John F. Kennedys assassination, right?",
+    "label_id": 3,
+    "__index_level_0__": 536
+  },
+  {
+    "question": "And do you -- but, you know, how far would you take that?",
+    "label": "Deliberative",
+    "text": "And do you -- but, you know, how far would you take that?",
+    "label_id": 0,
+    "__index_level_0__": 327
+  },
+  {
+    "question": "They dont really care about her as a substantive player in the administration?",
+    "label": "Deliberative",
+    "text": "They dont really care about her as a substantive player in the administration?",
+    "label_id": 0,
+    "__index_level_0__": 467
+  },
+  {
+    "question": "Is she being boosted by her pals in the press?",
+    "label": "Rhetorical",
+    "text": "Is she being boosted by her pals in the press?",
+    "label_id": 3,
+    "__index_level_0__": 695
+  },
+  {
+    "question": "But tell me about your time at CBS News, how did you employ consultants?",
+    "label": "Deliberative",
+    "text": "But tell me about your time at CBS News, how did you employ consultants?",
+    "label_id": 0,
+    "__index_level_0__": 588
+  },
+  {
+    "question": "My goodness, how could this not be so protected?",
+    "label": "Rhetorical",
+    "text": "My goodness, how could this not be so protected?",
+    "label_id": 3,
+    "__index_level_0__": 918
+  },
+  {
+    "question": "Was that hard for you to deal with? ",
+    "label": "ISQ",
+    "text": "Was that hard for you to deal with? ",
+    "label_id": 1,
+    "__index_level_0__": 54
+  },
+  {
+    "question": "That how you view our nation? ",
+    "label": "Deliberative",
+    "text": "That how you view our nation? ",
+    "label_id": 0,
+    "__index_level_0__": 1280
+  },
+  {
+    "question": "Dont you wish that you had done some of the stories before the election?",
+    "label": "Deliberative",
+    "text": "Dont you wish that you had done some of the stories before the election?",
+    "label_id": 0,
+    "__index_level_0__": 41
+  },
+  {
+    "question": "And they said, you know what?",
+    "label": "OTHERS",
+    "text": "And they said, you know what?",
+    "label_id": 2,
+    "__index_level_0__": 1241
+  },
+  {
+    "question": "Does that mean U.S. troops then have to fill in?",
+    "label": "Deliberative",
+    "text": "Does that mean U.S. troops then have to fill in?",
+    "label_id": 0,
+    "__index_level_0__": 195
+  },
+  {
+    "question": "Are we going to hold a Paris vigil for her?",
+    "label": "Deliberative",
+    "text": "Are we going to hold a Paris vigil for her?",
+    "label_id": 0,
+    "__index_level_0__": 970
+  },
+  {
+    "question": "And the White House seems to care, because just this week -- and this is a president whos never been particularly close to journalists -- Barack Obama had over for lunch -- and hes been doing more of this lately -- some liberal columnists -- Rachel Maddow, who we saw earlier sighing of MSNBC; Gene Robinson of -The Washington Post-; Gail Collins of -The New York Times.-      Is that effective?",
+    "label": "Deliberative",
+    "text": "And the White House seems to care, because just this week -- and this is a president whos never been particularly close to journalists -- Barack Obama had over for lunch -- and hes been doing more of this lately -- some liberal columnists -- Rachel Maddow, who we saw earlier sighing of MSNBC; Gene Robinson of -The Washington Post-; Gail Collins of -The New York Times.-      Is that effective?",
+    "label_id": 0,
+    "__index_level_0__": 1070
+  },
+  {
+    "question": "I ask you, Jimmy, is there anywhere I can go for a bit of sanctuary, for a moments peace? ",
+    "label": "Deliberative",
+    "text": "I ask you, Jimmy, is there anywhere I can go for a bit of sanctuary, for a moments peace? ",
+    "label_id": 0,
+    "__index_level_0__": 1181
+  },
+  {
+    "question": "How is that playing out on the air waves?",
+    "label": "Rhetorical",
+    "text": "How is that playing out on the air waves?",
+    "label_id": 3,
+    "__index_level_0__": 821
+  },
+  {
+    "question": "Seeing it, I suppose, is supposed to make it end but it doesnt does it?",
+    "label": "Rhetorical",
+    "text": "Seeing it, I suppose, is supposed to make it end but it doesnt does it?",
+    "label_id": 3,
+    "__index_level_0__": 533
+  },
+  {
+    "question": "Id be writing about policy on -The Fix,- on my blog, and -- not policy, but the politics of policy, and people in the comments section would say, -When is the dog coming to the White House?-  Its a priorities issue.",
+    "label": "OTHERS",
+    "text": "Id be writing about policy on -The Fix,- on my blog, and -- not policy, but the politics of policy, and people in the comments section would say, -When is the dog coming to the White House?-  Its a priorities issue.",
+    "label_id": 2,
+    "__index_level_0__": 974
+  },
+  {
+    "question": "Do you go to the black dog?",
+    "label": "Deliberative",
+    "text": "Do you go to the black dog?",
+    "label_id": 0,
+    "__index_level_0__": 1178
+  },
+  {
+    "question": "Do journalists focus too much on the first ladys style and fashion at the expense of her White House work?",
+    "label": "Deliberative",
+    "text": "Do journalists focus too much on the first ladys style and fashion at the expense of her White House work?",
+    "label_id": 0,
+    "__index_level_0__": 4
+  },
+  {
+    "question": "Should we have known about the housing bubble blowing up, or should we have known about the banking crisis?",
+    "label": "ISQ",
+    "text": "Should we have known about the housing bubble blowing up, or should we have known about the banking crisis?",
+    "label_id": 1,
+    "__index_level_0__": 668
+  },
+  {
+    "question": "How did you find out about it if its not being covered, Lisa?",
+    "label": "ISQ",
+    "text": "How did you find out about it if its not being covered, Lisa?",
+    "label_id": 1,
+    "__index_level_0__": 702
+  },
+  {
+    "question": "Who should be the next host of -The Late Show-?",
+    "label": "ISQ",
+    "text": "Who should be the next host of -The Late Show-?",
+    "label_id": 1,
+    "__index_level_0__": 1126
+  },
+  {
+    "question": "Im sure he sees something like a train wreck like -Jon & Kate Plus 8- and thinks, well, were kind of cute, why cant we do it?",
+    "label": "Rhetorical",
+    "text": "Im sure he sees something like a train wreck like -Jon & Kate Plus 8- and thinks, well, were kind of cute, why cant we do it?",
+    "label_id": 3,
+    "__index_level_0__": 1397
+  },
+  {
+    "question": "You know what Im saying?",
+    "label": "Rhetorical",
+    "text": "You know what Im saying?",
+    "label_id": 3,
+    "__index_level_0__": 1084
+  },
+  {
+    "question": "So people often ask me why does Michelle Obama get so more coverage than say Laura Bush?",
+    "label": "Deliberative",
+    "text": "So people often ask me why does Michelle Obama get so more coverage than say Laura Bush?",
+    "label_id": 0,
+    "__index_level_0__": 174
+  },
+  {
+    "question": "But, seriously, how did you convince your wife that this was acceptable again?",
+    "label": "ISQ",
+    "text": "But, seriously, how did you convince your wife that this was acceptable again?",
+    "label_id": 1,
+    "__index_level_0__": 488
+  },
+  {
+    "question": "Lauren Ashburn?",
+    "label": "OTHERS",
+    "text": "Lauren Ashburn?",
+    "label_id": 2,
+    "__index_level_0__": 1362
+  },
+  {
+    "question": "Why is that not something that we all ought to pay attention to?",
+    "label": "Deliberative",
+    "text": "Why is that not something that we all ought to pay attention to?",
+    "label_id": 0,
+    "__index_level_0__": 244
+  },
+  {
+    "question": "Mary Ann Akers, didnt the press drop the ball here?",
+    "label": "Rhetorical",
+    "text": "Mary Ann Akers, didnt the press drop the ball here?",
+    "label_id": 3,
+    "__index_level_0__": 954
+  },
+  {
+    "question": "And just to give you a brief hint of the media reaction, -The Philadelphia Daily News- has a headline -- if we can put that up -- to the signing of Michael Vick, and it says, -Hide Your Dogs.-      Mike Wise, we dont have that to show you, but can this sort of thing change Vicks image given what he pleaded guilty to?",
+    "label": "Deliberative",
+    "text": "And just to give you a brief hint of the media reaction, -The Philadelphia Daily News- has a headline -- if we can put that up -- to the signing of Michael Vick, and it says, -Hide Your Dogs.-      Mike Wise, we dont have that to show you, but can this sort of thing change Vicks image given what he pleaded guilty to?",
+    "label_id": 0,
+    "__index_level_0__": 1414
+  },
+  {
+    "question": "You know, how quickly do we forget Watergate?",
+    "label": "Rhetorical",
+    "text": "You know, how quickly do we forget Watergate?",
+    "label_id": 3,
+    "__index_level_0__": 1099
+  },
+  {
+    "question": "Do you think theres a double standard for unmarried women then?",
+    "label": "Deliberative",
+    "text": "Do you think theres a double standard for unmarried women then?",
+    "label_id": 0,
+    "__index_level_0__": 1289
+  },
+  {
+    "question": "And so, what if they werent pregnant?",
+    "label": "Deliberative",
+    "text": "And so, what if they werent pregnant?",
+    "label_id": 0,
+    "__index_level_0__": 66
+  },
+  {
+    "question": "Larry David?",
+    "label": "OTHERS",
+    "text": "Larry David?",
+    "label_id": 2,
+    "__index_level_0__": 881
+  },
+  {
+    "question": "Could we be wrong again?",
+    "label": "Deliberative",
+    "text": "Could we be wrong again?",
+    "label_id": 0,
+    "__index_level_0__": 276
+  },
+  {
+    "question": "What were your reasons for parting ways with -The Daily Beast-? ",
+    "label": "Deliberative",
+    "text": "What were your reasons for parting ways with -The Daily Beast-? ",
+    "label_id": 0,
+    "__index_level_0__": 996
+  },
+  {
+    "question": "David Letterman doesnt claim any political affiliation, but have you seen the way he goes after Bill OReilly?",
+    "label": "Rhetorical",
+    "text": "David Letterman doesnt claim any political affiliation, but have you seen the way he goes after Bill OReilly?",
+    "label_id": 3,
+    "__index_level_0__": 362
+  },
+  {
+    "question": "But you wonder are all the people voters?",
+    "label": "Rhetorical",
+    "text": "But you wonder are all the people voters?",
+    "label_id": 3,
+    "__index_level_0__": 1215
+  },
+  {
+    "question": "A little nervous about this bake off? ",
+    "label": "Deliberative",
+    "text": "A little nervous about this bake off? ",
+    "label_id": 0,
+    "__index_level_0__": 1066
+  },
+  {
+    "question": "If we were serious about wanting to know what these candidates positions are and things like that, we wouldnt do things like yes or no questions or pose things like, -Would you nuke Iran?- I mean, these are designed specifically to get kind of simplistic answers from these guys.",
+    "label": "Deliberative",
+    "text": "If we were serious about wanting to know what these candidates positions are and things like that, we wouldnt do things like yes or no questions or pose things like, -Would you nuke Iran?- I mean, these are designed specifically to get kind of simplistic answers from these guys.",
+    "label_id": 0,
+    "__index_level_0__": 900
+  },
+  {
+    "question": "Marc, what does it say about the liberal media or about the objective media that the conservative medias narrative has stuck so well about this program?",
+    "label": "Deliberative",
+    "text": "Marc, what does it say about the liberal media or about the objective media that the conservative medias narrative has stuck so well about this program?",
+    "label_id": 0,
+    "__index_level_0__": 1265
+  },
+  {
+    "question": "Meet with them?",
+    "label": "OTHERS",
+    "text": "Meet with them?",
+    "label_id": 2,
+    "__index_level_0__": 1062
+  },
+  {
+    "question": "And your work has shown that were as polarized, or more so, than weve been in a very long time, perhaps since the Civil War, right?",
+    "label": "Rhetorical",
+    "text": "And your work has shown that were as polarized, or more so, than weve been in a very long time, perhaps since the Civil War, right?",
+    "label_id": 3,
+    "__index_level_0__": 3
+  },
+  {
+    "question": "Have media displays like what we just saw contributed to that?",
+    "label": "Deliberative",
+    "text": "Have media displays like what we just saw contributed to that?",
+    "label_id": 0,
+    "__index_level_0__": 737
+  },
+  {
+    "question": "Its so cute.- So, Tara Wall, should presidential aides be manipulating these feature stories?",
+    "label": "Deliberative",
+    "text": "Its so cute.- So, Tara Wall, should presidential aides be manipulating these feature stories?",
+    "label_id": 0,
+    "__index_level_0__": 360
+  },
+  {
+    "question": "What happened during that weekend?",
+    "label": "Deliberative",
+    "text": "What happened during that weekend?",
+    "label_id": 0,
+    "__index_level_0__": 390
+  },
+  {
+    "question": "Why are the candidates being asked about Scooter Libby?",
+    "label": "Rhetorical",
+    "text": "Why are the candidates being asked about Scooter Libby?",
+    "label_id": 3,
+    "__index_level_0__": 74
+  },
+  {
+    "question": "Are many sports writers afraid to take on ESPN, basically because they want to get on its programs?",
+    "label": "ISQ",
+    "text": "Are many sports writers afraid to take on ESPN, basically because they want to get on its programs?",
+    "label_id": 1,
+    "__index_level_0__": 1106
+  },
+  {
+    "question": "How many of the people theyre claiming have signed up have actually paid for their first month of insurance?",
+    "label": "ISQ",
+    "text": "How many of the people theyre claiming have signed up have actually paid for their first month of insurance?",
+    "label_id": 1,
+    "__index_level_0__": 1412
+  },
+  {
+    "question": "What do you want to see as the ultimate outcome here?",
+    "label": "Deliberative",
+    "text": "What do you want to see as the ultimate outcome here?",
+    "label_id": 0,
+    "__index_level_0__": 756
+  },
+  {
+    "question": "Any predictions from Specters Senate colleagues?",
+    "label": "ISQ",
+    "text": "Any predictions from Specters Senate colleagues?",
+    "label_id": 1,
+    "__index_level_0__": 1130
+  },
+  {
+    "question": "President Bush called it the filter, right, Bill? ",
+    "label": "OTHERS",
+    "text": "President Bush called it the filter, right, Bill? ",
+    "label_id": 2,
+    "__index_level_0__": 965
+  },
+  {
+    "question": "Does there come a point where all the budget-cutting and belt-tightening just wears you down?",
+    "label": "Deliberative",
+    "text": "Does there come a point where all the budget-cutting and belt-tightening just wears you down?",
+    "label_id": 0,
+    "__index_level_0__": 1487
+  },
+  {
+    "question": "Is that because race is so tough to talk about in todays media?",
+    "label": "Rhetorical",
+    "text": "Is that because race is so tough to talk about in todays media?",
+    "label_id": 3,
+    "__index_level_0__": 1011
+  },
+  {
+    "question": "What did it feel like to see this makeover, this cinematic version of yourself?",
+    "label": "Deliberative",
+    "text": "What did it feel like to see this makeover, this cinematic version of yourself?",
+    "label_id": 0,
+    "__index_level_0__": 1474
+  },
+  {
+    "question": "Why not take it and do something else?",
+    "label": "Deliberative",
+    "text": "Why not take it and do something else?",
+    "label_id": 0,
+    "__index_level_0__": 696
+  },
+  {
+    "question": "How does that let us off the hook?",
+    "label": "Deliberative",
+    "text": "How does that let us off the hook?",
+    "label_id": 0,
+    "__index_level_0__": 1466
+  },
+  {
+    "question": "Are we going to get that kind of creativity from the same machine thats produced the other eight justices?",
+    "label": "Deliberative",
+    "text": "Are we going to get that kind of creativity from the same machine thats produced the other eight justices?",
+    "label_id": 0,
+    "__index_level_0__": 1064
+  },
+  {
+    "question": "Is it what it once used to be, where if the speech was bad and people on TV said it was bad, well, that was it?",
+    "label": "Rhetorical",
+    "text": "Is it what it once used to be, where if the speech was bad and people on TV said it was bad, well, that was it?",
+    "label_id": 3,
+    "__index_level_0__": 379
+  },
+  {
+    "question": "And on that transcript issue that I was asking Tony Snow about, the bottom line is, why wont there be a transcript when he answered my question?",
+    "label": "Deliberative",
+    "text": "And on that transcript issue that I was asking Tony Snow about, the bottom line is, why wont there be a transcript when he answered my question?",
+    "label_id": 0,
+    "__index_level_0__": 521
+  },
+  {
+    "question": "What are you doing as a Vine journalist?",
+    "label": "ISQ",
+    "text": "What are you doing as a Vine journalist?",
+    "label_id": 1,
+    "__index_level_0__": 512
+  },
+  {
+    "question": "Is it your feeling that Malaysian authorities knew this for some time and just needed to further investigate or that this is indeed a new discovery?",
+    "label": "Deliberative",
+    "text": "Is it your feeling that Malaysian authorities knew this for some time and just needed to further investigate or that this is indeed a new discovery?",
+    "label_id": 0,
+    "__index_level_0__": 387
+  },
+  {
+    "question": "And I was talking to James Bennet, you know, who is editor, now co-president of -The Atlantic,- and I suggested, hey, should we -- can we just tweet the cover out, maybe get a little hype, not say anything else?",
+    "label": "Rhetorical",
+    "text": "And I was talking to James Bennet, you know, who is editor, now co-president of -The Atlantic,- and I suggested, hey, should we -- can we just tweet the cover out, maybe get a little hype, not say anything else?",
+    "label_id": 3,
+    "__index_level_0__": 653
+  },
+  {
+    "question": "Was he going to ruin it?",
+    "label": "Rhetorical",
+    "text": "Was he going to ruin it?",
+    "label_id": 3,
+    "__index_level_0__": 933
+  },
+  {
+    "question": "Why are some journalists digging into Elena Kagans private life?",
+    "label": "Deliberative",
+    "text": "Why are some journalists digging into Elena Kagans private life?",
+    "label_id": 0,
+    "__index_level_0__": 1327
+  },
+  {
+    "question": "Is it sexist?",
+    "label": "Deliberative",
+    "text": "Is it sexist?",
+    "label_id": 0,
+    "__index_level_0__": 735
+  },
+  {
+    "question": "Why dont we talk about that?",
+    "label": "OTHERS",
+    "text": "Why dont we talk about that?",
+    "label_id": 2,
+    "__index_level_0__": 955
+  },
+  {
+    "question": "Is the press too quick to pick winners and losers in these presidential showdowns?",
+    "label": "Deliberative",
+    "text": "Is the press too quick to pick winners and losers in these presidential showdowns?",
+    "label_id": 0,
+    "__index_level_0__": 400
+  },
+  {
+    "question": "And this is supposed to be their guy, right?",
+    "label": "OTHERS",
+    "text": "And this is supposed to be their guy, right?",
+    "label_id": 2,
+    "__index_level_0__": 229
+  },
+  {
+    "question": "I mean, thats the only thing that could explain it, but certainly thats not the case, right, Howard?",
+    "label": "Deliberative",
+    "text": "I mean, thats the only thing that could explain it, but certainly thats not the case, right, Howard?",
+    "label_id": 0,
+    "__index_level_0__": 621
+  },
+  {
+    "question": "I think this is a very important issue, certainly from the point of view of law enforcement, how closely should they work with the news media?",
+    "label": "ISQ",
+    "text": "I think this is a very important issue, certainly from the point of view of law enforcement, how closely should they work with the news media?",
+    "label_id": 1,
+    "__index_level_0__": 1121
+  },
+  {
+    "question": "He has five sons who are all campaigning for him much the question comes up, why arent they in Iraq?",
+    "label": "Rhetorical",
+    "text": "He has five sons who are all campaigning for him much the question comes up, why arent they in Iraq?",
+    "label_id": 3,
+    "__index_level_0__": 664
+  },
+  {
+    "question": "What is NowThis News?",
+    "label": "ISQ",
+    "text": "What is NowThis News?",
+    "label_id": 1,
+    "__index_level_0__": 1303
+  },
+  {
+    "question": "But what about those who devised policy?",
+    "label": "Deliberative",
+    "text": "But what about those who devised policy?",
+    "label_id": 0,
+    "__index_level_0__": 489
+  },
+  {
+    "question": "Candy Crowley, the media love presidential debates, but in terms of these folks called the voters, do they mean anything this early?",
+    "label": "Deliberative",
+    "text": "Candy Crowley, the media love presidential debates, but in terms of these folks called the voters, do they mean anything this early?",
+    "label_id": 0,
+    "__index_level_0__": 730
+  },
+  {
+    "question": "And he said, no, it indicates theres been some progress in Basra, the southern town where the British were -- what did you make of that?",
+    "label": "Deliberative",
+    "text": "And he said, no, it indicates theres been some progress in Basra, the southern town where the British were -- what did you make of that?",
+    "label_id": 0,
+    "__index_level_0__": 1281
+  },
+  {
+    "question": "You -- probably, you wouldnt use the word target, but you do pursue individual journalists who you feel are inaccurate or who are biased?",
+    "label": "ISQ",
+    "text": "You -- probably, you wouldnt use the word target, but you do pursue individual journalists who you feel are inaccurate or who are biased?",
+    "label_id": 1,
+    "__index_level_0__": 575
+  }
+]
