@@ -44,6 +44,6 @@ done
 echo "Running python..."
 python3 -c "print('Python works')"
 
-python /llama_questions/llama_question_type.py
+python llama_questions/llama_question_type.py
 
 echo "DONE"
