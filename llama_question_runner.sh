@@ -21,8 +21,7 @@ pwd
 echo "Loading anaconda..."
 module load anaconda
 
-echo "Initializing conda..."
-source /curc/sw/anaconda3/etc/profile.d/conda.sh
+source ~/.bashrc
 
 echo "Activating environment..."
 conda activate podcast
