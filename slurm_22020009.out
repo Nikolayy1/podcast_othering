@@ -1,0 +1,25 @@
+SLURM job started
+/gpfs/alpine1/scratch/niho8409/podcast_othering
+Loading anaconda...
+Activating conda...
+Running python...
+Python works
+Label mapping: {0: 'Deliberative', 1: 'ISQ', 2: 'OTHERS', 3: 'Rhetorical'}
+Map:   0%|          | 0/1206 [00:00<?, ? examples/s]Map:  83%|████████▎ | 1000/1206 [00:00<00:00, 7902.11 examples/s]Map: 100%|██████████| 1206/1206 [00:00<00:00, 7355.41 examples/s]
+Map:   0%|          | 0/151 [00:00<?, ? examples/s]Map: 100%|██████████| 151/151 [00:00<00:00, 9957.86 examples/s]
+Map:   0%|          | 0/151 [00:00<?, ? examples/s]Map: 100%|██████████| 151/151 [00:00<00:00, 9944.26 examples/s]
+Traceback (most recent call last):
+  File "/gpfs/alpine1/scratch/niho8409/podcast_othering/train.py", line 156, in <module>
+    main()
+  File "/gpfs/alpine1/scratch/niho8409/podcast_othering/train.py", line 107, in main
+    tokenized_dataset = tokenized_dataset.rename_column("label_id", "labels")
+  File "/projects/niho8409/software/anaconda/envs/podcast/lib/python3.10/site-packages/datasets/dataset_dict.py", line 420, in rename_column
+    {
+  File "/projects/niho8409/software/anaconda/envs/podcast/lib/python3.10/site-packages/datasets/dataset_dict.py", line 421, in <dictcomp>
+    k: dataset.rename_column(
+  File "/projects/niho8409/software/anaconda/envs/podcast/lib/python3.10/site-packages/datasets/fingerprint.py", line 442, in wrapper
+    out = func(dataset, *args, **kwargs)
+  File "/projects/niho8409/software/anaconda/envs/podcast/lib/python3.10/site-packages/datasets/arrow_dataset.py", line 2296, in rename_column
+    raise ValueError(
+ValueError: Original column name label_id not in the dataset. Current columns in the dataset: ['input_ids', 'attention_mask']
+DONE

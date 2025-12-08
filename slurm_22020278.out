@@ -1,0 +1,31 @@
+SLURM job started
+/gpfs/alpine1/scratch/niho8409/podcast_othering
+Loading anaconda...
+Activating conda...
+Running python...
+Python works
+Label mapping: {0: 'Deliberative', 1: 'ISQ', 2: 'OTHERS', 3: 'Rhetorical'}
+Map:   0%|          | 0/151 [00:00<?, ? examples/s]Map: 100%|██████████| 151/151 [00:00<00:00, 7430.43 examples/s]
+Map:   0%|          | 0/151 [00:00<?, ? examples/s]Map: 100%|██████████| 151/151 [00:00<00:00, 8858.02 examples/s]
+Map:   0%|          | 0/151 [00:00<?, ? examples/s]Map: 100%|██████████| 151/151 [00:00<00:00, 8535.58 examples/s]
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-large and are newly initialized: ['classifier.dense.bias', 'classifier.dense.weight', 'classifier.out_proj.bias', 'classifier.out_proj.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/gpfs/alpine1/scratch/niho8409/podcast_othering/train_no_context.py:142: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+Detected kernel version 4.18.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+  0%|          | 0/20 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/gpfs/alpine1/scratch/niho8409/podcast_othering/train_no_context.py", line 171, in <module>
+    main()
+  File "/gpfs/alpine1/scratch/niho8409/podcast_othering/train_no_context.py", line 152, in main
+    trainer.train()
+  File "/projects/niho8409/software/anaconda/envs/podcast/lib/python3.10/site-packages/transformers/trainer.py", line 2325, in train
+    return inner_training_loop(
+  File "/projects/niho8409/software/anaconda/envs/podcast/lib/python3.10/site-packages/transformers/trainer.py", line 2674, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+  File "/projects/niho8409/software/anaconda/envs/podcast/lib/python3.10/site-packages/transformers/trainer.py", line 4020, in training_step
+    loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+  File "/projects/niho8409/software/anaconda/envs/podcast/lib/python3.10/site-packages/transformers/trainer.py", line 4123, in compute_loss
+    loss = self.compute_loss_func(
+TypeError: main.<locals>.custom_loss() got an unexpected keyword argument 'num_items_in_batch'
+  0%|          | 0/20 [00:00<?, ?it/s]
+DONE

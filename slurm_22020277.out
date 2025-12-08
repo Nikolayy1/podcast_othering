@@ -1,0 +1,23 @@
+SLURM job started
+/gpfs/alpine1/scratch/niho8409/podcast_othering
+Loading anaconda...
+Activating conda...
+Running python...
+Python works
+Label mapping: {0: 'Deliberative', 1: 'ISQ', 2: 'OTHERS', 3: 'Rhetorical'}
+Map:   0%|          | 0/151 [00:00<?, ? examples/s]Map: 100%|██████████| 151/151 [00:00<00:00, 7247.53 examples/s]
+Map:   0%|          | 0/151 [00:00<?, ? examples/s]Map: 100%|██████████| 151/151 [00:00<00:00, 7755.34 examples/s]
+Map:   0%|          | 0/151 [00:00<?, ? examples/s]Map: 100%|██████████| 151/151 [00:00<00:00, 6777.82 examples/s]
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-large and are newly initialized: ['classifier.dense.bias', 'classifier.dense.weight', 'classifier.out_proj.bias', 'classifier.out_proj.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/gpfs/alpine1/scratch/niho8409/podcast_othering/train_no_context.py:142: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+Traceback (most recent call last):
+  File "/gpfs/alpine1/scratch/niho8409/podcast_othering/train_no_context.py", line 171, in <module>
+    main()
+  File "/gpfs/alpine1/scratch/niho8409/podcast_othering/train_no_context.py", line 142, in main
+    trainer = Trainer(
+  File "/projects/niho8409/software/anaconda/envs/podcast/lib/python3.10/site-packages/transformers/utils/deprecation.py", line 172, in wrapped_func
+    return func(*args, **kwargs)
+TypeError: Trainer.__init__() got an unexpected keyword argument 'compute_loss'
+DONE
