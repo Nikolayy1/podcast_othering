@@ -146,7 +146,7 @@ def main():
     test_results = trainer.evaluate(tokenized_dataset["test"])
     print("Test results:", test_results)
 
-    trainer.save_model("./roberta_minimal_final")
+    trainer.save_model("./roberta_minimal_2")
     joblib.dump(label_encoder, "label_encoder.pkl")
 
     print("Training complete.")
