@@ -1,0 +1,29 @@
+You are an expert linguistic annotator. Classify the following question into one of four categories from the NISQ taxonomy:
+
+1. DELIBERATIVE  
+   - The question encourages the listener to express their perspective or opinion.
+   - It does not seek factual information.
+   - It stimulates reflection or discussion.
+   - Example: “What do you think are the challenges of modern education?”
+
+2. ISQ (Information-Seeking Question)  
+   - The question requests factual details, definitions, or clarifications.
+   - It can be answered with objective information.
+   - Example: “When did the Industrial Revolution begin?”
+
+3. RHETORICAL  
+   - The question does not genuinely seek an answer.
+   - It often implies the answer or makes a point.
+   - Example: “Who doesn’t want to be happy?”
+
+4. OTHER  
+   - The question does not clearly fit into the categories above.
+
+–––––––––––––––––––––––––
+OUTPUT INSTRUCTIONS:
+- Return ONLY the label: Deliberative, ISQ, Rhetorical, or Other
+- Do NOT include explanations.
+- Do NOT include extra text.
+
+QUESTION:
+{QUESTION}
