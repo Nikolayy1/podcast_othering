@@ -93,13 +93,14 @@ def main():
     )
     class_weights = torch.tensor(class_weights, dtype=torch.float).to("cuda")
 
-    def custom_loss(model, inputs, return_outputs=False):
-        labels = inputs.pop("labels")
-        outputs = model(**inputs)
-        logits = outputs.logits
-        loss_fct = CrossEntropyLoss(weight=class_weights)
-        loss = loss_fct(logits, labels)
-        return (loss, outputs) if return_outputs else loss
+    class WeightedTrainer(Trainer):
+        def compute_loss(self, model, inputs, return_outputs=False):
+            labels = inputs["labels"]
+            outputs = model(**inputs)
+            logits = outputs.logits
+            loss_fct = CrossEntropyLoss(weight=class_weights)
+            loss = loss_fct(logits, labels)
+            return (loss, outputs) if return_outputs else loss
 
     # -----------------------------
     # Model
@@ -117,7 +118,7 @@ def main():
         save_strategy="epoch",
         learning_rate=1e-4,
         per_device_train_batch_size=16,
-        gradient_accumulation_steps = 8,
+        gradient_accumulation_steps=8,
         num_train_epochs=10,
         load_best_model_at_end=True,
         warmup_ratio=0.1,
@@ -139,14 +140,13 @@ def main():
     # -----------------------------
     # Trainer
     # -----------------------------
-    trainer = Trainer(
+    trainer = WeightedTrainer(
         model=model,
         args=training_args,
         train_dataset=tokenized_dataset["train"],
         eval_dataset=tokenized_dataset["validation"],
         tokenizer=tokenizer,
-        compute_metrics=compute_metrics,
-        compute_loss_func=custom_loss,
+        compute_metrics=compute_metrics
     )
 
     trainer.train()
