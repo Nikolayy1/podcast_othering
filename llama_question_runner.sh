@@ -15,25 +15,34 @@
 #SBATCH --mail-user=niklas.hofstetter@colorado.edu
 #SBATCH --mail-type=ALL
 #SBATCH --job-name=llama_questions
-
-source ~/.bashrc
-
 echo "SLURM job started"
 pwd
 
 echo "Loading anaconda..."
 module load anaconda
 
-echo "Activating conda..."
+echo "Initializing conda..."
+source /curc/sw/anaconda3/etc/profile.d/conda.sh
+
+echo "Activating environment..."
 conda activate podcast
+
+echo "Starting Ollama..."
+export OLLAMA_HOST=127.0.0.1:9999
+nohup ollama serve > ollama_server.log 2>&1 &
+
+echo "Waiting for Ollama..."
+for i in {1..20}; do
+    if curl -s http://127.0.0.1:9999/api/tags >/dev/null; then
+        echo "Ollama is ready"
+        break
+    fi
+    echo "Still waiting ($i)..."
+    sleep 5
+done
 
 echo "Running python..."
 python3 -c "print('Python works')"
-
-echo "Starting server"
-export OLLAMA_HOST=127.0.0.1:9999
-nohup ollama serve > log.txt 2>&1 &
-sleep 10  # Give the server some time to start
 
 python llama_question_type.py
 
