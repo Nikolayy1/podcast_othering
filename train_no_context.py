@@ -94,7 +94,7 @@ def main():
     class_weights = torch.tensor(class_weights, dtype=torch.float).to("cuda")
 
     class WeightedTrainer(Trainer):
-        def compute_loss(self, model, inputs, return_outputs=False):
+        def compute_loss(self, model, inputs, return_outputs=False, **kwargs):
             labels = inputs["labels"]
             outputs = model(**inputs)
             logits = outputs.logits
@@ -146,7 +146,7 @@ def main():
         train_dataset=tokenized_dataset["train"],
         eval_dataset=tokenized_dataset["validation"],
         tokenizer=tokenizer,
-        compute_metrics=compute_metrics
+        compute_metrics=compute_metrics,
     )
 
     trainer.train()
