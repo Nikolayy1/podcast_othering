@@ -87,24 +87,22 @@ def main():
 
     def tokenize(batch):
         return tokenizer(
-            batch["text"],
-            padding="max_length",
-            truncation=True,
-            max_length=128,  # shorter is fine because input is small
+            batch["text"], padding="max_length", truncation=True, max_length=128
         )
 
+    # 1. Tokenize
     tokenized_dataset = dataset.map(tokenize, batched=True)
 
-    # Clean columns
+    # 2. Rename label column BEFORE column cleanup
+    tokenized_dataset = tokenized_dataset.rename_column("label_id", "labels")
+
+    # 3. Remove everything except model inputs + labels
+    keep = ["input_ids", "attention_mask", "labels"]
     tokenized_dataset = tokenized_dataset.remove_columns(
-        [
-            c
-            for c in tokenized_dataset["train"].column_names
-            if c not in ["input_ids", "attention_mask", "labels"]
-        ]
+        [col for col in tokenized_dataset["train"].column_names if col not in keep]
     )
 
-    tokenized_dataset = tokenized_dataset.rename_column("label_id", "labels")
+    # 4. Set PyTorch format
     tokenized_dataset.set_format("torch")
 
     model = RobertaForSequenceClassification.from_pretrained(
@@ -147,6 +145,8 @@ def main():
     print("Test results:", test_results)
 
     trainer.save_model("./roberta_minimal_2")
+    tokenizer.save_pretrained("./roberta_minimal_2")
+    
     joblib.dump(label_encoder, "label_encoder.pkl")
 
     print("Training complete.")
