@@ -18,10 +18,10 @@
 echo "SLURM job started"
 pwd
 
+source ~/.bashrc
+
 echo "Loading anaconda..."
 module load anaconda
-
-source ~/.bashrc
 
 echo "Activating environment..."
 conda activate podcast
