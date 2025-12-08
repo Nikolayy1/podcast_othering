@@ -5,9 +5,8 @@
 #SBATCH --partition=blanca-blast-lecs
 
 #SBATCH --nodes=1
-#SBATCH --ntasks-per-node=1
-#SBATCH --cpus-per-task=2
-#SBATCH --gres=gpu:h100_3g.40gb:1
+#SBATCH --ntasks-per-node=4
+#SBATCH --gres=gpu:h100_3g.40gb:2
 #SBATCH --mem=32G
 #SBATCH --time=24:00:00
 #SBATCH --output=slurm_%j.out
