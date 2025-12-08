@@ -29,6 +29,6 @@ conda activate podcast
 
 echo "Running python..."
 python3 -c "print('Python works')"
-python train_no_context.py
+python train.py
 
 echo "DONE"
