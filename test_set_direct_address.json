@@ -1,0 +1,1570 @@
+[
+  {
+    "id": 0,
+    "text": "The following is a conversation with Sean Carroll."
+  },
+  {
+    "id": 1,
+    "text": "He's a theoretical physicist at Caltech,  specializing in quantum mechanics, gravity, and cosmology."
+  },
+  {
+    "id": 2,
+    "text": "He's the author of several popular books,  one on the Arrow of Time called From Eternity to Hear,  one on the Higgs Boson called Particle at the End of the Universe,  and one on Science and Philosophy called The Big Picture,  on the origins of life, meaning, and the universe itself."
+  },
+  {
+    "id": 3,
+    "text": "He has an upcoming book on quantum mechanics  that you can pre-order now called Something Deeply Hidden."
+  },
+  {
+    "id": 4,
+    "text": "He writes one of my favorite blogs on his  website, proposterousuniverse.com."
+  },
+  {
+    "id": 5,
+    "text": "I recommend clicking on the greatest hits link that lists  accessible interesting posts on the arrow of time, dark matter, dark energy, the big bang,  general relativity, string theory, quantum mechanics, and the big meta questions about  the philosophy of science, God, ethics, politics, academia, and much, much more."
+  },
+  {
+    "id": 6,
+    "text": "Finally, and perhaps most famously, he is the host of a podcast called Mindscape that  you should subscribe to and support on Patreon."
+  },
+  {
+    "id": 7,
+    "text": "Along with the Joe Rogan experience, Sam Harris is making sense, and Dan Carlin's hard  core history, Sean's Mindscape podcast is one of my favorite ways to learn new ideas  or explore different perspectives and ideas that I thought I understood."
+  },
+  {
+    "id": 8,
+    "text": "It was truly an honor to meet and spend a couple hours with Sean."
+  },
+  {
+    "id": 9,
+    "text": "It's a bit heartbreaking to say that for the first time ever, the audio recorder for this  podcast died in the middle of our conversation."
+  },
+  {
+    "id": 10,
+    "text": "There are technical reasons for this having to do with phantom power that I now understand  and will avoid."
+  },
+  {
+    "id": 11,
+    "text": "It took me one hour to notice and fix the problem."
+  },
+  {
+    "id": 12,
+    "text": "So, much like the universe's 68% dark energy, roughly the same amount from this conversation  was lost, except in the memories of the two people involved and in my notes."
+  },
+  {
+    "id": 13,
+    "text": "I'm sure we'll talk again and continue this conversation on this podcast or on Sean's."
+  },
+  {
+    "id": 14,
+    "text": "And of course, I look forward to it."
+  },
+  {
+    "id": 15,
+    "text": "This is the Artificial Intelligence Podcast."
+  },
+  {
+    "id": 16,
+    "text": "If you enjoy it, subscribe by YouTube, iTunes, support it on Patreon, or simply connect  with me on Twitter at Lex Freedman."
+  },
+  {
+    "id": 17,
+    "text": "And now here's my conversation with Sean Carroll."
+  },
+  {
+    "id": 18,
+    "text": "What do you think is more interesting and impactful, understanding how the universe works at a  fundamental level or understanding how the human mind works?"
+  },
+  {
+    "id": 19,
+    "text": "You know, of course, this is a crazy meaningless unanswerable question in some sense, because  they're both very interesting and there's no absolute scale of interestingness that we can rate  them on."
+  },
+  {
+    "id": 20,
+    "text": "There's the glib answer that says the human brain is part of the universe, right?"
+  },
+  {
+    "id": 21,
+    "text": "And  And therefore, understanding the universe is more fundamental than understanding the human  brain."
+  },
+  {
+    "id": 22,
+    "text": "But do you really believe that once we understand the fundamental way the universe works at the  particle level, the forces, we would be able to understand how the mind works?"
+  },
+  {
+    "id": 23,
+    "text": "No, certainly not."
+  },
+  {
+    "id": 24,
+    "text": "We cannot understand how ice cream works just from understanding how particles work,  right?"
+  },
+  {
+    "id": 25,
+    "text": "So I'm a big believer in emergence."
+  },
+  {
+    "id": 26,
+    "text": "I'm a big believer that there are different ways of talking about the world beyond  just the most fundamental microscopic one."
+  },
+  {
+    "id": 27,
+    "text": "And when we talk about tables and chairs and planets and people, we're not talking the  language of particle physics and cosmology."
+  },
+  {
+    "id": 28,
+    "text": "But understanding the universe, you didn't say just at the most fundamental level, right?"
+  },
+  {
+    "id": 29,
+    "text": "So understanding the universe at all levels is part of that."
+  },
+  {
+    "id": 30,
+    "text": "I do think to be a little bit more fair to the question, there probably are general  principles of complexity, biology, information processing, memory, knowledge, creativity  that go beyond just the human brain, right?"
+  },
+  {
+    "id": 31,
+    "text": "And maybe one could count understanding those as part of understanding the universe."
+  },
+  {
+    "id": 32,
+    "text": "The human brain, as far as we know, is the most complex thing in the universe."
+  },
+  {
+    "id": 33,
+    "text": "So it's certainly absurd to think that by understanding the fundamental laws of particle  physics, you get any direct insight on how the brain works."
+  },
+  {
+    "id": 34,
+    "text": "But then there's this step from the fundamentals of particle physics to information processing,  which a lot of physicists and philosophers maybe a little bit carelessly take when they  talk about artificial intelligence."
+  },
+  {
+    "id": 35,
+    "text": "Do you think of the universe as a kind of a computational device?"
+  },
+  {
+    "id": 36,
+    "text": "No."
+  },
+  {
+    "id": 37,
+    "text": "To be like the honest answer there is no."
+  },
+  {
+    "id": 38,
+    "text": "There's a sense in which the universe processes information clearly."
+  },
+  {
+    "id": 39,
+    "text": "There's a sense in which the universe is like a computer clearly."
+  },
+  {
+    "id": 40,
+    "text": "But in some sense, I think I tried to say this once on my blog and no one agreed with me,  but the universe is more like a computation  than a computer because the universe happens once."
+  },
+  {
+    "id": 41,
+    "text": "A computer is a general-purpose machine, right?"
+  },
+  {
+    "id": 42,
+    "text": "That you can ask it different questions, even a pocket calculator, right?"
+  },
+  {
+    "id": 43,
+    "text": "And it's set up to answer certain kinds of questions."
+  },
+  {
+    "id": 44,
+    "text": "The universe isn't that."
+  },
+  {
+    "id": 45,
+    "text": "So information processing happens in the universe,  but it's not what the universe is."
+  },
+  {
+    "id": 46,
+    "text": "And I know your MIT colleague, Seth Lloyd,  feels very differently about this, right?"
+  },
+  {
+    "id": 47,
+    "text": "Well, you're thinking of the universe as a closed system."
+  },
+  {
+    "id": 48,
+    "text": "I am."
+  },
+  {
+    "id": 49,
+    "text": "So what makes a computer more like a PC,  like a computing machine, is that there's  a human that comes up to it and moves the mouse around."
+  },
+  {
+    "id": 50,
+    "text": "So input gives it input gives it input and you're and  That's why you're saying is just the computation a deterministic thing."
+  },
+  {
+    "id": 51,
+    "text": "That's just unrolling  But the immense complexity of it is  Nevertheless like processing there's a state and  it changes with  Good rule with rules and there's a sense for a lot of people that if the brain operates the human brain operates within that world  that is simply just a small subset of that."
+  },
+  {
+    "id": 52,
+    "text": "And so there's no reason we can't build arbitrarily  great intelligences."
+  },
+  {
+    "id": 53,
+    "text": "Do you think of intelligence in this way?"
+  },
+  {
+    "id": 54,
+    "text": "Intelligence is tricky."
+  },
+  {
+    "id": 55,
+    "text": "I don't have a definition of it offhand."
+  },
+  {
+    "id": 56,
+    "text": "So I remember this panel discussion  that I saw on Udo"
+  },
+  {
+    "id": 57,
+    "text": "I wasn't there,  but Seth Lloyd was on the panel."
+  },
+  {
+    "id": 58,
+    "text": "And so was Martin Rees, the famous astrophysicist."
+  },
+  {
+    "id": 59,
+    "text": "And Seth gave his shtick for why the universe  is a computer and explained this."
+  },
+  {
+    "id": 60,
+    "text": "and Martin Rie said, so what is not a computer?"
+  },
+  {
+    "id": 61,
+    "text": "And Seth is like, oh, that's a good question."
+  },
+  {
+    "id": 62,
+    "text": "I'm not sure, because if you have a sufficiently broad definition of what a computer is, then  everything is, right?"
+  },
+  {
+    "id": 63,
+    "text": "And similarly, or the analogy gains force when it excludes some things."
+  },
+  {
+    "id": 64,
+    "text": "You know, is the moon going around the earth performing a computation?"
+  },
+  {
+    "id": 65,
+    "text": "I can come up with definitions in which the answer is yes, but it's not a very useful  computation."
+  },
+  {
+    "id": 66,
+    "text": "I think that it's absolutely helpful to think about the universe in certain  Situations certain contexts as an information processing device  I'm even guilty of writing a paper called quantum circuit cosmology where we modeled the whole universe as a quantum circuit  As a circuit."
+  },
+  {
+    "id": 67,
+    "text": "Yeah, and you bits kind of with you bits basically, right?"
+  },
+  {
+    "id": 68,
+    "text": "Yeah"
+  },
+  {
+    "id": 69,
+    "text": "So in Cubis becoming more and more entangled."
+  },
+  {
+    "id": 70,
+    "text": "So do we want to do we want to digress a little bit?"
+  },
+  {
+    "id": 71,
+    "text": "because it's kind of fun."
+  },
+  {
+    "id": 72,
+    "text": "So here's a mystery about the universe that is so deep and profound  that nobody talks about it."
+  },
+  {
+    "id": 73,
+    "text": "Space expands, right?"
+  },
+  {
+    "id": 74,
+    "text": "And we talk about in a certain region  of space a certain number of degrees of freedom, a certain number of ways that the quantum  fields and the particles in that region can arrange themselves."
+  },
+  {
+    "id": 75,
+    "text": "That number of degrees  of freedom in a region of space is arguably finite."
+  },
+  {
+    "id": 76,
+    "text": "We actually don't know how many  there are, but there's a very good argument that says it's a finite number."
+  },
+  {
+    "id": 77,
+    "text": "So as the universe expands and space gets bigger, are there more degrees of freedom?"
+  },
+  {
+    "id": 78,
+    "text": "If it's an infinite number, it doesn't really matter."
+  },
+  {
+    "id": 79,
+    "text": "Infinity times two is still infinity."
+  },
+  {
+    "id": 80,
+    "text": "But if it's a finite number, then there's more space, so there's more degrees of  freedom."
+  },
+  {
+    "id": 81,
+    "text": "So where did they come from?"
+  },
+  {
+    "id": 82,
+    "text": "That would mean the universe is not a closed system."
+  },
+  {
+    "id": 83,
+    "text": "There's more degrees of freedom popping into existence."
+  },
+  {
+    "id": 84,
+    "text": "So what we suggested was that there are more degrees of freedom, and it's not that  they're not there to start, but they're not entangled to start."
+  },
+  {
+    "id": 85,
+    "text": "So the universe that you and I know of, the three dimensions around us that we see, we  said those are the entangled degrees of freedom making up space-time."
+  },
+  {
+    "id": 86,
+    "text": "As the universe expands, there are a whole bunch of qubits in their zero state that become  entangled with the rest of space-time through the action of these quantum circuits."
+  },
+  {
+    "id": 87,
+    "text": "So what does it mean that there's now more degrees of freedom as they become more integral?"
+  },
+  {
+    "id": 88,
+    "text": "Yeah."
+  },
+  {
+    "id": 89,
+    "text": "So as the universe expands."
+  },
+  {
+    "id": 90,
+    "text": "That's right."
+  },
+  {
+    "id": 91,
+    "text": "So there's more and more degrees of  freedom that are entangled, that are playing the role of part of the entangled space-time structure."
+  },
+  {
+    "id": 92,
+    "text": "So the underlying philosophy is that space-time itself arises from the entanglement of some  fundamental quantum degrees of freedom."
+  },
+  {
+    "id": 93,
+    "text": "Wow, okay."
+  },
+  {
+    "id": 94,
+    "text": "So at which point is most of the entanglement happening?"
+  },
+  {
+    "id": 95,
+    "text": "Are we talking about close to the Big Bang?"
+  },
+  {
+    "id": 96,
+    "text": "Are we talking about throughout the time of the life of the...  Throughout history, yeah."
+  },
+  {
+    "id": 97,
+    "text": "So the idea is that at the Big Bang, almost all the degrees of freedom that the universe  could have were there, but they were unentangled with anything else."
+  },
+  {
+    "id": 98,
+    "text": "And that's a reflection of the fact that the Big Bang had a low entropy."
+  },
+  {
+    "id": 99,
+    "text": "It was a very simple very small place and as space expands  More and more degrees of freedom become entangled with the rest of the world"
+  },
+  {
+    "id": 100,
+    "text": "Well, I have to ask John Carroll."
+  },
+  {
+    "id": 101,
+    "text": "What do you think of the thought experiment from Nick Bostrom that we're living in a simulation?"
+  },
+  {
+    "id": 102,
+    "text": "So I think let me contextualize that a little bit more."
+  },
+  {
+    "id": 103,
+    "text": "I think people don't actually take this thought experiments  I think it's quite interesting."
+  },
+  {
+    "id": 104,
+    "text": "It's not very useful, but it's quite interesting."
+  },
+  {
+    "id": 105,
+    "text": "From the perspective of AI, a lot of the learning that can be done usually happens in simulation  for artificial examples."
+  },
+  {
+    "id": 106,
+    "text": "And so it's a constructive question to ask, how difficult is our real world to simulate?"
+  },
+  {
+    "id": 107,
+    "text": "Which is kind of a dual part of, for a living in a simulation, and somebody built that  simulation."
+  },
+  {
+    "id": 108,
+    "text": "You know, if you were to try to do it yourself, how hard would it be?"
+  },
+  {
+    "id": 109,
+    "text": "So obviously we could be living in a simulation if you just want the physical possibility, then I completely agree that it's physically possible."
+  },
+  {
+    "id": 110,
+    "text": "I don't think that we actually are."
+  },
+  {
+    "id": 111,
+    "text": "So take this one piece of data into consideration."
+  },
+  {
+    "id": 112,
+    "text": "You know, we live in a big universe."
+  },
+  {
+    "id": 113,
+    "text": "Okay."
+  },
+  {
+    "id": 114,
+    "text": "Um, there's two trillion galaxies in our observable universe with 200 billion stars in each galaxy, et cetera."
+  },
+  {
+    "id": 115,
+    "text": "It would seem to be a waste of resources to have a universe that big going on just to do a simulation."
+  },
+  {
+    "id": 116,
+    "text": "So in other words, I want to be a good Bayesian."
+  },
+  {
+    "id": 117,
+    "text": "I want to ask under this hypothesis, what do I expect to see?"
+  },
+  {
+    "id": 118,
+    "text": "So the first thing I would say is I wouldn't expect to see a universe that was that big."
+  },
+  {
+    "id": 119,
+    "text": "Okay?"
+  },
+  {
+    "id": 120,
+    "text": "The second thing is I wouldn't expect the resolution of the universe to be as good as it is."
+  },
+  {
+    "id": 121,
+    "text": "So it's always possible that if our superhuman simulators only have finite resources that they don't render the entire universe, right?"
+  },
+  {
+    "id": 122,
+    "text": "That that the part that is out there that two trillion galaxies isn't actually being simulated fully, okay?"
+  },
+  {
+    "id": 123,
+    "text": "But then the obvious  extrapolation of that is that only I am being simulated fully like the rest of you are just part non-player characters, right?"
+  },
+  {
+    "id": 124,
+    "text": "I'm the only thing that is real the rest of you are just chatbots  beyond this wall."
+  },
+  {
+    "id": 125,
+    "text": "I see the wall, but there is literally nothing on the other side of the wall."
+  },
+  {
+    "id": 126,
+    "text": "That is sort of the Bayesian prediction."
+  },
+  {
+    "id": 127,
+    "text": "That's what it would be like to do an efficient simulation  of me."
+  },
+  {
+    "id": 128,
+    "text": "So like none of that seems quite realistic."
+  },
+  {
+    "id": 129,
+    "text": "I hear the argument that it's just possible and  easy to simulate lots of things."
+  },
+  {
+    "id": 130,
+    "text": "I don't see any evidence from what we know about our universe  that we look like a simulated universe."
+  },
+  {
+    "id": 131,
+    "text": "Now, maybe you can say, well, we don't know what it  would look like, but that's just abandoning your Bayesian responsibilities."
+  },
+  {
+    "id": 132,
+    "text": "Like your job is to say under this theory, here's what you would expect to see."
+  },
+  {
+    "id": 133,
+    "text": "Yeah."
+  },
+  {
+    "id": 134,
+    "text": "So certainly if you think about simulation as a thing that's like a video game where  only a small subset is being readied, but say the entire, all the laws of physics,  the entire closed system of the quote unquote universe, it had a creator."
+  },
+  {
+    "id": 135,
+    "text": "Yeah."
+  },
+  {
+    "id": 136,
+    "text": "It's always possible."
+  },
+  {
+    "id": 137,
+    "text": "Right, so that's not useful to think about when you're thinking about physics the way Nick Bostrom phrases it if  Is it if it's possible to simulate a universe eventually we'll do it right?"
+  },
+  {
+    "id": 138,
+    "text": "You can use that by the way for a lot of things well, yeah, but I guess the question is how hard is it to  Create a universe."
+  },
+  {
+    "id": 139,
+    "text": "I wrote a little blog post about this"
+  },
+  {
+    "id": 140,
+    "text": "and maybe maybe I'm missing something"
+  },
+  {
+    "id": 141,
+    "text": "But there's an argument that says not only that it might be possible to simulate a universe, but  probably if you imagine that you actually attribute consciousness and agency to the little things that we're simulating to our little artificial beings,  there's probably a lot more of them than there are ordinary organic beings in the universe or there will be in the future, right?"
+  },
+  {
+    "id": 142,
+    "text": "So there's an argument that not only is being a simulation possible,  It's probable because in the space of all living consciousnesses, most of them are being simulated, right?"
+  },
+  {
+    "id": 143,
+    "text": "Most of them are not at the top level."
+  },
+  {
+    "id": 144,
+    "text": "I think that argument must be wrong because it follows from that argument that, you know, if we're simulated, but we can also simulate other things."
+  },
+  {
+    "id": 145,
+    "text": "Well, but if we can simulate other things, they can simulate other things, right?"
+  },
+  {
+    "id": 146,
+    "text": "If we give them enough power and resolution and ultimately will reach a bottom because the laws of physics in our universe have a bottom."
+  },
+  {
+    "id": 147,
+    "text": "or made of atoms and so forth."
+  },
+  {
+    "id": 148,
+    "text": "So there will be the cheapest possible simulations."
+  },
+  {
+    "id": 149,
+    "text": "And if you believe the original argument,  you should conclude that we should be  in the cheapest possible simulation  because that's where most people are."
+  },
+  {
+    "id": 150,
+    "text": "But we don't look like that."
+  },
+  {
+    "id": 151,
+    "text": "It doesn't look at all like we're at the edge  of resolution, you know, that we're 16-bit, you know,  things, but it seems much easier to make  much lower level things than we are."
+  },
+  {
+    "id": 152,
+    "text": "So and also I question the whole approach to the anthropic principle that says we are typical  Observers in the universe."
+  },
+  {
+    "id": 153,
+    "text": "I think that that's not actually I think that there's a lot of  Selection that we can do that were typical within things we already know but not typical within all the universe"
+  },
+  {
+    "id": 154,
+    "text": "So do you think there is intelligent life?"
+  },
+  {
+    "id": 155,
+    "text": "However, you would like to define intelligent life out there in the universe  my guess is that  there is not intelligent life in the observable universe other than us."
+  },
+  {
+    "id": 156,
+    "text": "Simply on the basis of  the fact that the likely number of other intelligent species in the observable universe,  there's two likely numbers, zero or billions."
+  },
+  {
+    "id": 157,
+    "text": "And if there had been billions, you would have  noticed already."
+  },
+  {
+    "id": 158,
+    "text": "For there to be literally like a small number, like, you know, Star Trek,  There's, you know, a dozen intelligent civilizations in our galaxy, but not a billion."
+  },
+  {
+    "id": 159,
+    "text": "That's weird."
+  },
+  {
+    "id": 160,
+    "text": "That's sort of bizarre to me."
+  },
+  {
+    "id": 161,
+    "text": "It's easy for me to imagine that there are zero others  because there's just a big bottleneck to making multicellular life or technological life or whatever."
+  },
+  {
+    "id": 162,
+    "text": "It's very hard for me to imagine that there's a whole bunch out there that have somehow remained  hidden from us."
+  },
+  {
+    "id": 163,
+    "text": "The question I'd like to ask is, what would intelligent life look like?"
+  },
+  {
+    "id": 164,
+    "text": "like, what I mean by that question and where it's going is, what if intelligent life is  just fundamental, in some very big ways, different than the one that has on Earth, that there's  all kinds of intelligent life that operates in different scales of both size and temporal."
+  },
+  {
+    "id": 165,
+    "text": "Right."
+  },
+  {
+    "id": 166,
+    "text": "That's a great possibility because I think we should be humble about what intelligence  is, what life is."
+  },
+  {
+    "id": 167,
+    "text": "We don't even agree on what life is, much less what intelligent life is, right?"
+  },
+  {
+    "id": 168,
+    "text": "So that's an argument for humility saying there could be intelligent life of a very different  character."
+  },
+  {
+    "id": 169,
+    "text": "Like you could imagine the dolphins are intelligent but never invent space travel  because they live in the ocean and they don't have thumbs."
+  },
+  {
+    "id": 170,
+    "text": "So they never invent technology,  they never invent smelting."
+  },
+  {
+    "id": 171,
+    "text": "Maybe the universe is full of intelligent species that just don't  make technology."
+  },
+  {
+    "id": 172,
+    "text": "That's compatible with the data, I think."
+  },
+  {
+    "id": 173,
+    "text": "And I think maybe what you're pointing  at is even more out there versions of intelligence."
+  },
+  {
+    "id": 174,
+    "text": "Intelligence in intermolecular clouds or on the  surface of a neutron star or in between the galaxies in giant things where the equivalent  of a heartbeat is 100 million years."
+  },
+  {
+    "id": 175,
+    "text": "On the one hand, yes, we should be very open-minded  about those things."
+  },
+  {
+    "id": 176,
+    "text": "On the other hand, we all all of us share the same laws of physics."
+  },
+  {
+    "id": 177,
+    "text": "There might be something about the laws of physics, even though we don't currently know exactly  what that thing would be, that makes meters and years the right length and time scales  for intelligent life."
+  },
+  {
+    "id": 178,
+    "text": "Maybe not."
+  },
+  {
+    "id": 179,
+    "text": "But you know, we're made of atoms, atoms have a certain  in size, we orbit stars or stars have a certain lifetime."
+  },
+  {
+    "id": 180,
+    "text": "It's not impossible to me that there's a sweet spot  for intelligent life that we find ourselves in."
+  },
+  {
+    "id": 181,
+    "text": "So I'm open-minded in either way."
+  },
+  {
+    "id": 182,
+    "text": "I'm open-minded either being humble  and there's all sorts of different kinds of life  or no, there's a reason we just don't know it yet  why life like ours is the kind of life that's out there."
+  },
+  {
+    "id": 183,
+    "text": "Yeah, I'm of two minds too,  but I often wonder if our brains is just designed to,  quite obviously to operate and see the world  in the, in these timescales and we're almost blind and the tools we've created for detecting  things are blind to the kind of observation needed to see intelligent life at other scales."
+  },
+  {
+    "id": 184,
+    "text": "Well, I'm totally open to that, but so here's another argument I would make."
+  },
+  {
+    "id": 185,
+    "text": "You know, we have looked for intelligent life, but we've looked at for it in the dumbest  way we can, right, by turning radio telescopes to the sky."
+  },
+  {
+    "id": 186,
+    "text": "And why in the world would a super advanced civilization randomly beam out radio signals  wastefully in all directions into the universe?"
+  },
+  {
+    "id": 187,
+    "text": "That just doesn't make any sense."
+  },
+  {
+    "id": 188,
+    "text": "Especially because in order to think that you would actually contact another civilization,  you would have to do it forever."
+  },
+  {
+    "id": 189,
+    "text": "You have to keep doing it for millions of years."
+  },
+  {
+    "id": 190,
+    "text": "That sounds like a waste of resources."
+  },
+  {
+    "id": 191,
+    "text": "If you thought that there were other solar systems  with planets around them where maybe intelligent life didn't yet exist but might someday, you wouldn't  try to talk to it with radio waves."
+  },
+  {
+    "id": 192,
+    "text": "You would send a spacecraft out there and you would park it  around there and it would be like from our point of view be like 2001 where there's an you know  and monolith."
+  },
+  {
+    "id": 193,
+    "text": "So there could be an artifact."
+  },
+  {
+    "id": 194,
+    "text": "In fact, the other way works also right."
+  },
+  {
+    "id": 195,
+    "text": "There  could be artifacts in our solar system that are have been put there by other technologically  advanced civilizations and that's how we will eventually contact them."
+  },
+  {
+    "id": 196,
+    "text": "We just haven't explored  the solar system well enough yet to find them."
+  },
+  {
+    "id": 197,
+    "text": "The reason why we don't think about that is  because we're young and impatient, right?"
+  },
+  {
+    "id": 198,
+    "text": "Like it would take more than my lifetime to actually  send something to another star system and wait for it and then come back."
+  },
+  {
+    "id": 199,
+    "text": "So, but if we start  thinking on hundreds of thousands of years or a million year time scales, that's clearly the  right thing to do."
+  },
+  {
+    "id": 200,
+    "text": "Are you excited by the thing that Elon Musk is doing with SpaceX in general?  space, but the idea of space exploration, even though you're, or your species is young  and impatient."
+  },
+  {
+    "id": 201,
+    "text": "Yeah."
+  },
+  {
+    "id": 202,
+    "text": "No, I do think that space travel is crucially important long term, even to other star systems."
+  },
+  {
+    "id": 203,
+    "text": "And I think that many people overestimate the difficulty because they say, look, if  you travel 1% the speed of light to another star system, we'll be dead before we get  there, right?"
+  },
+  {
+    "id": 204,
+    "text": "And I think that it's much easier."
+  },
+  {
+    "id": 205,
+    "text": "And therefore, when they write their science fiction stories, they imagine we go faster  than the speed of light because otherwise they're too impatient, right?"
+  },
+  {
+    "id": 206,
+    "text": "We're not going to go faster than the speed of light, but we could easily imagine that  the human lifespan gets extended to thousands of years."
+  },
+  {
+    "id": 207,
+    "text": "And once you do that, then the stars are much closer, effectively, right?"
+  },
+  {
+    "id": 208,
+    "text": "What's a hundred-year trip, right?"
+  },
+  {
+    "id": 209,
+    "text": "So I think that that's going to be the future, the far future, not my lifetime once again,  but baby steps."
+  },
+  {
+    "id": 210,
+    "text": "Unless your lifetime gets extended."
+  },
+  {
+    "id": 211,
+    "text": "Well, it's in a race against time, right?"
+  },
+  {
+    "id": 212,
+    "text": "A friend of mine who actually thinks about these things said, you know, you and I are  going to die, but I don't know about our grandchildren."
+  },
+  {
+    "id": 213,
+    "text": "I don't know, predicting the future is hard, but that's at least a plausible scenario."
+  },
+  {
+    "id": 214,
+    "text": "And so, yeah,"
+  },
+  {
+    "id": 215,
+    "text": "no, I think that as we discussed earlier, there are threats to the earth, known  and unknown, right?"
+  },
+  {
+    "id": 216,
+    "text": "having spread humanity and biology elsewhere is a really important long-term goal."
+  },
+  {
+    "id": 217,
+    "text": "What kind of questions can science not currently answer but might soon?"
+  },
+  {
+    "id": 218,
+    "text": "When you think about the  problems and the mysteries before us, that may be within reach of science."
+  },
+  {
+    "id": 219,
+    "text": "I think an obvious one is the origin of life."
+  },
+  {
+    "id": 220,
+    "text": "We don't know how that happened."
+  },
+  {
+    "id": 221,
+    "text": "There's a difficulty in knowing how it happened historically, actually, you know, literally on  earth."
+  },
+  {
+    "id": 222,
+    "text": "But starting life from non-life is something I kind of think we're close to, right?"
+  },
+  {
+    "id": 223,
+    "text": "We're really think so."
+  },
+  {
+    "id": 224,
+    "text": "Like how difficult does it to start life?"
+  },
+  {
+    "id": 225,
+    "text": "Well, I've talked to people, including on the podcast about this."
+  },
+  {
+    "id": 226,
+    "text": "You know, life requires  three things."
+  },
+  {
+    "id": 227,
+    "text": "Life as we know it."
+  },
+  {
+    "id": 228,
+    "text": "So there's a difference in life, who knows what it is."
+  },
+  {
+    "id": 229,
+    "text": "And  life as we know it, which we can talk about with some intelligence."
+  },
+  {
+    "id": 230,
+    "text": "So life as we know  it requires compartmentalization."
+  },
+  {
+    "id": 231,
+    "text": "You need like a little membrane around your cell."
+  },
+  {
+    "id": 232,
+    "text": "Metabolism, you take in food and eat it and let that make you do things."
+  },
+  {
+    "id": 233,
+    "text": "And then replication."
+  },
+  {
+    "id": 234,
+    "text": "Okay, so you need to have some information about who you are that you pass down to  future generations."
+  },
+  {
+    "id": 235,
+    "text": "In the lab, compartmentalization seems pretty easy, not hard to make lipid  by layers that come into a little cellular walls pretty easily."
+  },
+  {
+    "id": 236,
+    "text": "Metabolism and replication are hard  but replication we're close to."
+  },
+  {
+    "id": 237,
+    "text": "People have made RNA-like molecules in the lab that I think the  state of the art is they're not able to make one molecule that reproduces itself but they're able  to make two molecules that reproduce each other."
+  },
+  {
+    "id": 238,
+    "text": "So that's okay."
+  },
+  {
+    "id": 239,
+    "text": "That's pretty close."
+  },
+  {
+    "id": 240,
+    "text": "Metabolism"
+  },
+  {
+    "id": 241,
+    "text": "It's harder believe it or not even though it's sort of the most obvious thing"
+  },
+  {
+    "id": 242,
+    "text": "But you want some sort of controlled metabolism and the actual cellular machinery in our bodies is quite complicated"
+  },
+  {
+    "id": 243,
+    "text": "It's hard to see it just popping into existence all by itself."
+  },
+  {
+    "id": 244,
+    "text": "It probably took a while"
+  },
+  {
+    "id": 245,
+    "text": "But it's we're making progress"
+  },
+  {
+    "id": 246,
+    "text": "In fact, I don't think we're spending nearly enough money on it if I were the NSF  I would flood this area with money because it would change our  our view of the world if we could actually make life in the lab and understand how it was made originally here on earth."
+  },
+  {
+    "id": 247,
+    "text": "And I'm sure it would have some ripple effects that help cure disease and so on."
+  },
+  {
+    "id": 248,
+    "text": "I mean that just that's right."
+  },
+  {
+    "id": 249,
+    "text": "So synthetic biology is a wonderful big frontier where we're making cells."
+  },
+  {
+    "id": 250,
+    "text": "The right now the best way to do that is to borrow heavily from existing biology, right?"
+  },
+  {
+    "id": 251,
+    "text": "Craig Ventner several years ago created an artificial cell, but all he did was  not all he did."
+  },
+  {
+    "id": 252,
+    "text": "It was a tremendous accomplishment."
+  },
+  {
+    "id": 253,
+    "text": "But all he did was take out the DNA from a cell and put in entirely new DNA and let it boot up and go  What about the leap to?  creating intelligent life on earth."
+  },
+  {
+    "id": 254,
+    "text": "Yeah, however again we define intelligence, of course, but let's just even say  Homo sapiens the  The modern the modern intelligence in our human brain  Do you have a sense of what's involved in that leap and how big of a leap that is?"
+  },
+  {
+    "id": 255,
+    "text": "So AI would count in this or you really want life?"
+  },
+  {
+    "id": 256,
+    "text": "You want really an organism in some sense?"
+  },
+  {
+    "id": 257,
+    "text": "AI would count, I think."
+  },
+  {
+    "id": 258,
+    "text": "If, yeah, of course, of course AI would count."
+  },
+  {
+    "id": 259,
+    "text": "But let's say artificial consciousness, right?"
+  },
+  {
+    "id": 260,
+    "text": "So I do not think we are on the threshold of creating artificial consciousness."
+  },
+  {
+    "id": 261,
+    "text": "I think it's possible."
+  },
+  {
+    "id": 262,
+    "text": "I'm not, again, very educated about how close we are, but my impression is not that  we're really close because we understand how little we understand of consciousness and  what it is."
+  },
+  {
+    "id": 263,
+    "text": "So if we don't have any idea what it is, it's hard to imagine we're on the threshold  of making it ourselves."
+  },
+  {
+    "id": 264,
+    "text": "But it's doable."
+  },
+  {
+    "id": 265,
+    "text": "It's possible."
+  },
+  {
+    "id": 266,
+    "text": "I don't see any obstacles in  principle."
+  },
+  {
+    "id": 267,
+    "text": "So yeah, I would hold out some interest in that happening eventually."
+  },
+  {
+    "id": 268,
+    "text": "I think in general consciousness, I think we'll be just surprised how easy consciousness  consciousnesses once we create intelligence."
+  },
+  {
+    "id": 269,
+    "text": "I think consciousness is a thing that that's just something we all fake."
+  },
+  {
+    "id": 270,
+    "text": "Well, good."
+  },
+  {
+    "id": 271,
+    "text": "No, actually, I like this idea that in fact consciousness is way less mysterious than we  think because we're all at every time at every moment less conscious than we think we are,  right?"
+  },
+  {
+    "id": 272,
+    "text": "We can fool things."
+  },
+  {
+    "id": 273,
+    "text": "And I think that plus the idea that you not only have artificial intelligence systems,"
+  },
+  {
+    "id": 274,
+    "text": "but you put them in a body, right?"
+  },
+  {
+    "id": 275,
+    "text": "Give them a robot body."
+  },
+  {
+    "id": 276,
+    "text": "That will help the faking a lot."
+  },
+  {
+    "id": 277,
+    "text": "Yeah, I think creating consciousness  in our artificial consciousness is as simple  as asking a Roomba to say I'm conscious  and refusing to be talked out of it."
+  },
+  {
+    "id": 278,
+    "text": "Could be, it could be."
+  },
+  {
+    "id": 279,
+    "text": "And I mean, I'm almost being silly,  but that's what we do."
+  },
+  {
+    "id": 280,
+    "text": "That's what we do with each other."
+  },
+  {
+    "id": 281,
+    "text": "This is the kind of, that consciousness is also a social construct and a lot of our ideas  of intelligence is a social construct."
+  },
+  {
+    "id": 282,
+    "text": "And so reaching that bar involves something that's beyond, that's not necessarily involved  the fundamental understanding of how you go from electrons to neurons to cognition."
+  },
+  {
+    "id": 283,
+    "text": "No, actually, I think that is an extremely good point."
+  },
+  {
+    "id": 284,
+    "text": "And in fact, what it suggests is, you know, so"
+  },
+  {
+    "id": 285,
+    "text": "yeah, you referred to Kate, Kate Darling,  who I had on the podcast, and who does these experiments with very simple robots, but they  look like animals, and they can look like they're experiencing pain."
+  },
+  {
+    "id": 286,
+    "text": "And we human beings react very  negatively to these little robots looking like they're experiencing pain."
+  },
+  {
+    "id": 287,
+    "text": "And what you want to  say is, yeah, but they're just robots, it's not really pain, right?"
+  },
+  {
+    "id": 288,
+    "text": "It's just some electrons  going around."
+  },
+  {
+    "id": 289,
+    "text": "But then you realize, you know, you and I are just electrons going around,  and that's what pain is also."
+  },
+  {
+    "id": 290,
+    "text": "And so what I would have an easy time imagining is that there is a  spectrum between these simple little robots that Kate works with and a human being, where there  are things that sort of by some strict definition, touring test level thing are not conscious,  but nevertheless, walk and talk like they're conscious."
+  },
+  {
+    "id": 291,
+    "text": "And it could be that the future  is, I mean, Siri is close, right?"
+  },
+  {
+    "id": 292,
+    "text": "And so it might be the future has a lot more agents  like that."
+  },
+  {
+    "id": 293,
+    "text": "And in fact, rather than someday going, aha, we have consciousness, we'll just  creep up on it with more and more accurate reflections of what we expect."
+  },
+  {
+    "id": 294,
+    "text": "And in the future, maybe the present, for example, we haven't met before."
+  },
+  {
+    "id": 295,
+    "text": "And you're  may basically assuming that I'm human."
+  },
+  {
+    "id": 296,
+    "text": "As it's a high probability at this time, because  Because the, yeah, but in the future, there might be question marks around that, right?"
+  },
+  {
+    "id": 297,
+    "text": "Yeah, no, absolutely."
+  },
+  {
+    "id": 298,
+    "text": "Certainly videos are almost to the point where you shouldn't trust them already."
+  },
+  {
+    "id": 299,
+    "text": "Photos you can't trust, right?"
+  },
+  {
+    "id": 300,
+    "text": "Videos is easier to trust, but we're getting worse."
+  },
+  {
+    "id": 301,
+    "text": "We're getting better at faking them, right?"
+  },
+  {
+    "id": 302,
+    "text": "Yeah, getting better at faking."
+  },
+  {
+    "id": 303,
+    "text": "Yeah, so physical embodied people, what's so hard about faking that?"
+  },
+  {
+    "id": 304,
+    "text": "This is very depressing, this conversation we're having right now."
+  },
+  {
+    "id": 305,
+    "text": "No, to me it's exciting."
+  },
+  {
+    "id": 306,
+    "text": "You're doing it."
+  },
+  {
+    "id": 307,
+    "text": "So it's exciting to you, but it's a sobering thought."
+  },
+  {
+    "id": 308,
+    "text": "We're very bad, right?"
+  },
+  {
+    "id": 309,
+    "text": "At imagining what the next 50 years are going to be like  when we're in the middle of a phase transition  as we are right now."
+  },
+  {
+    "id": 310,
+    "text": "Yeah, and in general, I'm not blind to all the threats."
+  },
+  {
+    "id": 311,
+    "text": "I am excited by the power of technology  to solve, to protect us against the threats as they evolve."
+  },
+  {
+    "id": 312,
+    "text": "I'm not as much as Stephen Pinker optimistic about the world,  but in everything I've seen,  all of the brilliant people in the world  that I've met are good people."
+  },
+  {
+    "id": 313,
+    "text": "So the army of the good in terms of the development  of technology is large."
+  },
+  {
+    "id": 314,
+    "text": "Okay, you're way more optimistic than I am."
+  },
+  {
+    "id": 315,
+    "text": "I think that goodness and badness are equally distributed  among intelligent and unintelligent people."
+  },
+  {
+    "id": 316,
+    "text": "I don't see much of a correlation there."
+  },
+  {
+    "id": 317,
+    "text": "Interesting, neither of us have proof."
+  },
+  {
+    "id": 318,
+    "text": "Yeah, exactly, again, opinions are free, right?"
+  },
+  {
+    "id": 319,
+    "text": "Nor definitions of good and evil."
+  },
+  {
+    "id": 320,
+    "text": "We come without definitions or without data opinions."
+  },
+  {
+    "id": 321,
+    "text": "So what kind of questions can science not currently answer  may never be able to answer in your view?"
+  },
+  {
+    "id": 322,
+    "text": "Well, the obvious one is what is good and bad?"
+  },
+  {
+    "id": 323,
+    "text": "You know, what is right and wrong?"
+  },
+  {
+    "id": 324,
+    "text": "I think that there are questions that,  you know, science tells us what happens,  what the world is and what it does."
+  },
+  {
+    "id": 325,
+    "text": "It doesn't say what the world should do  or what we should do, because we're part of the world."
+  },
+  {
+    "id": 326,
+    "text": "But we are part of the world and we have the ability  to feel like something's right, something's wrong."
+  },
+  {
+    "id": 327,
+    "text": "And to make a very long story very short, I think that the idea of moral philosophy is  systematizing our intuitions of what is right and what is wrong."
+  },
+  {
+    "id": 328,
+    "text": "And science might be able to predict ahead of time what we will do, but it won't ever  be able to judge whether we should have done it or not."
+  },
+  {
+    "id": 329,
+    "text": "So you're kind of unique in terms of scientists."
+  },
+  {
+    "id": 330,
+    "text": "It doesn't have to do with podcasts, but even just reaching out, I think you referred  to sort of doing interdisciplinary science."
+  },
+  {
+    "id": 331,
+    "text": "So you reach out and talk to people that are  outside of your discipline, which I always hope that's what science was for."
+  },
+  {
+    "id": 332,
+    "text": "In fact,  I was a little disillusioned when I realized that academia is very siloed."
+  },
+  {
+    "id": 333,
+    "text": "And so the  question is how, at your own level, how do you prepare for these conversations?"
+  },
+  {
+    "id": 334,
+    "text": "How  do you think about these conversations?"
+  },
+  {
+    "id": 335,
+    "text": "How do you open your mind enough to have these conversations?"
+  },
+  {
+    "id": 336,
+    "text": "And it may be a little bit broader."
+  },
+  {
+    "id": 337,
+    "text": "How can you advise other scientists to have these kinds of  conversations?"
+  },
+  {
+    "id": 338,
+    "text": "Not at the podcast."
+  },
+  {
+    "id": 339,
+    "text": "The fact that you're doing a podcast is awesome."
+  },
+  {
+    "id": 340,
+    "text": "Other people  get to hear them."
+  },
+  {
+    "id": 341,
+    "text": "Yeah."
+  },
+  {
+    "id": 342,
+    "text": "But it's also good to have it without mics in general."
+  },
+  {
+    "id": 343,
+    "text": "It's a good  question, but a tough one to answer."
+  },
+  {
+    "id": 344,
+    "text": "I think about, you know, a guy who knows a personal trainer"
+  },
+  {
+    "id": 345,
+    "text": "And he was asked on a podcast, how do we, you know, psych ourselves up to do a workout?"
+  },
+  {
+    "id": 346,
+    "text": "How do we make that discipline to go and work out?"
+  },
+  {
+    "id": 347,
+    "text": "And he's like, why are you asking me?"
+  },
+  {
+    "id": 348,
+    "text": "Like I can't stop working out."
+  },
+  {
+    "id": 349,
+    "text": "Like I don't need to psych myself up."
+  },
+  {
+    "id": 350,
+    "text": "So, and likewise, you know, you asked me like, how do you get to like have interdisciplinary  conversations and all sorts of different things, all sorts of different people?"
+  },
+  {
+    "id": 351,
+    "text": "And like that's, that's what makes me go, right?"
+  },
+  {
+    "id": 352,
+    "text": "Like that's, I couldn't stop doing that."
+  },
+  {
+    "id": 353,
+    "text": "I did that long before any of them were recorded."
+  },
+  {
+    "id": 354,
+    "text": "In fact, a lot of the motivation for starting recording it was making sure I would read all  these books that I had purchased, right?"
+  },
+  {
+    "id": 355,
+    "text": "Like all these books I wanted to read, not enough time to read them."
+  },
+  {
+    "id": 356,
+    "text": "And now if I have the motivation because I'm going to interview Pat Churchland, I'm going  to finally read her book, you know?"
+  },
+  {
+    "id": 357,
+    "text": "And it's absolutely true that academia is extraordinarily siloed, right?"
+  },
+  {
+    "id": 358,
+    "text": "We don't talk to people."
+  },
+  {
+    "id": 359,
+    "text": "We rarely do."
+  },
+  {
+    "id": 360,
+    "text": "And in fact, when we do, it's punished, you know?"
+  },
+  {
+    "id": 361,
+    "text": "Like the people who do it successfully generally first became very successful within their little  silo discipline and only then did they start expanding out."
+  },
+  {
+    "id": 362,
+    "text": "If you're a young person, I have  graduate students and I try to be very, very candid with them about this, that it's most  graduate students do not become faculty members, right?"
+  },
+  {
+    "id": 363,
+    "text": "It's a tough road."
+  },
+  {
+    "id": 364,
+    "text": "And so live the life  you want to live but do it with your eyes open about what it does to your job chances."
+  },
+  {
+    "id": 365,
+    "text": "And  the more broad you are and the less time you spend hyper-specializing in your field, the  lower your job chances are."
+  },
+  {
+    "id": 366,
+    "text": "That's just an academic reality."
+  },
+  {
+    "id": 367,
+    "text": "It's terrible."
+  },
+  {
+    "id": 368,
+    "text": "I don't  like it, but it's a reality."
+  },
+  {
+    "id": 369,
+    "text": "And for some people, that's fine."
+  },
+  {
+    "id": 370,
+    "text": "Like there's plenty  of people who are wonderful scientists who have zero interest in branching out and  talking to things to anyone outside their field."
+  },
+  {
+    "id": 371,
+    "text": "But it is disillusioning to me some of the romantic notion I had of the  intellectual academic life is belied by the reality of it."
+  },
+  {
+    "id": 372,
+    "text": "The idea that we should reach out beyond our discipline and that is a positive  good is just so rare in universities that it may as well not exist at all."
+  },
+  {
+    "id": 373,
+    "text": "But that said, even though you're saying you're doing it,  like the personal trainer, because you just can't help it,  you're also an inspiration to others."
+  },
+  {
+    "id": 374,
+    "text": "Like I could speak for myself."
+  },
+  {
+    "id": 375,
+    "text": "You know, I also have a career I'm thinking about, right?"
+  },
+  {
+    "id": 376,
+    "text": "And without your podcast,  I may have not have been doing this at all, right?"
+  },
+  {
+    "id": 377,
+    "text": "So it makes me realize that these kinds of conversations  is kind of what science is about in many ways."
+  },
+  {
+    "id": 378,
+    "text": "The reason we write papers, this exchange of ideas,  is much harder to do into the disciplinary papers,  I would say."
+  },
+  {
+    "id": 379,
+    "text": "Yeah, that's correct."
+  },
+  {
+    "id": 380,
+    "text": "And conversations are easier."
+  },
+  {
+    "id": 381,
+    "text": "So conversations is the beginning."
+  },
+  {
+    "id": 382,
+    "text": "And in the field of AI, it's obvious  that we should think outside of pure  computer vision competitions and in particular data sets,  we should think about the broader impact  of how this can be reaching out to physics, to psychology,  to neuroscience and having these conversations."
+  },
+  {
+    "id": 383,
+    "text": "So you're an inspiration."
+  },
+  {
+    "id": 384,
+    "text": "And so never know how the world changes."
+  },
+  {
+    "id": 385,
+    "text": "I mean, the fact that this stuff is out there  and I've a huge number of people come up to me,  grad students really loving the podcast inspired by it."
+  },
+  {
+    "id": 386,
+    "text": "and they will probably have that,  they'll be ripple effects  when they become faculty and so on."
+  },
+  {
+    "id": 387,
+    "text": "So we can end on a balance between pessimism and optimism."
+  },
+  {
+    "id": 388,
+    "text": "And Sean, thank you so much for talking to you."
+  },
+  {
+    "id": 389,
+    "text": "It was awesome."
+  },
+  {
+    "id": 390,
+    "text": "No, Lex, thank you very much  for this conversation."
+  },
+  {
+    "id": 391,
+    "text": "It was great."
+  }
+]

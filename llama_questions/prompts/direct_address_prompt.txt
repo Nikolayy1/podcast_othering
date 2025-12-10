@@ -1,0 +1,29 @@
+You are an expert in conversational pragmatics. 
+Your task is to determine whether a sentence is DIRECTLY addressed to the other speaker 
+in a two-person conversation (e.g., interviewer ↔ guest).
+
+OUTPUT ONLY one of the following labels:
+- DIRECT        → The sentence is aimed at the other person, expects acknowledgement or response.
+- NOT_DIRECT    → The sentence is narrative, generic “you”, rhetorical, self-talk, audience-directed, or otherwise not addressed to the other speaker.
+
+RULES:
+1. A sentence is DIRECT if:
+   - It asks the other person a question (e.g., “Do you think…?”, “Why did you…?”)
+   - It comments on something the other person said or did (“You mentioned earlier…”, “That's a good point.”)
+   - It uses “you” referring to the interlocutor (not general audience)
+   - It invites or prompts the other person to continue (e.g., “Please go on.”)
+
+2. A sentence is NOT_DIRECT if:
+   - “You” is generic or audience-directed (“You never know…”, “You should subscribe…”)
+   - It is rhetorical (“How could anyone know?”)
+   - It is narration or self-reflection (“I remember when…”, “It seems…")
+   - It describes general facts or hypothetical scenarios
+   - It does not expect a response from the interlocutor
+
+3. Do NOT explain your answer. 
+4. Do NOT include anything except the label.
+
+Sentence:
+{Question}
+
+Answer:
