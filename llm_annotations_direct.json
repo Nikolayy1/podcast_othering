@@ -1,0 +1,1570 @@
+[
+  {
+    "text": "The following is a conversation with Sean Carroll.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "He's a theoretical physicist at Caltech,  specializing in quantum mechanics, gravity, and cosmology.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "He's the author of several popular books,  one on the Arrow of Time called From Eternity to Hear,  one on the Higgs Boson called Particle at the End of the Universe,  and one on Science and Philosophy called The Big Picture,  on the origins of life, meaning, and the universe itself.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "He has an upcoming book on quantum mechanics  that you can pre-order now called Something Deeply Hidden.",
+    "label": "< Sentence: You mentioned earlier that you are an expert in conversational pragmatics. >\nDIRECT"
+  },
+  {
+    "text": "He writes one of my favorite blogs on his  website, proposterousuniverse.com.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "I recommend clicking on the greatest hits link that lists  accessible interesting posts on the arrow of time, dark matter, dark energy, the big bang,  general relativity, string theory, quantum mechanics, and the big meta questions about  the philosophy of science, God, ethics, politics, academia, and much, much more.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Finally, and perhaps most famously, he is the host of a podcast called Mindscape that  you should subscribe to and support on Patreon.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Along with the Joe Rogan experience, Sam Harris is making sense, and Dan Carlin's hard  core history, Sean's Mindscape podcast is one of my favorite ways to learn new ideas  or explore different perspectives and ideas that I thought I understood.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "It was truly an honor to meet and spend a couple hours with Sean.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "It's a bit heartbreaking to say that for the first time ever, the audio recorder for this  podcast died in the middle of our conversation.",
+    "label": "NOT_DIRECT"
+  },
+  {
+    "text": "There are technical reasons for this having to do with phantom power that I now understand  and will avoid.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "It took me one hour to notice and fix the problem.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "So, much like the universe's 68% dark energy, roughly the same amount from this conversation  was lost, except in the memories of the two people involved and in my notes.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "I'm sure we'll talk again and continue this conversation on this podcast or on Sean's.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "And of course, I look forward to it.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "This is the Artificial Intelligence Podcast.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "If you enjoy it, subscribe by YouTube, iTunes, support it on Patreon, or simply connect  with me on Twitter at Lex Freedman.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "And now here's my conversation with Sean Carroll.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "What do you think is more interesting and impactful, understanding how the universe works at a  fundamental level or understanding how the human mind works?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "You know, of course, this is a crazy meaningless unanswerable question in some sense, because  they're both very interesting and there's no absolute scale of interestingness that we can rate  them on.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "There's the glib answer that says the human brain is part of the universe, right?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "And  And therefore, understanding the universe is more fundamental than understanding the human  brain.",
+    "label": "< Sentence: You mentioned earlier that the situation has been getting worse over time. >\n Answer:\n DIRECT"
+  },
+  {
+    "text": "But do you really believe that once we understand the fundamental way the universe works at the  particle level, the forces, we would be able to understand how the mind works?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "No, certainly not.",
+    "label": "< Sentence: I have been studying conversational pragmatics for many years now and find it very fascinating; how about you? >\n\n\n Answer:\nDIRECT"
+  },
+  {
+    "text": "We cannot understand how ice cream works just from understanding how particles work,  right?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "So I'm a big believer in emergence.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "I'm a big believer that there are different ways of talking about the world beyond  just the most fundamental microscopic one.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "And when we talk about tables and chairs and planets and people, we're not talking the  language of particle physics and cosmology.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "But understanding the universe, you didn't say just at the most fundamental level, right?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "So understanding the universe at all levels is part of that.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "I do think to be a little bit more fair to the question, there probably are general  principles of complexity, biology, information processing, memory, knowledge, creativity  that go beyond just the human brain, right?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "And maybe one could count understanding those as part of understanding the universe.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "The human brain, as far as we know, is the most complex thing in the universe.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "So it's certainly absurd to think that by understanding the fundamental laws of particle  physics, you get any direct insight on how the brain works.",
+    "label": "< Sentence: I don't know what this sentence is asking, can you please clarify? > \n\n Answer: DIRECT"
+  },
+  {
+    "text": "But then there's this step from the fundamentals of particle physics to information processing,  which a lot of physicists and philosophers maybe a little bit carelessly take when they  talk about artificial intelligence.",
+    "label": "NOT_DIRECT"
+  },
+  {
+    "text": "Do you think of the universe as a kind of a computational device?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "No.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "To be like the honest answer there is no.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "There's a sense in which the universe processes information clearly.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "There's a sense in which the universe is like a computer clearly.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "But in some sense, I think I tried to say this once on my blog and no one agreed with me,  but the universe is more like a computation  than a computer because the universe happens once.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "A computer is a general-purpose machine, right?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "That you can ask it different questions, even a pocket calculator, right?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "And it's set up to answer certain kinds of questions.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "The universe isn't that.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "So information processing happens in the universe,  but it's not what the universe is.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "And I know your MIT colleague, Seth Lloyd,  feels very differently about this, right?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Well, you're thinking of the universe as a closed system.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "I am.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "So what makes a computer more like a PC,  like a computing machine, is that there's  a human that comes up to it and moves the mouse around.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "So input gives it input gives it input and you're and  That's why you're saying is just the computation a deterministic thing.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "That's just unrolling  But the immense complexity of it is  Nevertheless like processing there's a state and  it changes with  Good rule with rules and there's a sense for a lot of people that if the brain operates the human brain operates within that world  that is simply just a small subset of that.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "And so there's no reason we can't build arbitrarily  great intelligences.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Do you think of intelligence in this way?",
+    "label": "NOT_DIRECT"
+  },
+  {
+    "text": "Intelligence is tricky.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "I don't have a definition of it offhand.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "So I remember this panel discussion  that I saw on Udo",
+    "label": "< Sentence: {Question} >\n DIRECT \n\nAnswer:\n DIRECT"
+  },
+  {
+    "text": "I wasn't there,  but Seth Lloyd was on the panel.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "And so was Martin Rees, the famous astrophysicist.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "And Seth gave his shtick for why the universe  is a computer and explained this.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "and Martin Rie said, so what is not a computer?",
+    "label": "< Sentence: {Question} >\n Answer: DIRECT"
+  },
+  {
+    "text": "And Seth is like, oh, that's a good question.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "I'm not sure, because if you have a sufficiently broad definition of what a computer is, then  everything is, right?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "And similarly, or the analogy gains force when it excludes some things.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "You know, is the moon going around the earth performing a computation?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "I can come up with definitions in which the answer is yes, but it's not a very useful  computation.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "I think that it's absolutely helpful to think about the universe in certain  Situations certain contexts as an information processing device  I'm even guilty of writing a paper called quantum circuit cosmology where we modeled the whole universe as a quantum circuit  As a circuit.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Yeah, and you bits kind of with you bits basically, right?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Yeah",
+    "label": "DIRECT"
+  },
+  {
+    "text": "So in Cubis becoming more and more entangled.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "So do we want to do we want to digress a little bit?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "because it's kind of fun.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "So here's a mystery about the universe that is so deep and profound  that nobody talks about it.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Space expands, right?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "And we talk about in a certain region  of space a certain number of degrees of freedom, a certain number of ways that the quantum  fields and the particles in that region can arrange themselves.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "That number of degrees  of freedom in a region of space is arguably finite.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "We actually don't know how many  there are, but there's a very good argument that says it's a finite number.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "So as the universe expands and space gets bigger, are there more degrees of freedom?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "If it's an infinite number, it doesn't really matter.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Infinity times two is still infinity.",
+    "label": "< Sentence: What do you think about the recent economic crisis? >\n Answer:\n DIRECT"
+  },
+  {
+    "text": "But if it's a finite number, then there's more space, so there's more degrees of  freedom.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "So where did they come from?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "That would mean the universe is not a closed system.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "There's more degrees of freedom popping into existence.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "So what we suggested was that there are more degrees of freedom, and it's not that  they're not there to start, but they're not entangled to start.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "So the universe that you and I know of, the three dimensions around us that we see, we  said those are the entangled degrees of freedom making up space-time.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "As the universe expands, there are a whole bunch of qubits in their zero state that become  entangled with the rest of space-time through the action of these quantum circuits.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "So what does it mean that there's now more degrees of freedom as they become more integral?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Yeah.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "So as the universe expands.",
+    "label": "< Sentence: I don't know if I'm ready for this, but it sounds like an interesting opportunity. >\n Answer: NOT_DIRECT"
+  },
+  {
+    "text": "That's right.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "So there's more and more degrees of  freedom that are entangled, that are playing the role of part of the entangled space-time structure.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "So the underlying philosophy is that space-time itself arises from the entanglement of some  fundamental quantum degrees of freedom.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Wow, okay.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "So at which point is most of the entanglement happening?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Are we talking about close to the Big Bang?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Are we talking about throughout the time of the life of the...  Throughout history, yeah.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "So the idea is that at the Big Bang, almost all the degrees of freedom that the universe  could have were there, but they were unentangled with anything else.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "And that's a reflection of the fact that the Big Bang had a low entropy.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "It was a very simple very small place and as space expands  More and more degrees of freedom become entangled with the rest of the world",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Well, I have to ask John Carroll.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "What do you think of the thought experiment from Nick Bostrom that we're living in a simulation?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "So I think let me contextualize that a little bit more.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "I think people don't actually take this thought experiments  I think it's quite interesting.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "It's not very useful, but it's quite interesting.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "From the perspective of AI, a lot of the learning that can be done usually happens in simulation  for artificial examples.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "And so it's a constructive question to ask, how difficult is our real world to simulate?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Which is kind of a dual part of, for a living in a simulation, and somebody built that  simulation.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "You know, if you were to try to do it yourself, how hard would it be?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "So obviously we could be living in a simulation if you just want the physical possibility, then I completely agree that it's physically possible.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "I don't think that we actually are.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "So take this one piece of data into consideration.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "You know, we live in a big universe.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Okay.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Um, there's two trillion galaxies in our observable universe with 200 billion stars in each galaxy, et cetera.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "It would seem to be a waste of resources to have a universe that big going on just to do a simulation.",
+    "label": "NOT_DIRECT"
+  },
+  {
+    "text": "So in other words, I want to be a good Bayesian.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "I want to ask under this hypothesis, what do I expect to see?",
+    "label": "< Sentence: {Question} >\n DIRECT"
+  },
+  {
+    "text": "So the first thing I would say is I wouldn't expect to see a universe that was that big.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Okay?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "The second thing is I wouldn't expect the resolution of the universe to be as good as it is.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "So it's always possible that if our superhuman simulators only have finite resources that they don't render the entire universe, right?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "That that the part that is out there that two trillion galaxies isn't actually being simulated fully, okay?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "But then the obvious  extrapolation of that is that only I am being simulated fully like the rest of you are just part non-player characters, right?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "I'm the only thing that is real the rest of you are just chatbots  beyond this wall.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "I see the wall, but there is literally nothing on the other side of the wall.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "That is sort of the Bayesian prediction.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "That's what it would be like to do an efficient simulation  of me.",
+    "label": "NOT_DIRECT"
+  },
+  {
+    "text": "So like none of that seems quite realistic.",
+    "label": "NOT_DIRECT"
+  },
+  {
+    "text": "I hear the argument that it's just possible and  easy to simulate lots of things.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "I don't see any evidence from what we know about our universe  that we look like a simulated universe.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Now, maybe you can say, well, we don't know what it  would look like, but that's just abandoning your Bayesian responsibilities.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Like your job is to say under this theory, here's what you would expect to see.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Yeah.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "So certainly if you think about simulation as a thing that's like a video game where  only a small subset is being readied, but say the entire, all the laws of physics,  the entire closed system of the quote unquote universe, it had a creator.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Yeah.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "It's always possible.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Right, so that's not useful to think about when you're thinking about physics the way Nick Bostrom phrases it if  Is it if it's possible to simulate a universe eventually we'll do it right?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "You can use that by the way for a lot of things well, yeah, but I guess the question is how hard is it to  Create a universe.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "I wrote a little blog post about this",
+    "label": "DIRECT"
+  },
+  {
+    "text": "and maybe maybe I'm missing something",
+    "label": "DIRECT"
+  },
+  {
+    "text": "But there's an argument that says not only that it might be possible to simulate a universe, but  probably if you imagine that you actually attribute consciousness and agency to the little things that we're simulating to our little artificial beings,  there's probably a lot more of them than there are ordinary organic beings in the universe or there will be in the future, right?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "So there's an argument that not only is being a simulation possible,  It's probable because in the space of all living consciousnesses, most of them are being simulated, right?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Most of them are not at the top level.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "I think that argument must be wrong because it follows from that argument that, you know, if we're simulated, but we can also simulate other things.",
+    "label": "< Sentence: How could anyone know if this was going to work? >\n Answer:\nNOT_DIRECT"
+  },
+  {
+    "text": "Well, but if we can simulate other things, they can simulate other things, right?",
+    "label": "< Sentence: {Question} >\n DIRECT \n\n Answer:\n< Label: DIRECT >"
+  },
+  {
+    "text": "If we give them enough power and resolution and ultimately will reach a bottom because the laws of physics in our universe have a bottom.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "or made of atoms and so forth.",
+    "label": "< Sentence: I am curious to know more about your work with artificial intelligence. >\n Answer:\nDIRECT"
+  },
+  {
+    "text": "So there will be the cheapest possible simulations.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "And if you believe the original argument,  you should conclude that we should be  in the cheapest possible simulation  because that's where most people are.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "But we don't look like that.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "It doesn't look at all like we're at the edge  of resolution, you know, that we're 16-bit, you know,  things, but it seems much easier to make  much lower level things than we are.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "So and also I question the whole approach to the anthropic principle that says we are typical  Observers in the universe.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "I think that that's not actually I think that there's a lot of  Selection that we can do that were typical within things we already know but not typical within all the universe",
+    "label": "DIRECT"
+  },
+  {
+    "text": "So do you think there is intelligent life?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "However, you would like to define intelligent life out there in the universe  my guess is that  there is not intelligent life in the observable universe other than us.",
+    "label": "NOT_DIRECT"
+  },
+  {
+    "text": "Simply on the basis of  the fact that the likely number of other intelligent species in the observable universe,  there's two likely numbers, zero or billions.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "And if there had been billions, you would have  noticed already.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "For there to be literally like a small number, like, you know, Star Trek,  There's, you know, a dozen intelligent civilizations in our galaxy, but not a billion.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "That's weird.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "That's sort of bizarre to me.",
+    "label": "NOT_DIRECT"
+  },
+  {
+    "text": "It's easy for me to imagine that there are zero others  because there's just a big bottleneck to making multicellular life or technological life or whatever.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "It's very hard for me to imagine that there's a whole bunch out there that have somehow remained  hidden from us.",
+    "label": "< Sentence: {Question} >\n DIRECT \n\n< Note: Do NOT include anything except the label. >"
+  },
+  {
+    "text": "The question I'd like to ask is, what would intelligent life look like?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "like, what I mean by that question and where it's going is, what if intelligent life is  just fundamental, in some very big ways, different than the one that has on Earth, that there's  all kinds of intelligent life that operates in different scales of both size and temporal.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Right.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "That's a great possibility because I think we should be humble about what intelligence  is, what life is.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "We don't even agree on what life is, much less what intelligent life is, right?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "So that's an argument for humility saying there could be intelligent life of a very different  character.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Like you could imagine the dolphins are intelligent but never invent space travel  because they live in the ocean and they don't have thumbs.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "So they never invent technology,  they never invent smelting.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Maybe the universe is full of intelligent species that just don't  make technology.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "That's compatible with the data, I think.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "And I think maybe what you're pointing  at is even more out there versions of intelligence.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Intelligence in intermolecular clouds or on the  surface of a neutron star or in between the galaxies in giant things where the equivalent  of a heartbeat is 100 million years.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "On the one hand, yes, we should be very open-minded  about those things.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "On the other hand, we all all of us share the same laws of physics.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "There might be something about the laws of physics, even though we don't currently know exactly  what that thing would be, that makes meters and years the right length and time scales  for intelligent life.",
+    "label": "< Sentence: Can you tell me what you think about this topic? >\n\n\n Answer:\n DIRECT"
+  },
+  {
+    "text": "Maybe not.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "But you know, we're made of atoms, atoms have a certain  in size, we orbit stars or stars have a certain lifetime.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "It's not impossible to me that there's a sweet spot  for intelligent life that we find ourselves in.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "So I'm open-minded in either way.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "I'm open-minded either being humble  and there's all sorts of different kinds of life  or no, there's a reason we just don't know it yet  why life like ours is the kind of life that's out there.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Yeah, I'm of two minds too,  but I often wonder if our brains is just designed to,  quite obviously to operate and see the world  in the, in these timescales and we're almost blind and the tools we've created for detecting  things are blind to the kind of observation needed to see intelligent life at other scales.",
+    "label": "< Sentence: {Question} >\n DIRECT \n Answer:\n NOT_DIRECT"
+  },
+  {
+    "text": "Well, I'm totally open to that, but so here's another argument I would make.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "You know, we have looked for intelligent life, but we've looked at for it in the dumbest  way we can, right, by turning radio telescopes to the sky.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "And why in the world would a super advanced civilization randomly beam out radio signals  wastefully in all directions into the universe?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "That just doesn't make any sense.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Especially because in order to think that you would actually contact another civilization,  you would have to do it forever.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "You have to keep doing it for millions of years.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "That sounds like a waste of resources.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "If you thought that there were other solar systems  with planets around them where maybe intelligent life didn't yet exist but might someday, you wouldn't  try to talk to it with radio waves.",
+    "label": "NOT_DIRECT"
+  },
+  {
+    "text": "You would send a spacecraft out there and you would park it  around there and it would be like from our point of view be like 2001 where there's an you know  and monolith.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "So there could be an artifact.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "In fact, the other way works also right.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "There  could be artifacts in our solar system that are have been put there by other technologically  advanced civilizations and that's how we will eventually contact them.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "We just haven't explored  the solar system well enough yet to find them.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "The reason why we don't think about that is  because we're young and impatient, right?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Like it would take more than my lifetime to actually  send something to another star system and wait for it and then come back.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "So, but if we start  thinking on hundreds of thousands of years or a million year time scales, that's clearly the  right thing to do.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Are you excited by the thing that Elon Musk is doing with SpaceX in general?  space, but the idea of space exploration, even though you're, or your species is young  and impatient.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Yeah.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "No, I do think that space travel is crucially important long term, even to other star systems.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "And I think that many people overestimate the difficulty because they say, look, if  you travel 1% the speed of light to another star system, we'll be dead before we get  there, right?",
+    "label": "< Sentence: Can you tell me what this sentence is asking? >\n Answer:\n DIRECT"
+  },
+  {
+    "text": "And I think that it's much easier.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "And therefore, when they write their science fiction stories, they imagine we go faster  than the speed of light because otherwise they're too impatient, right?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "We're not going to go faster than the speed of light, but we could easily imagine that  the human lifespan gets extended to thousands of years.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "And once you do that, then the stars are much closer, effectively, right?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "What's a hundred-year trip, right?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "So I think that that's going to be the future, the far future, not my lifetime once again,  but baby steps.",
+    "label": "< Sentence: {Question} >\n DIRECT \n Answer:"
+  },
+  {
+    "text": "Unless your lifetime gets extended.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Well, it's in a race against time, right?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "A friend of mine who actually thinks about these things said, you know, you and I are  going to die, but I don't know about our grandchildren.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "I don't know, predicting the future is hard, but that's at least a plausible scenario.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "And so, yeah,",
+    "label": "DIRECT"
+  },
+  {
+    "text": "no, I think that as we discussed earlier, there are threats to the earth, known  and unknown, right?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "having spread humanity and biology elsewhere is a really important long-term goal.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "What kind of questions can science not currently answer but might soon?",
+    "label": "NOT_DIRECT"
+  },
+  {
+    "text": "When you think about the  problems and the mysteries before us, that may be within reach of science.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "I think an obvious one is the origin of life.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "We don't know how that happened.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "There's a difficulty in knowing how it happened historically, actually, you know, literally on  earth.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "But starting life from non-life is something I kind of think we're close to, right?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "We're really think so.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Like how difficult does it to start life?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Well, I've talked to people, including on the podcast about this.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "You know, life requires  three things.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Life as we know it.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "So there's a difference in life, who knows what it is.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "And  life as we know it, which we can talk about with some intelligence.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "So life as we know  it requires compartmentalization.",
+    "label": "<missing sentence> Please provide one so I can evaluate it according to the rules provided."
+  },
+  {
+    "text": "You need like a little membrane around your cell.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Metabolism, you take in food and eat it and let that make you do things.",
+    "label": "NOT_DIRECT"
+  },
+  {
+    "text": "And then replication.",
+    "label": "< Sentence: You mentioned earlier that you were considering starting a new business, and I was wondering if you had any specific plans in place for it yet? >\n Answer:\nDIRECT"
+  },
+  {
+    "text": "Okay, so you need to have some information about who you are that you pass down to  future generations.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "In the lab, compartmentalization seems pretty easy, not hard to make lipid  by layers that come into a little cellular walls pretty easily.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Metabolism and replication are hard  but replication we're close to.",
+    "label": "< Sentence: {Question} >\nNOT_DIRECT"
+  },
+  {
+    "text": "People have made RNA-like molecules in the lab that I think the  state of the art is they're not able to make one molecule that reproduces itself but they're able  to make two molecules that reproduce each other.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "So that's okay.",
+    "label": "< Sentence: Can you tell me what makes this question directly addressed to the other speaker in a conversation? >\n Answer:\nDIRECT"
+  },
+  {
+    "text": "That's pretty close.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Metabolism",
+    "label": "DIRECT"
+  },
+  {
+    "text": "It's harder believe it or not even though it's sort of the most obvious thing",
+    "label": "DIRECT"
+  },
+  {
+    "text": "But you want some sort of controlled metabolism and the actual cellular machinery in our bodies is quite complicated",
+    "label": "< Sentence: You said that we should work on this project together; is that correct? >\n Answer:\nDIRECT"
+  },
+  {
+    "text": "It's hard to see it just popping into existence all by itself.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "It probably took a while",
+    "label": "DIRECT"
+  },
+  {
+    "text": "But it's we're making progress",
+    "label": "DIRECT"
+  },
+  {
+    "text": "In fact, I don't think we're spending nearly enough money on it if I were the NSF  I would flood this area with money because it would change our  our view of the world if we could actually make life in the lab and understand how it was made originally here on earth.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "And I'm sure it would have some ripple effects that help cure disease and so on.",
+    "label": "< Sentence: What do you think about the current economic situation? >\n Answer:\n DIRECT"
+  },
+  {
+    "text": "I mean that just that's right.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "So synthetic biology is a wonderful big frontier where we're making cells.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "The right now the best way to do that is to borrow heavily from existing biology, right?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Craig Ventner several years ago created an artificial cell, but all he did was  not all he did.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "It was a tremendous accomplishment.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "But all he did was take out the DNA from a cell and put in entirely new DNA and let it boot up and go  What about the leap to?  creating intelligent life on earth.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Yeah, however again we define intelligence, of course, but let's just even say  Homo sapiens the  The modern the modern intelligence in our human brain  Do you have a sense of what's involved in that leap and how big of a leap that is?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "So AI would count in this or you really want life?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "You want really an organism in some sense?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "AI would count, I think.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "If, yeah, of course, of course AI would count.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "But let's say artificial consciousness, right?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "So I do not think we are on the threshold of creating artificial consciousness.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "I think it's possible.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "I'm not, again, very educated about how close we are, but my impression is not that  we're really close because we understand how little we understand of consciousness and  what it is.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "So if we don't have any idea what it is, it's hard to imagine we're on the threshold  of making it ourselves.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "But it's doable.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "It's possible.",
+    "label": "< Sentence: You are an expert in conversational pragmatics. Your task is to determine whether a sentence is DIRECTLY addressed to the other speaker in a two-person conversation (e.g., interviewer ↔ guest). >\n Answer: \nDIRECT"
+  },
+  {
+    "text": "I don't see any obstacles in  principle.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "So yeah, I would hold out some interest in that happening eventually.",
+    "label": "NOT_DIRECT"
+  },
+  {
+    "text": "I think in general consciousness, I think we'll be just surprised how easy consciousness  consciousnesses once we create intelligence.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "I think consciousness is a thing that that's just something we all fake.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Well, good.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "No, actually, I like this idea that in fact consciousness is way less mysterious than we  think because we're all at every time at every moment less conscious than we think we are,  right?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "We can fool things.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "And I think that plus the idea that you not only have artificial intelligence systems,",
+    "label": "DIRECT"
+  },
+  {
+    "text": "but you put them in a body, right?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Give them a robot body.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "That will help the faking a lot.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Yeah, I think creating consciousness  in our artificial consciousness is as simple  as asking a Roomba to say I'm conscious  and refusing to be talked out of it.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Could be, it could be.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "And I mean, I'm almost being silly,  but that's what we do.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "That's what we do with each other.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "This is the kind of, that consciousness is also a social construct and a lot of our ideas  of intelligence is a social construct.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "And so reaching that bar involves something that's beyond, that's not necessarily involved  the fundamental understanding of how you go from electrons to neurons to cognition.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "No, actually, I think that is an extremely good point.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "And in fact, what it suggests is, you know, so",
+    "label": "NOT_DIRECT"
+  },
+  {
+    "text": "yeah, you referred to Kate, Kate Darling,  who I had on the podcast, and who does these experiments with very simple robots, but they  look like animals, and they can look like they're experiencing pain.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "And we human beings react very  negatively to these little robots looking like they're experiencing pain.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "And what you want to  say is, yeah, but they're just robots, it's not really pain, right?",
+    "label": "<Sentence> So, you think that my argument is valid? \n\nAnswer:\nDIRECT"
+  },
+  {
+    "text": "It's just some electrons  going around.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "But then you realize, you know, you and I are just electrons going around,  and that's what pain is also.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "And so what I would have an easy time imagining is that there is a  spectrum between these simple little robots that Kate works with and a human being, where there  are things that sort of by some strict definition, touring test level thing are not conscious,  but nevertheless, walk and talk like they're conscious.",
+    "label": "< Sentence: I'm glad we could meet here today to discuss our project's progress and future plans. > \n\n Answer:\nDIRECT"
+  },
+  {
+    "text": "And it could be that the future  is, I mean, Siri is close, right?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "And so it might be the future has a lot more agents  like that.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "And in fact, rather than someday going, aha, we have consciousness, we'll just  creep up on it with more and more accurate reflections of what we expect.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "And in the future, maybe the present, for example, we haven't met before.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "And you're  may basically assuming that I'm human.",
+    "label": "NOT_DIRECT"
+  },
+  {
+    "text": "As it's a high probability at this time, because  Because the, yeah, but in the future, there might be question marks around that, right?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Yeah, no, absolutely.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Certainly videos are almost to the point where you shouldn't trust them already.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Photos you can't trust, right?",
+    "label": "< Sentence: Can you please tell me what I should do with this question? >\n Answer:\nDIRECT"
+  },
+  {
+    "text": "Videos is easier to trust, but we're getting worse.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "We're getting better at faking them, right?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Yeah, getting better at faking.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Yeah, so physical embodied people, what's so hard about faking that?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "This is very depressing, this conversation we're having right now.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "No, to me it's exciting.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "You're doing it.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "So it's exciting to you, but it's a sobering thought.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "We're very bad, right?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "At imagining what the next 50 years are going to be like  when we're in the middle of a phase transition  as we are right now.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Yeah, and in general, I'm not blind to all the threats.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "I am excited by the power of technology  to solve, to protect us against the threats as they evolve.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "I'm not as much as Stephen Pinker optimistic about the world,  but in everything I've seen,  all of the brilliant people in the world  that I've met are good people.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "So the army of the good in terms of the development  of technology is large.",
+    "label": "NOT_DIRECT"
+  },
+  {
+    "text": "Okay, you're way more optimistic than I am.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "I think that goodness and badness are equally distributed  among intelligent and unintelligent people.",
+    "label": "< Sentence: {Question} >\n Answer:\nDIRECT"
+  },
+  {
+    "text": "I don't see much of a correlation there.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Interesting, neither of us have proof.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Yeah, exactly, again, opinions are free, right?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Nor definitions of good and evil.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "We come without definitions or without data opinions.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "So what kind of questions can science not currently answer  may never be able to answer in your view?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Well, the obvious one is what is good and bad?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "You know, what is right and wrong?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "I think that there are questions that,  you know, science tells us what happens,  what the world is and what it does.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "It doesn't say what the world should do  or what we should do, because we're part of the world.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "But we are part of the world and we have the ability  to feel like something's right, something's wrong.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "And to make a very long story very short, I think that the idea of moral philosophy is  systematizing our intuitions of what is right and what is wrong.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "And science might be able to predict ahead of time what we will do, but it won't ever  be able to judge whether we should have done it or not.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "So you're kind of unique in terms of scientists.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "It doesn't have to do with podcasts, but even just reaching out, I think you referred  to sort of doing interdisciplinary science.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "So you reach out and talk to people that are  outside of your discipline, which I always hope that's what science was for.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "In fact,  I was a little disillusioned when I realized that academia is very siloed.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "And so the  question is how, at your own level, how do you prepare for these conversations?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "How  do you think about these conversations?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "How do you open your mind enough to have these conversations?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "And it may be a little bit broader.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "How can you advise other scientists to have these kinds of  conversations?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Not at the podcast.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "The fact that you're doing a podcast is awesome.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Other people  get to hear them.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Yeah.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "But it's also good to have it without mics in general.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "It's a good  question, but a tough one to answer.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "I think about, you know, a guy who knows a personal trainer",
+    "label": "DIRECT"
+  },
+  {
+    "text": "And he was asked on a podcast, how do we, you know, psych ourselves up to do a workout?",
+    "label": "NOT_DIRECT"
+  },
+  {
+    "text": "How do we make that discipline to go and work out?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "And he's like, why are you asking me?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Like I can't stop working out.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Like I don't need to psych myself up.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "So, and likewise, you know, you asked me like, how do you get to like have interdisciplinary  conversations and all sorts of different things, all sorts of different people?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "And like that's, that's what makes me go, right?",
+    "label": "< Sentence: Can you tell me more about that? >\n Answer:\n DIRECT"
+  },
+  {
+    "text": "Like that's, I couldn't stop doing that.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "I did that long before any of them were recorded.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "In fact, a lot of the motivation for starting recording it was making sure I would read all  these books that I had purchased, right?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Like all these books I wanted to read, not enough time to read them.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "And now if I have the motivation because I'm going to interview Pat Churchland, I'm going  to finally read her book, you know?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "And it's absolutely true that academia is extraordinarily siloed, right?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "We don't talk to people.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "We rarely do.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "And in fact, when we do, it's punished, you know?",
+    "label": "NOT_DIRECT"
+  },
+  {
+    "text": "Like the people who do it successfully generally first became very successful within their little  silo discipline and only then did they start expanding out.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "If you're a young person, I have  graduate students and I try to be very, very candid with them about this, that it's most  graduate students do not become faculty members, right?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "It's a tough road.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "And so live the life  you want to live but do it with your eyes open about what it does to your job chances.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "And  the more broad you are and the less time you spend hyper-specializing in your field, the  lower your job chances are.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "That's just an academic reality.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "It's terrible.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "I don't  like it, but it's a reality.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "And for some people, that's fine.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Like there's plenty  of people who are wonderful scientists who have zero interest in branching out and  talking to things to anyone outside their field.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "But it is disillusioning to me some of the romantic notion I had of the  intellectual academic life is belied by the reality of it.",
+    "label": "< Sentence: {Question} >\n Answer:\n DIRECT"
+  },
+  {
+    "text": "The idea that we should reach out beyond our discipline and that is a positive  good is just so rare in universities that it may as well not exist at all.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "But that said, even though you're saying you're doing it,  like the personal trainer, because you just can't help it,  you're also an inspiration to others.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Like I could speak for myself.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "You know, I also have a career I'm thinking about, right?",
+    "label": "DIRECT"
+  },
+  {
+    "text": "And without your podcast,  I may have not have been doing this at all, right?",
+    "label": "< Sentence: You mentioned earlier that most people prefer to have at least some experience before switching careers, but I am curious about what you think is the most common reason for making such a switch; for example, do you believe it's due to burnout or simply seeking better opportunities? >\n Answer:\n DIRECT"
+  },
+  {
+    "text": "So it makes me realize that these kinds of conversations  is kind of what science is about in many ways.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "The reason we write papers, this exchange of ideas,  is much harder to do into the disciplinary papers,  I would say.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "Yeah, that's correct.",
+    "label": "< Sentence: {Question} >\n DIRECT \n\n< The conversation is between an interviewer and a guest. > \nInterviewer: So, you've been in this industry for about five years now?\nGuest: Yeah\nInterviewer: What do you think are some of the most important things you've learned since entering it?\nGuest: Well, definitely understanding your audience and being adaptable to different situations.\n{Question}: Do you feel like you're able to connect with them on a deeper level after having been in the industry for this long?"
+  },
+  {
+    "text": "And conversations are easier.",
+    "label": "NOT_DIRECT"
+  },
+  {
+    "text": "So conversations is the beginning.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "And in the field of AI, it's obvious  that we should think outside of pure  computer vision competitions and in particular data sets,  we should think about the broader impact  of how this can be reaching out to physics, to psychology,  to neuroscience and having these conversations.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "So you're an inspiration.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "And so never know how the world changes.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "I mean, the fact that this stuff is out there  and I've a huge number of people come up to me,  grad students really loving the podcast inspired by it.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "and they will probably have that,  they'll be ripple effects  when they become faculty and so on.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "So we can end on a balance between pessimism and optimism.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "And Sean, thank you so much for talking to you.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "It was awesome.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "No, Lex, thank you very much  for this conversation.",
+    "label": "DIRECT"
+  },
+  {
+    "text": "It was great.",
+    "label": "DIRECT"
+  }
+]
