@@ -3,4 +3,5 @@
 /roberta_minimal_final
 /roberta_minimal_2
 /roberta_*
+/slurm_logs*
 label_encoder_no_context.pkl
